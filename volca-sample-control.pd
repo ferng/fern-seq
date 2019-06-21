@@ -1,0 +1,4 @@
+#N canvas 979 646 1050 705 10;
+#X obj 126 23 table volca-sample-offsets 49;
+#X msg 130 62 \; volca-sample-offsets write volca-offsets.txt;
+#X msg 133 117 \; volca-sample-offsets read volca-offsets.txt;
