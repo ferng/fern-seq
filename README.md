@@ -27,6 +27,7 @@ sudo adduser fern audio
 # start it all up
 ```bash
 qjackctl
+puredata -jack -alsa
 puredata -jack -alsamidi
 puredata -jack -alsamidi -rt
 ```
