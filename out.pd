@@ -1,6 +1,6 @@
 #N canvas 0 57 1680 993 10;
-#X text 1105 873 lsb;
-#X text 1248 874 program;
+#X text 1103 938 lsb;
+#X text 1246 939 program;
 #X floatatom 81 825 5 0 0 0 - - -, f 5;
 #X obj 49 780 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
@@ -9,15 +9,15 @@
 -1 -1;
 #X obj 95 890 ctlout 42 11;
 #X obj 231 886 ctlout 43 11;
-#X text 989 728 korg pattern;
-#X obj 1130 873 ctlout 32 11;
-#X obj 1297 873 pgmout 11;
-#X floatatom 866 728 5 0 0 0 - - -, f 5;
-#X floatatom 783 733 5 0 0 0 - - -, f 5;
-#X obj 756 804 s lsb;
-#X obj 1097 735 r lsb;
-#X obj 864 793 s pattern;
-#X obj 1344 788 r pattern;
+#X text 987 793 korg pattern;
+#X obj 1128 938 ctlout 32 11;
+#X obj 1295 938 pgmout 11;
+#X floatatom 864 793 5 0 0 0 - - -, f 5;
+#X floatatom 781 798 5 0 0 0 - - -, f 5;
+#X obj 754 869 s lsb;
+#X obj 1095 800 r lsb;
+#X obj 862 858 s pattern;
+#X obj 1342 853 r pattern;
 #X msg 578 867 12;
 #X msg 533 878 11;
 #X msg 578 867 12;
@@ -64,11 +64,11 @@
 #X msg 852 570 11;
 #X obj 894 620 s control_ch;
 #X obj 1400 576 r control_ch;
-#X obj 1512 633 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 1482 718 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 1448 764 value pattern;
-#X obj 1532 822 spigot;
-#X obj 1564 716 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+#X obj 1418 849 value pattern;
+#X obj 1502 907 spigot;
+#X obj 1534 801 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
 0 1;
 #X floatatom 1144 0 5 0 0 0 - - -, f 5;
 #X floatatom 1399 52 5 0 0 0 - - -, f 5;
@@ -77,14 +77,21 @@
 #X text 1481 34 11 chn 1 - 12 chn 2;
 #X msg 1180 23 50;
 #X obj 1210 114 makenote 1 500;
-#X floatatom 979 237 5 0 0 0 - - -, f 5;
-#X floatatom 1234 289 5 0 0 0 - - -, f 5;
-#X floatatom 1129 289 5 0 0 0 - - -, f 5;
-#X msg 1045 293 70;
-#X msg 1015 260 50;
-#X obj 1045 351 makenote 1 500;
+#X floatatom 694 78 5 0 0 0 - - -, f 5;
+#X floatatom 949 130 5 0 0 0 - - -, f 5;
+#X floatatom 844 130 5 0 0 0 - - -, f 5;
+#X msg 760 134 70;
+#X msg 730 101 50;
+#X obj 760 192 makenote 1 500;
 #X obj 1217 195 noteout 11;
-#X obj 1052 432 noteout 12;
+#X obj 767 273 noteout 12;
+#X obj 1346 301 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 1353 424 5 0 0 0 - - -, f 5;
+#X obj 1351 381 encoder-steps;
+#X obj 1380 513 ctlout 6;
+#X obj 1432 451 r control_ch;
+#X obj 1348 340 list 60 5 60 127;
 #X connect 2 0 6 0;
 #X connect 3 0 2 0;
 #X connect 4 0 7 0;
@@ -148,3 +155,8 @@
 #X connect 74 0 75 0;
 #X connect 75 0 77 0;
 #X connect 75 1 77 1;
+#X connect 78 0 83 0;
+#X connect 79 0 81 0;
+#X connect 80 0 79 0;
+#X connect 82 0 81 2;
+#X connect 83 0 80 0;
