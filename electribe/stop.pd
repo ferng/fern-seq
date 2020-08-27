@@ -1,0 +1,11 @@
+#N canvas 431 227 153 159 10;
+#X obj 32 22 inlet;
+#X text 76 21 channel;
+#X text 4 126 stop;
+#X obj 32 127 ctlout 123;
+#X obj 32 57 bang;
+#X msg 32 92 0;
+#X connect 0 0 3 2;
+#X connect 0 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 3 0;

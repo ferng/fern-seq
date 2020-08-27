@@ -1,4 +1,4 @@
-#N canvas 579 153 661 333 10;
+#N canvas 579 153 379 246 10;
 #X obj 153 202 ctlout 99;
 #X obj 52 202 ctlout 98;
 #X text 131 201 msb;
