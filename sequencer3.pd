@@ -1,4 +1,4 @@
-#N canvas 188 273 1405 770 10;
+#N canvas 99 197 1405 770 10;
 #X obj 39 6 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
 ;
 #X obj 40 75 metro;
@@ -30,19 +30,19 @@
 #X obj 733 95 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 899 158 electribe/notes;
-#X obj 1084 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 1095 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1084 225 bank 0;
-#X obj 1147 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 1095 181 bank 0;
+#X obj 1158 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1147 225 bank 1;
-#X obj 1198 273 electribe/pattern;
-#X obj 1219 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 1158 181 bank 1;
+#X obj 1209 229 electribe/pattern;
+#X obj 1230 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1219 225 pat 1;
-#X obj 1286 205 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X msg 1230 181 pat 1;
+#X obj 1297 161 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 1286 225 pat 42;
+#X msg 1297 181 pat 42;
 #X obj 1127 11 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 873 11 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -65,12 +65,12 @@
 #X obj 1247 1014 print korg4;
 #X obj 1364 1006 print korg5;
 #X obj 1515 1006 print korg6;
-#X msg 1050 475 list 0 0;
-#X msg 1140 487 list 0 1;
-#X msg 1218 485 list 0 2;
-#X msg 1298 482 list 1 0;
-#X msg 1366 483 list 1 1;
-#X msg 1437 487 list 1 2;
+#X msg 922 626 list 0 0;
+#X msg 1012 638 list 0 1;
+#X msg 1090 636 list 0 2;
+#X msg 1170 633 list 1 0;
+#X msg 1238 634 list 1 1;
+#X msg 1309 638 list 1 2;
 #X obj 1265 950 sel 0 1 2;
 #X obj 1262 823 sel 0 1 2;
 #X obj 986 704 route 0 1;
@@ -90,6 +90,19 @@
 #X obj 172 248 vradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144
 -1 -1 1;
 #X floatatom 93 470 5 0 0 0 - - -, f 5;
+#X obj 1111 286 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 970 286 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 970 320 list 60 6 0 127 15 11;
+#X obj 1111 320 list 60 5 0 127 14 11;
+#X obj 1401 286 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1257 286 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1401 320 list 60 5 0 127 14 12;
+#X obj 1257 320 list 60 6 0 127 15 12;
+#X obj 1178 394 electribe/encoder;
 #X connect 0 0 1 0;
 #X connect 0 0 8 0;
 #X connect 0 0 14 0;
@@ -165,3 +178,11 @@
 #X connect 69 0 64 0;
 #X connect 70 0 65 1;
 #X connect 71 0 64 1;
+#X connect 72 0 75 0;
+#X connect 73 0 74 0;
+#X connect 74 0 80 0;
+#X connect 75 0 80 0;
+#X connect 76 0 78 0;
+#X connect 77 0 79 0;
+#X connect 78 0 80 0;
+#X connect 79 0 80 0;
