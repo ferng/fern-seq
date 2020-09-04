@@ -22,7 +22,7 @@
 #X obj 34 54 route play restart reset;
 #X text 100 11 play|restart|reset|sequence: [note \, dur \, break]
 ;
-#X obj 34 149 ../tools/sequence;
+#X obj 34 149 ../tools/sequence \$0;
 #X connect 0 0 22 0;
 #X connect 1 0 13 0;
 #X connect 1 0 22 0;
