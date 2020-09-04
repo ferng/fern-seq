@@ -1,5 +1,5 @@
-#N canvas 492 274 472 355 10;
-#X obj 118 13 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#N canvas 143 247 472 355 10;
+#X obj 118 13 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 118 64 metro;
 #X obj 118 104 float;

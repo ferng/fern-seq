@@ -1,5 +1,5 @@
-#N canvas 299 177 556 611 10;
-#X msg 81 94 next;
+#N canvas 299 177 565 625 10;
+#X msg 81 93 next;
 #X msg 162 94 reset;
 #X msg 120 303 1;
 #X obj 141 335 pack 0 0 0;
@@ -10,7 +10,7 @@
 #X obj 394 238 delay;
 #X obj 390 275 float;
 #X obj 483 275 + 1;
-#X obj 34 178 route size note;
+#X obj 34 190 route size note;
 #X msg 34 94 size;
 #X msg 452 238 1;
 #X obj 19 504 ==;
@@ -54,6 +54,7 @@
 #X connect 20 0 12 0;
 #X connect 20 1 13 0;
 #X connect 20 1 0 0;
+#X connect 20 1 12 0;
 #X connect 20 2 1 0;
 #X connect 20 3 22 0;
 #X connect 22 0 11 0;
