@@ -1,4 +1,4 @@
-#N canvas 686 162 1143 815 10;
+#N canvas 1543 417 1143 815 10;
 #X obj 22 232 ../electribe/notes;
 #X obj 106 136 ../common/note-walker;
 #X obj 22 7 inlet;
@@ -13,6 +13,9 @@
 #X msg 304 58 ch 11 \, 51 0.5 2 \, 55 1 3 \, 60 2 4 \, -1;
 #X msg 326 93 len;
 #X obj 231 237 print len;
+#X obj 156 276 print notes;
+#X obj 368 201 s beat-len;
+#X msg 364 169 200;
 #X connect 1 0 9 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
@@ -24,5 +27,7 @@
 #X connect 8 0 3 0;
 #X connect 9 0 12 0;
 #X connect 9 1 0 0;
+#X connect 9 1 13 0;
 #X connect 10 0 3 0;
 #X connect 11 0 1 0;
+#X connect 15 0 14 0;
