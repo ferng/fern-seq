@@ -1,6 +1,6 @@
-#N canvas 720 203 445 217 10;
-#X obj 22 172 ../electribe/notes;
-#X obj 105 134 ../common/note-walker;
+#N canvas 686 162 1143 815 10;
+#X obj 22 232 ../electribe/notes;
+#X obj 106 136 ../common/note-walker;
 #X obj 22 7 inlet;
 #X obj 22 30 route ch;
 #X obj 22 62 t f b;
@@ -8,7 +8,12 @@
 #X msg 22 132 ch \$1;
 #X text 93 8 ch[channel]|play (next note)|reset|offset[pitch]||sequence[note
 \, dur \, break];
-#X connect 1 0 0 0;
+#X msg 328 133 play;
+#X obj 105 167 route len;
+#X msg 304 58 ch 11 \, 51 0.5 2 \, 55 1 3 \, 60 2 4 \, -1;
+#X msg 326 93 len;
+#X obj 231 237 print len;
+#X connect 1 0 9 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
 #X connect 3 1 1 0;
@@ -16,3 +21,8 @@
 #X connect 4 1 5 0;
 #X connect 5 0 1 0;
 #X connect 6 0 0 0;
+#X connect 8 0 3 0;
+#X connect 9 0 12 0;
+#X connect 9 1 0 0;
+#X connect 10 0 3 0;
+#X connect 11 0 1 0;
