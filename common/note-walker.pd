@@ -1,4 +1,4 @@
-#N canvas 419 162 1558 1474 10;
+#N canvas 731 206 549 672 10;
 #X msg 71 214 next;
 #X msg 238 214 reset;
 #X msg 117 454 1;
