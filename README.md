@@ -1,4 +1,5 @@
 # install puredata and some other bits
+sudo apt install qt4-default
 sudo apt-get install puredata
 sudo apt-get install qjackctl
 sudo apt-get install at-spi2-core
