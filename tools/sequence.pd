@@ -1,4 +1,4 @@
-#N canvas 0 102 3200 1698 10;
+#N canvas 201 247 1259 714 10;
 #X obj 520 356 list append;
 #X obj 677 330 t l;
 #X obj 583 330 list prepend;
@@ -24,7 +24,7 @@
 #X obj 479 605 pack 0 0 0;
 #X obj 417 540 t f f f;
 #X obj 281 15 inlet;
-#X obj 377 672 outlet;
+#X obj 479 666 outlet;
 #X text 456 86 reset;
 #X obj 1097 330 t l;
 #X text 9 150 -1 marks end of sequence;
@@ -51,7 +51,7 @@
 #X obj 801 540 float;
 #X text 747 483 bang -> len;
 #X msg 801 629 len \$1;
-#X obj 197 317 bang;
+#X obj 198 315 bang;
 #X obj 499 85 bang;
 #X connect 0 0 38 0;
 #X connect 1 0 2 1;

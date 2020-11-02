@@ -1,4 +1,4 @@
-#N canvas 682 147 464 383 10;
+#N canvas 1187 160 464 383 10;
 #X text 99 28 sound bank|pattern;
 #X obj 53 61 route b p;
 #X obj 53 139 select a b c d;
@@ -15,11 +15,11 @@
 #X obj 85 353 ctlout;
 #X obj 174 353 pgmout;
 #X obj 53 29 inlet;
-#X obj 394 29 loadbang;
-#X msg 363 61 32;
-#X msg 422 61 11, f 2;
+#X obj 232 29 loadbang;
+#X msg 232 55 32;
 #X text 17 352 lsb/bank;
 #X text 215 352 pattern;
+#X obj 311 29 r ea_1_#;
 #X connect 1 0 3 0;
 #X connect 1 1 12 0;
 #X connect 2 0 9 0;
@@ -42,7 +42,6 @@
 #X connect 12 0 14 0;
 #X connect 15 0 1 0;
 #X connect 16 0 17 0;
-#X connect 16 0 18 0;
 #X connect 17 0 13 1;
-#X connect 18 0 13 2;
-#X connect 18 0 14 1;
+#X connect 20 0 13 2;
+#X connect 20 0 14 1;
