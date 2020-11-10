@@ -1,0 +1,31 @@
+#N canvas 45 314 1367 627 10;
+#X obj 33 287 float;
+#X obj 87 289 + 1;
+#X obj 33 27 inlet;
+#X obj 33 452 outlet;
+#X obj 105 159 loadbang;
+#X obj 212 280 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X floatatom 132 460 5 0 0 0 - - -, f 5;
+#X msg 105 200 0;
+#X obj 33 419 mod 4;
+#X obj 198 160 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 305 223 if 0 -> 1 (arm) - will trigger the pattern loading
+;
+#X text 304 239 if 1 set to 2 - note on (to set number of repeats)
+;
+#X text 305 255 if 2 set to 3 - note off - start playing;
+#X text 304 271 if 3 set to 1 - stop playing - set to 1;
+#X connect 0 0 1 0;
+#X connect 0 0 8 0;
+#X connect 1 0 0 1;
+#X connect 2 0 0 0;
+#X connect 4 0 7 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 7 0 0 1;
+#X connect 8 0 3 0;
+#X connect 8 0 6 0;
+#X connect 9 0 7 0;
+#X connect 9 0 0 0;

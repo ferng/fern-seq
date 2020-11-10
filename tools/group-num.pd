@@ -1,9 +1,9 @@
-#N canvas 84 142 450 300 10;
-#X obj 99 67 - 16;
-#X obj 99 44 unpack 0 0;
-#X obj 99 90 pack 0 0;
-#X obj 99 20 inlet;
-#X obj 99 113 outlet;
+#N canvas 84 172 170 141 10;
+#X obj 31 56 - 16;
+#X obj 31 33 unpack 0 0;
+#X obj 31 79 pack 0 0;
+#X obj 31 9 inlet;
+#X obj 31 102 outlet;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 1 1 2 1;
