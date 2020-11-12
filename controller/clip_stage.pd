@@ -2,7 +2,7 @@
 #X msg 153 42 -1;
 #X obj 109 100 ==;
 #X msg 106 466 set \$1;
-#X msg 195 499 12 arm;
+#X msg 195 499 11 play 8;
 #X obj 109 138 sel 0;
 #X msg 127 282 add2 arm;
 #X obj 195 138 sel 1;
@@ -19,11 +19,9 @@
 #X obj 187 10 loadbang;
 #X obj 310 10 r reps;
 #X msg 28 466 \$1 play 0;
-#X obj 174 74 print hh;
 #X obj 120 8 r reset;
 #X connect 0 0 1 1;
 #X connect 0 0 11 1;
-#X connect 0 0 20 0;
 #X connect 1 0 4 0;
 #X connect 1 0 6 0;
 #X connect 2 0 3 0;
@@ -51,4 +49,4 @@
 #X connect 17 0 0 0;
 #X connect 18 0 10 0;
 #X connect 19 0 16 0;
-#X connect 21 0 0 0;
+#X connect 20 0 0 0;
