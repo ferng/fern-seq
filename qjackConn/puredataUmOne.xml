@@ -1,18 +1,18 @@
 <!DOCTYPE patchbay>
-<patchbay name="puredataUmOne" version="0.4.5">
+<patchbay version="0.5.0" name="puredataUmOne">
  <output-sockets>
-  <socket type="alsa-midi" name="Pure Data 1" client="Pure Data" exclusive="off">
+  <socket client="Pure Data" type="alsa-midi" exclusive="off" name="Pure Data 1">
    <plug>Pure Data Midi-Out 1</plug>
   </socket>
  </output-sockets>
  <input-sockets>
-  <socket type="alsa-midi" name="UM-ONE 1" client="UM-ONE" exclusive="off">
+  <socket client="UM-ONE" type="alsa-midi" exclusive="off" name="UM-ONE 1">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
  </input-sockets>
  <slots/>
  <cables>
-  <cable input="UM-ONE 1" type="alsa-midi" output="Pure Data 1"/>
+  <cable type="alsa-midi" output="Pure Data 1" input="UM-ONE 1"/>
  </cables>
 </patchbay>
 

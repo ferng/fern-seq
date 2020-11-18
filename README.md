@@ -1,9 +1,10 @@
 # install puredata and some other bits
-sudo apt install qt4-default
+```bash
 sudo apt-get install puredata
 sudo apt-get install qjackctl
-sudo apt-get install at-spi2-core
-sudo apt-get install alsa-patchbay
+#sudo apt-get install at-spi2-core
+#sudo apt-get install alsa-patchbay
+```
 
 # configure the environment
 ```bash
@@ -24,6 +25,12 @@ sudo addgroup fern audio
 # if there is
 sudo adduser fern audio
 ```
+
+# qjack
+* Settings | parameters | midi driver seq
+
+# puredata
+* preferences | midi | <CHANGE NOTHING!!> | save all settings | apply | ok
 
 # start it all up
 ```bash

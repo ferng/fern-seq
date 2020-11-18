@@ -1,4 +1,4 @@
-#N canvas 575 201 1040 446 10;
+#N canvas 340 286 572 446 10;
 #X msg 28 91 play \$1;
 #X obj 28 15 inlet;
 #X obj 419 396 ../pattern;
@@ -7,15 +7,15 @@
 #X msg 202 253 add2 \$1;
 #X obj 202 230 float;
 #X obj 229 15 r ea_1_#;
-#X msg 95 283 ch \$1;
+#X msg 115 284 ch \$1;
 #X obj 272 396 ../encoder-motion;
 #X msg 272 253 set 3 0 127 7;
 #X msg 419 282 b d \, p 12;
 #X msg 272 283 3 0 127 7 3;
 #X obj 102 91 t b b b b b;
-#X msg 87 253 34 0 0 \, -1;
-#X obj 69 203 ../../common/drone-resize;
-#X msg 69 135 note 34 \, gran 0.25 \, min 0 \, max 64;
+#X msg 102 253 34 0 0 \, -1;
+#X obj 63 178 ../../common/drone-resize;
+#X msg 63 140 note 34 \, gran 0.25 \, min 0 \, max 64;
 #X obj 318 15 r reset;
 #X connect 0 0 3 0;
 #X connect 0 0 15 0;
