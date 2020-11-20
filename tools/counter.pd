@@ -1,4 +1,4 @@
-#N canvas 636 211 314 364 12;
+#N canvas 636 211 329 471 12;
 #X obj 45 10 inlet;
 #X obj 45 39 route bang from to;
 #X obj 45 149 f;
@@ -6,17 +6,21 @@
 #X obj 95 230 bang;
 #X obj 95 255 delay 0;
 #X obj 95 205 moses;
-#X obj 45 310 outlet;
+#X obj 45 400 outlet;
 #X obj 188 114 f;
 #X obj 188 76 bang;
+#X obj 63 337 bang;
+#X obj 65 313 sel;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 2 1;
 #X connect 1 1 8 1;
 #X connect 1 2 6 1;
+#X connect 1 2 11 1;
 #X connect 2 0 3 0;
 #X connect 2 0 6 0;
 #X connect 2 0 7 0;
+#X connect 2 0 11 0;
 #X connect 3 0 2 1;
 #X connect 4 0 5 0;
 #X connect 5 0 2 0;
@@ -24,3 +28,5 @@
 #X connect 6 1 9 0;
 #X connect 8 0 2 1;
 #X connect 9 0 8 0;
+#X connect 10 0 7 0;
+#X connect 11 0 10 0;
