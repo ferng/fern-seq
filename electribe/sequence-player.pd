@@ -1,4 +1,4 @@
-#N canvas 801 339 493 418 10;
+#N canvas 421 395 493 418 10;
 #X obj 91 276 ../common/note-walker;
 #X obj 16 7 inlet;
 #X obj 16 204 t f b;
@@ -13,9 +13,9 @@
 #X obj 203 98 != 0;
 #X obj 16 30 route ch play;
 #X obj 16 368 notes;
-#X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]||sequence[note
-\, dur \, break];
 #X obj 164 188 sel 0;
+#X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]|sequence[note
+\, dur \, break];
 #X connect 0 0 5 0;
 #X connect 1 0 12 0;
 #X connect 2 0 4 0;
@@ -26,7 +26,7 @@
 #X connect 5 2 13 0;
 #X connect 6 0 0 0;
 #X connect 7 0 8 0;
-#X connect 7 0 15 0;
+#X connect 7 0 14 0;
 #X connect 8 0 7 1;
 #X connect 9 0 10 0;
 #X connect 9 1 7 1;
@@ -36,4 +36,4 @@
 #X connect 12 0 2 0;
 #X connect 12 1 9 0;
 #X connect 12 2 0 0;
-#X connect 15 1 6 0;
+#X connect 14 1 6 0;

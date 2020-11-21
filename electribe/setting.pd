@@ -6,14 +6,14 @@
 #X obj 282 203 ctlout 6;
 #X msg 153 171 3;
 #X obj 53 139 * 32;
-#X obj 34 171 +;
+#X obj 38 169 +;
 #X obj 32 22 inlet;
 #X text 236 201 setting;
 #X obj 153 139 bang;
 #X text 76 21 value \, encoder \, channel;
 #X obj 32 53 unpack 0 0 0;
-#X obj 232 22 r ea_1_#;
 #X obj 53 105 mod;
+#X obj 232 22 r ea-1-#;
 #X connect 5 0 0 0;
 #X connect 6 0 7 1;
 #X connect 7 0 1 0;
@@ -25,6 +25,6 @@
 #X connect 12 2 1 2;
 #X connect 12 2 0 2;
 #X connect 12 2 4 2;
-#X connect 12 2 14 0;
-#X connect 13 0 14 1;
-#X connect 14 0 6 0;
+#X connect 12 2 13 0;
+#X connect 13 0 6 0;
+#X connect 14 0 13 1;

@@ -19,7 +19,7 @@
 #X msg 232 61 32;
 #X text 17 352 lsb/bank;
 #X text 215 352 pattern;
-#X obj 311 29 r ea_1_#;
+#X obj 311 29 r ea-1-#;
 #X connect 1 0 3 0;
 #X connect 1 1 12 0;
 #X connect 2 0 9 0;
