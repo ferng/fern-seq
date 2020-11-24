@@ -53,7 +53,6 @@
 #X obj 499 85 bang;
 #X text 431 14 get next note|get seq size|get seq len|reset|sequence:
 [note \, dur \, break] | -1 marks end of sequence to pack;
-#X obj 723 666 print sequence;
 #X connect 0 0 38 0;
 #X connect 1 0 2 1;
 #X connect 2 0 1 0;
@@ -102,7 +101,6 @@
 #X connect 27 0 21 1;
 #X connect 31 0 25 0;
 #X connect 32 0 25 0;
-#X connect 32 0 53 0;
 #X connect 39 0 22 2;
 #X connect 40 0 22 1;
 #X connect 41 0 22 0;

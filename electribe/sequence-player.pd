@@ -14,8 +14,8 @@
 #X obj 16 30 route ch play;
 #X obj 16 368 notes;
 #X obj 164 188 sel 0;
-#X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]|sequence[note
-\, dur \, break];
+#X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]|note
+len per beat(nlb)|sequence[note \, dur \, break];
 #X connect 0 0 5 0;
 #X connect 1 0 12 0;
 #X connect 2 0 4 0;
