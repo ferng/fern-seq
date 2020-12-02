@@ -1,0 +1,8 @@
+#N canvas 513 428 1504 1027 12;
+#X obj 269 171 steps bass;
+#X obj 502 124 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 502 144 s tick;
+#X obj 269 196 print out;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;

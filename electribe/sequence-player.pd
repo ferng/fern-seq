@@ -14,12 +14,7 @@
 #X obj 164 188 sel 0;
 #X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]|note
 len per beat(nlb)|sequence[note \, dur \, break];
-#X obj 424 133 r reset;
-#X obj 274 324 print note;
-#X obj 317 215 print note;
-#X msg 321 151 reset;
 #X connect 0 0 3 0;
-#X connect 0 0 15 0;
 #X connect 1 0 10 0;
 #X connect 2 0 11 0;
 #X connect 3 1 5 0;
@@ -36,7 +31,4 @@ len per beat(nlb)|sequence[note \, dur \, break];
 #X connect 10 0 2 0;
 #X connect 10 1 7 0;
 #X connect 10 2 0 0;
-#X connect 10 2 16 0;
 #X connect 12 1 4 0;
-#X connect 14 0 0 0;
-#X connect 17 0 0 0;

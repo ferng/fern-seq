@@ -28,6 +28,7 @@ sudo adduser fern audio
 
 # qjack
 * Settings | parameters | midi driver seq
+* Settings | parameters | input device hw:PCH
 
 # puredata
 * preferences | midi | <CHANGE NOTHING!!> | save all settings | apply | ok
