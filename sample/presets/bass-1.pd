@@ -16,12 +16,10 @@
 #X obj 189 12 r tick;
 #X msg 35 138 1 1 1 1;
 #X msg 81 199 size 4;
-#X obj 559 177 print in;
 #X connect 0 0 1 2;
 #X connect 2 0 1 0;
 #X connect 2 1 1 1;
 #X connect 3 0 5 0;
-#X connect 3 0 17 0;
 #X connect 4 0 7 0;
 #X connect 5 0 10 0;
 #X connect 5 1 4 0;

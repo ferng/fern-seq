@@ -17,8 +17,8 @@
 #X msg 81 199 size 16;
 #X msg 567 86 arm;
 #X msg 564 137 play 1;
-#X obj 189 12 r tick-4;
 #X msg 564 194 play 0;
+#X obj 189 12 r tick-4;
 #X connect 0 0 1 2;
 #X connect 2 0 1 0;
 #X connect 2 1 1 1;
@@ -38,5 +38,5 @@
 #X connect 15 0 4 0;
 #X connect 16 0 5 0;
 #X connect 17 0 5 0;
-#X connect 18 0 4 0;
-#X connect 19 0 5 0;
+#X connect 18 0 5 0;
+#X connect 19 0 4 0;
