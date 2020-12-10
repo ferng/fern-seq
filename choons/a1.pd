@@ -16,7 +16,8 @@
 #X obj 229 139 ../controller/clip-stage;
 #X obj 422 139 ../controller/clip-stage;
 #X obj 139 10 r a1-id;
-#X obj 422 220 ../sample/presets/bass1-4;
+#X obj 422 220 ../sample/presets/bass-1;
+#X obj 437 283 ../sample/presets/closehi-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 7 0;
