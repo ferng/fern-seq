@@ -1,12 +1,10 @@
-#N canvas 214 421 680 476 10;
+#N canvas 431 385 1137 476 10;
 #X msg 28 91 play \$1;
 #X obj 28 15 inlet;
 #X obj 28 51 route play arm;
 #X obj 189 15 r ea-2-#;
 #X obj 28 396 ../sequence-player;
 #X msg 174 194 ch \$1;
-#X msg 101 169 offset 80;
-#X msg 38 168 nlb 0.25;
 #X obj 102 91 t b b b b;
 #X msg 223 138 0 1 0 \, 3 1 0 \, 12 1 0 \, 3 1 0 \, 3 1 0 \, 3 1 0
 \, 5 1 1 \, 3 1 1 \, 3 1 0 \, 0 1 0 \, 3 1 0 \, 0 1 0 \, 3 1 1 \, -1
@@ -16,21 +14,44 @@
 #X msg 328 73 reset;
 #X msg 238 243 0 1 0 \, 3 1 0 \, 14 1 13 \, -1;
 #X msg 307 283 2 0.5 3.5 \, 2 0.5 3.75 \, -1;
+#X msg 284 38 play 0;
+#X obj 764 327 ../pattern;
+#X msg 705 111 ch 3;
+#X msg 794 112 ch 4;
+#X msg 417 50 play 1;
+#X msg 38 168 nlb 1;
+#X msg 101 169 offset 0;
+#X msg 732 222 b a \, p 40;
+#X msg 881 202 b a \, p 52;
+#X msg 889 230 b c \, p 23;
+#X msg 893 258 b d \, p 12;
+#X msg 214 348 71 0.351544 0.459712 \, 69 0.255395 0.555861 \, 73 0.393609
+2.14232 \, 71 0.318493 0.417647 \, 69 0.21333 0.597926 \, 73 0.321498
+0.537833 \, 71 0.243377 0.624968 \, 69 0.288447 0.27804 \, -1;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
-#X connect 2 1 8 0;
-#X connect 3 0 11 1;
+#X connect 2 1 6 0;
+#X connect 3 0 9 1;
 #X connect 5 0 4 0;
-#X connect 6 0 4 0;
+#X connect 6 0 18 0;
+#X connect 6 1 19 0;
+#X connect 6 2 9 0;
+#X connect 6 3 24 0;
 #X connect 7 0 4 0;
-#X connect 8 0 7 0;
-#X connect 8 1 6 0;
-#X connect 8 2 11 0;
-#X connect 8 3 10 0;
-#X connect 9 0 4 0;
+#X connect 8 0 4 0;
+#X connect 9 0 5 0;
 #X connect 10 0 4 0;
-#X connect 11 0 5 0;
+#X connect 11 0 4 0;
 #X connect 12 0 4 0;
 #X connect 13 0 4 0;
-#X connect 14 0 4 0;
+#X connect 15 0 4 0;
+#X connect 16 0 4 0;
+#X connect 17 0 4 0;
+#X connect 18 0 4 0;
+#X connect 19 0 4 0;
+#X connect 20 0 14 0;
+#X connect 21 0 14 0;
+#X connect 22 0 14 0;
+#X connect 23 0 14 0;
+#X connect 24 0 4 0;
