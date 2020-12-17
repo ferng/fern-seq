@@ -14,10 +14,8 @@
 #X text 119 6 ch[channel]|play (next note)[-1 for ever|0 stop|n]|reset|offset[pitch]|note
 len per beat(nlb)|sequence[note \, dur \, break];
 #X obj 164 160 f;
-#X obj 290 101 print stuff;
 #X connect 0 0 3 0;
 #X connect 1 0 9 0;
-#X connect 1 0 14 0;
 #X connect 2 0 10 0;
 #X connect 3 1 13 0;
 #X connect 3 2 10 0;
