@@ -1,0 +1,22 @@
+#N canvas 513 428 1504 1027 12;
+#X obj 242 257 steps bass;
+#X obj 502 124 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 502 144 s tick;
+#X obj 242 282 print out;
+#X msg 88 73 0 1 0 1 0 1 0 1;
+#X obj 59 19 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 88 101 list length;
+#X msg 88 154 size 8;
+#X msg 88 127 set size \$1;
+#X msg 339 55 play 1;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 4 0 6 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;
+#X connect 6 0 8 0;
+#X connect 7 0 0 0;
+#X connect 8 0 7 0;
+#X connect 9 0 0 0;

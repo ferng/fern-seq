@@ -1,5 +1,5 @@
-#N canvas 963 501 901 650 12;
-#X obj 293 7 r swing;
+#N canvas 509 265 380 305 12;
+#X obj 222 7 r swing;
 #X obj 20 222 delay;
 #X msg 115 33 0;
 #X obj 72 80 + 1;
