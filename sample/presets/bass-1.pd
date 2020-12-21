@@ -1,4 +1,4 @@
-#N canvas 117 153 728 468 12;
+#N canvas 451 212 728 468 12;
 #X obj 324 6 r sample-#;
 #X obj 35 11 inlet;
 #X obj 35 223 ../setting;
