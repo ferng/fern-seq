@@ -1,0 +1,12 @@
+#N canvas 767 527 450 167 12;
+#X obj 303 7 r apc-ctl-#;
+#X obj 70 10 notein;
+#X obj 70 76 spigot 0;
+#X obj 89 42 expr ($f1 == 0) && ($f2 == $f3);
+#X obj 70 112 outlet;
+#X connect 0 0 3 2;
+#X connect 1 0 2 0;
+#X connect 1 1 3 0;
+#X connect 1 2 3 1;
+#X connect 2 0 4 0;
+#X connect 3 0 2 1;
