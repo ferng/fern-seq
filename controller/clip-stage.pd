@@ -1,14 +1,14 @@
-#N canvas 317 228 378 583 10;
+#N canvas 740 168 867 691 10;
 #X msg 153 42 -1;
 #X obj 109 100 ==;
 #X msg 106 466 set \$1;
-#X msg 195 499 11 play 8;
+#X msg 195 495 11 play 8;
 #X obj 109 138 sel 0;
 #X msg 127 282 add2 arm;
 #X obj 195 138 sel 1;
 #X msg 195 282 add2 play;
 #X msg 242 361 1;
-#X msg 262 435 add2 7;
+#X msg 262 435 add2 88;
 #X msg 242 396 set add2 \$1;
 #X obj 55 42 t f f f f;
 #X obj 109 169 t b b b;
@@ -16,10 +16,12 @@
 #X obj 55 10 inlet;
 #X obj 195 536 outlet;
 #X obj 187 10 loadbang;
-#X obj 310 10 r reps;
-#X msg 40 466 \$1 play 0;
+#X obj 282 10 r reps;
+#X msg 40 495 \$1 play 0;
 #X obj 120 10 r reset;
 #X obj 40 436 f;
+#X obj 366 10 r listen;
+#X msg 366 495 \$1 listen;
 #X connect 0 0 1 1;
 #X connect 0 0 20 1;
 #X connect 1 0 4 0;
@@ -50,3 +52,5 @@
 #X connect 18 0 15 0;
 #X connect 19 0 0 0;
 #X connect 20 0 18 0;
+#X connect 21 0 22 0;
+#X connect 22 0 15 0;

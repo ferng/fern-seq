@@ -1,4 +1,4 @@
-#N canvas 619 349 786 514 10;
+#N canvas 787 566 786 514 10;
 #X obj 32 10 r sel;
 #X obj 78 10 r tune;
 #X obj 32 60 spigot;
@@ -14,9 +14,11 @@
 #X obj 32 295 route 32 33 34 35 36 37 38 39;
 #X obj 229 295 route 24 25 26 27 28 29 30 31;
 #X obj 422 295 route 16 17 18 19 20 21 22 23;
-#X obj 32 103 moses 8;
-#X obj 114 107 moses 16;
-#X obj 213 110 moses;
+#X obj 32 97 moses 8;
+#X obj 95 97 moses 16;
+#X obj 163 97 moses 24;
+#X obj 236 96 moses 32;
+#X obj 307 95 moses 40;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 15 0;
@@ -29,3 +31,10 @@
 #X connect 13 0 5 0;
 #X connect 14 0 9 0;
 #X connect 14 1 10 0;
+#X connect 15 1 16 0;
+#X connect 16 1 17 0;
+#X connect 17 0 11 0;
+#X connect 17 1 18 0;
+#X connect 18 0 7 0;
+#X connect 18 1 19 0;
+#X connect 19 0 6 0;

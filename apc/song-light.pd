@@ -1,7 +1,7 @@
-#N canvas 124 390 228 233 12;
+#N canvas 124 420 228 233 12;
 #X obj 37 154 ctl-pad-light;
 #X msg 16 110 \$1 1;
-#X msg 62 113 \$1 0;
+#X msg 62 110 \$1 0;
 #X obj 62 76 f -1;
 #X obj 16 11 inlet;
 #X obj 16 38 t f f b;
