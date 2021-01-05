@@ -13,10 +13,10 @@
 #X obj 19 262 makenote 1 1;
 #X obj 122 193 bang;
 #X obj 77 367 noteout;
-#X text 212 27 pad \, val[0(off) | 1(red) | 2(flash red) | 3(green)
-| 4(flash green) | 5(yellow) | 6(flash yellow)], f 33;
 #X text 202 261 light on;
 #X text 27 285 light off;
+#X text 212 27 pad \, val[0(off) | 1(green) | 2(flash green) | 3(red)
+| 4(flash red) | 5(yellow) | 6(flash yellow)], f 33;
 #X connect 0 0 13 2;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
