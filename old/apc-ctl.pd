@@ -9,7 +9,7 @@
 #X obj 274 69 t f f;
 #X obj 12 11 clip-pad;
 #X obj 977 22 r apc-ctl-#;
-#X obj 791 92 spigot 0;
+#X obj 798 94 spigot 0;
 #X obj 851 64 ==;
 #X obj 819 22 ctlin;
 #X obj 810 470 f;
@@ -57,17 +57,6 @@
 #X msg 623 151 0;
 #X obj 733 310 t b f;
 #X obj 133 69 t f f b b;
-#X obj 505 497 pack 0 0;
-#X obj 504 552 route 48 49 50 51 52 53 54 55;
-#X obj 498 423 spigot 0;
-#X obj 506 598 s reps;
-#X obj 758 631 s xxx;
-#X obj 561 598 s swing;
-#X obj 632 598 s subpart;
-#X obj 711 598 s nlb;
-#X obj 528 631 s offset;
-#X obj 599 631 s note-len;
-#X obj 678 631 s br-len;
 #X connect 0 1 1 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -83,11 +72,8 @@
 #X connect 10 0 19 0;
 #X connect 10 0 54 0;
 #X connect 11 0 10 1;
-#X connect 11 0 60 1;
 #X connect 12 0 15 0;
-#X connect 12 0 58 1;
 #X connect 12 1 10 0;
-#X connect 12 1 60 0;
 #X connect 12 2 11 0;
 #X connect 12 2 43 0;
 #X connect 13 0 25 0;
@@ -98,8 +84,8 @@
 #X connect 15 0 28 1;
 #X connect 15 0 29 1;
 #X connect 15 0 24 1;
-#X connect 15 0 22 1;
 #X connect 15 0 23 1;
+#X connect 15 0 22 1;
 #X connect 19 0 20 1;
 #X connect 20 0 6 0;
 #X connect 21 0 20 1;
@@ -144,6 +130,3 @@
 #X connect 57 1 40 0;
 #X connect 57 2 53 0;
 #X connect 57 3 42 0;
-#X connect 58 0 59 0;
-#X connect 59 2 64 0;
-#X connect 60 0 58 0;

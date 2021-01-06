@@ -1,8 +1,8 @@
-#N canvas 740 168 867 691 10;
+#N canvas 740 168 530 691 10;
 #X msg 153 42 -1;
 #X obj 109 100 ==;
 #X msg 104 436 set \$1;
-#X msg 195 496 34 play 1;
+#X msg 195 496 32 play 1;
 #X obj 109 138 sel 0;
 #X msg 127 282 add2 arm;
 #X obj 195 138 sel 1;
@@ -18,10 +18,10 @@
 #X msg 108 496 \$1 play 0;
 #X obj 120 10 r reset;
 #X obj 40 436 f;
-#X obj 366 10 r listen;
+#X obj 348 8 r listen;
 #X msg 40 496 \$1 0;
 #X obj 40 643 ../apc/ctl-pad-light;
-#X msg 74 598 34 3;
+#X msg 74 598 32 1;
 #X msg 172 554 add2 5;
 #X obj 109 172 t b b b b b;
 #X obj 223 328 t b b b b b;
