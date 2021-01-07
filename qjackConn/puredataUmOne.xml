@@ -1,33 +1,37 @@
 <!DOCTYPE patchbay>
-<patchbay version="0.5.0" name="puredataUmOne">
+<patchbay name="puredataUmOne" version="0.5.0">
  <output-sockets>
-  <socket client="APC Key 25" exclusive="off" name="APC Key 1" type="alsa-midi">
+  <socket client="KP3\+" name="KP3\+ 1" type="alsa-midi" exclusive="off">
+   <plug>KP3\+ MIDI 1</plug>
+  </socket>
+  <socket client="APC Key 25" name="APC Key 1" type="alsa-midi" exclusive="off">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket client="Pure Data" exclusive="off" name="Pure Data 1" type="alsa-midi">
+  <socket client="Pure Data" name="Pure Data 1" type="alsa-midi" exclusive="off">
    <plug>Pure Data Midi-Out 1</plug>
   </socket>
  </output-sockets>
  <input-sockets>
-  <socket client="APC Key 25" exclusive="off" name="APC Key 1" type="alsa-midi">
+  <socket client="APC Key 25" name="APC Key 1" type="alsa-midi" exclusive="off">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket client="Pure Data" exclusive="off" name="Pure Data 1" type="alsa-midi">
+  <socket client="Pure Data" name="Pure Data 1" type="alsa-midi" exclusive="off">
    <plug>Pure Data Midi-In 1</plug>
   </socket>
-  <socket client="Pulse2" exclusive="off" name="Pulse 1" type="alsa-midi">
+  <socket client="Pulse2" name="Pulse 1" type="alsa-midi" exclusive="off">
    <plug>Pulse2 MIDI 1</plug>
   </socket>
-  <socket client="UM-ONE" exclusive="off" name="UM-ONE 1" type="alsa-midi">
+  <socket client="UM-ONE" name="UM-ONE 1" type="alsa-midi" exclusive="off">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
  </input-sockets>
  <slots/>
  <cables>
-  <cable input="Pure Data 1" output="APC Key 1" type="alsa-midi"/>
-  <cable input="UM-ONE 1" output="Pure Data 1" type="alsa-midi"/>
-  <cable input="Pulse 1" output="Pure Data 1" type="alsa-midi"/>
-  <cable input="APC Key 1" output="Pure Data 1" type="alsa-midi"/>
+  <cable input="Pure Data 1" type="alsa-midi" output="APC Key 1"/>
+  <cable input="UM-ONE 1" type="alsa-midi" output="Pure Data 1"/>
+  <cable input="Pulse 1" type="alsa-midi" output="Pure Data 1"/>
+  <cable input="APC Key 1" type="alsa-midi" output="Pure Data 1"/>
+  <cable input="Pure Data 1" type="alsa-midi" output="KP3\+ 1"/>
  </cables>
 </patchbay>
 

@@ -13,7 +13,7 @@
 #X obj 202 331 f;
 #X obj 672 15 r subpart;
 #X obj 672 112 ../../controller/encoder-val;
-#X msg 272 392 4 0 75 7 3;
+#X msg 272 392 40 0 75 7 3;
 #X obj 381 302 spigot;
 #X msg 412 251 1;
 #X msg 354 272 0;
