@@ -1,7 +1,7 @@
-#N canvas 691 299 852 499 10;
-#X obj 23 12 inlet;
+#N canvas 879 464 852 499 10;
+#X obj 24 12 inlet;
 #X obj 17 389 outlet;
-#X obj 23 39 route gran min max;
+#X obj 24 39 route gran min max;
 #X obj 121 390 s enc-val;
 #X obj 24 168 expr (128 / ((($f3/$f1) - ($f2/$f1)) + 1));
 #X obj 17 316 expr (int($f1 / $f2) * $f3) + $f4;

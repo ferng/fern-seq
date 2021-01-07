@@ -1,5 +1,5 @@
 #N canvas 645 319 936 618 10;
-#X obj 77 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+#X obj 77 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
 ;
 #X obj 77 262 metro;
 #X text 121 97 bmp;
@@ -48,7 +48,7 @@
 #X obj 786 114 s apc-key-#;
 #X obj 154 14 apc/apc-ctl;
 #X obj 680 29 nbx 4 35 -1e+37 1e+37 0 0 empty enc-val empty 0 -8 0
-30 -13381 -257985 -232576 3 256;
+30 -13381 -257985 -232576 -1 256;
 #X connect 0 0 1 0;
 #X connect 1 0 22 0;
 #X connect 1 0 30 0;
