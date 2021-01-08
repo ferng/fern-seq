@@ -30,7 +30,7 @@
 30 -13381 -257985 -232576 0 256;
 #X msg 863 92 6;
 #X obj 863 114 s kp3-#;
-#X obj 243 14 midirealtimein;
+#X obj 251 14 midirealtimein;
 #X obj 79 173 sel 248;
 #X obj 379 741 + 1;
 #X msg 335 741 0;
