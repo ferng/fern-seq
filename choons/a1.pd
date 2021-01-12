@@ -8,8 +8,8 @@
 #X obj 32 267 ../controller/clip-stage;
 #X obj 229 267 ../controller/clip-stage;
 #X obj 139 10 r a1-id;
-#X obj 422 348 ../sample/presets/bass-1;
-#X obj 443 376 ../sample/presets/closehi-1;
+#X obj 540 379 ../sample/presets/bass-1;
+#X obj 557 404 ../sample/presets/closehi-1;
 #X obj 422 267 ../controller/clip-passthru;
 #X obj 32 295 route 32 33 34 35 36 37 38 39;
 #X obj 229 295 route 24 25 26 27 28 29 30 31;
@@ -19,6 +19,7 @@
 #X obj 163 97 moses 24;
 #X obj 236 96 moses 32;
 #X obj 307 95 moses 40;
+#X obj 422 348 ../sample/presets/block-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 15 0;
@@ -29,8 +30,7 @@
 #X connect 11 0 14 0;
 #X connect 12 0 4 0;
 #X connect 13 0 5 0;
-#X connect 14 0 9 0;
-#X connect 14 1 10 0;
+#X connect 14 0 20 0;
 #X connect 15 1 16 0;
 #X connect 16 1 17 0;
 #X connect 17 0 11 0;

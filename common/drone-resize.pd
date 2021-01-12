@@ -1,10 +1,10 @@
-#N canvas 801 221 1295 821 10;
-#X msg 194 429 34 0 0;
+#N canvas 280 121 1043 629 10;
+#X msg 194 429 34 0.25 1.75;
 #X msg 194 258 add2 \$1;
-#X msg 487 254 add2 \$1;
+#X msg 487 258 add2 \$1;
 #X msg 152 429 -1;
 #X msg 411 429 play 0;
-#X obj 472 127 t b b b b f;
+#X obj 472 131 t b b b b f;
 #X obj 163 131 t b b b b f;
 #X obj 40 17 inlet;
 #X obj 278 534 outlet;
@@ -12,14 +12,14 @@
 #X msg 77 258 set set \$1;
 #X msg 331 429 reset;
 #X obj 258 337 t b b b b b;
-#X text 603 253 we don't want the note playing on change \, but we
+#X text 603 257 we don't want the note playing on change \, but we
 might do!;
 #X obj 659 17 r reset;
-#X msg 659 88 0;
+#X msg 659 92 0;
 #X obj 163 92 ../controller/encoder-val;
-#X obj 472 88 ../controller/encoder-val;
+#X obj 472 92 ../controller/encoder-val;
 #X obj 194 202 f;
-#X obj 487 198 f;
+#X obj 487 202 f;
 #X obj 411 471 spigot;
 #X obj 40 52 route play note int;
 #X obj 163 17 inlet;
