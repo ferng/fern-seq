@@ -1,19 +1,21 @@
-#N canvas 556 444 791 699 12;
+#N canvas 313 324 791 699 12;
 #X obj 19 22 inlet;
-#X obj 51 354 noteout;
-#X obj 51 319 makenote 1 10;
+#X obj 51 391 noteout;
+#X obj 51 356 makenote 1 10;
 #X msg 51 124 arm;
 #X obj 51 161 steps;
 #X obj 19 81 t f b;
 #X obj 51 227 swing;
 #X obj 51 193 spigot 0;
 #X obj 174 161 == 0;
-#X text 275 32 channel \, voice \, size(num of steps) \, swing delay
+#X text 216 21 channel \, voice \, size(num of steps) \, swing delay
 \, delay \, steps \, tick, f 31;
-#X obj 51 258 delay 0;
+#X obj 51 295 delay 0;
 #X obj 19 47 route ch voice swing delay;
 #X obj 121 193 spigot 1;
-#X obj 51 288 f;
+#X obj 51 325 f;
+#X obj 542 22 inlet;
+#X obj 51 261 drop;
 #X connect 0 0 11 0;
 #X connect 2 0 1 0;
 #X connect 2 1 1 1;
@@ -22,7 +24,7 @@
 #X connect 4 0 12 0;
 #X connect 5 0 1 2;
 #X connect 5 1 3 0;
-#X connect 6 0 10 0;
+#X connect 6 0 15 0;
 #X connect 7 0 6 0;
 #X connect 8 0 12 1;
 #X connect 10 0 13 0;
@@ -35,3 +37,5 @@
 #X connect 11 4 4 0;
 #X connect 12 0 10 0;
 #X connect 13 0 2 0;
+#X connect 14 0 15 1;
+#X connect 15 0 10 0;
