@@ -24,7 +24,6 @@
 #X msg 214 348 34 3.26606 0.234363 \, 34 0.231358 0 \, -1;
 #X msg 486 294 offset 10;
 #X obj 28 51 route play arm listen;
-#X obj 625 297 print rec;
 #X obj 564 18 r tick-64;
 #X connect 0 0 3 0;
 #X connect 1 0 24 0;
@@ -53,5 +52,4 @@
 #X connect 23 0 3 0;
 #X connect 24 0 0 0;
 #X connect 24 1 18 0;
-#X connect 24 2 25 0;
-#X connect 26 0 20 0;
+#X connect 25 0 20 0;

@@ -20,6 +20,7 @@
 #X obj 236 96 moses 32;
 #X obj 307 95 moses 40;
 #X obj 422 348 ../sample/presets/block-1;
+#X obj 486 422 ../sample/presets/hihats-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 15 0;
@@ -33,6 +34,7 @@
 #X connect 14 0 20 0;
 #X connect 14 1 10 0;
 #X connect 14 2 9 0;
+#X connect 14 3 21 0;
 #X connect 15 1 16 0;
 #X connect 16 1 17 0;
 #X connect 17 0 11 0;
