@@ -39,6 +39,8 @@
 #X obj 31 303 sequence \$0;
 #X obj 569 16 inlet;
 #X obj 137 587 drop;
+#X text 191 584 see if drop would actually drop the whole note or just
+a single value from the whole note combo;
 #X connect 0 0 35 0;
 #X connect 1 0 35 0;
 #X connect 2 0 37 0;
