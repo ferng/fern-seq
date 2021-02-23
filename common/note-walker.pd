@@ -1,10 +1,10 @@
-#N canvas 943 271 680 672 10;
+#N canvas 187 212 680 672 10;
 #X msg 71 214 next;
 #X msg 225 131 reset;
 #X obj 137 486 pack 0 0 0;
 #X obj 117 377 unpack 0 0 0;
 #X obj 391 358 *;
-#X obj 194 454 *;
+#X obj 194 451 *;
 #X obj 391 392 delay;
 #X obj 480 425 + 1;
 #X msg 31 214 size;
@@ -15,7 +15,7 @@
 #X obj 406 16 r beat-len;
 #X obj 137 619 outlet;
 #X obj 30 16 inlet;
-#X obj 154 454 + 0;
+#X obj 154 451 + 0;
 #X obj 117 415 t b f;
 #X obj 31 344 route size note len;
 #X msg 105 557 len \$1;
