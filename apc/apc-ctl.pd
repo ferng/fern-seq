@@ -1,4 +1,4 @@
-#N canvas 124 212 1524 739 12;
+#N canvas 902 272 1524 739 12;
 #X obj 206 39 moses 64;
 #X obj 274 39 moses 72;
 #X obj 274 124 - 63;
@@ -19,10 +19,13 @@
 #X obj 418 39 moses 87;
 #X obj 306 98 song-light;
 #X obj 347 39 moses 82;
-#X obj 418 208 keyboard-route;
+#X obj 418 272 keyboard-route;
 #X obj 205 6 encoders;
 #X obj 659 6 r reset;
 #X obj 659 31 lights-off;
+#X obj 471 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 471 69 route 98;
 #X connect 0 1 1 0;
 #X connect 1 0 7 0;
 #X connect 1 1 19 0;
@@ -44,6 +47,9 @@
 #X connect 16 0 11 0;
 #X connect 16 1 14 0;
 #X connect 17 0 20 0;
+#X connect 17 1 25 0;
 #X connect 19 1 17 0;
 #X connect 21 0 10 0;
 #X connect 22 0 23 0;
+#X connect 24 0 20 1;
+#X connect 25 0 24 0;

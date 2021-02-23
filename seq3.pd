@@ -26,8 +26,8 @@
 #X obj 710 114 s apc-ctl-#;
 #X obj 786 114 s apc-key-#;
 #X obj 154 14 apc/apc-ctl;
-#X obj 680 29 nbx 4 35 -1e+37 1e+37 0 0 empty enc-val empty 0 -8 0
-30 -13381 -257985 -232576 0.25 256;
+#X obj 665 14 nbx 4 35 -1e+37 1e+37 0 0 empty enc-val empty 0 -8 0
+30 -13381 -257985 -232576 0 256;
 #X msg 863 92 6;
 #X obj 863 114 s kp3-#;
 #X obj 251 14 midirealtimein;
@@ -48,7 +48,7 @@
 #X obj 510 774 sel 12;
 #X obj 998 774 sel 3;
 #X obj 79 150 spigot;
-#X obj 76 101 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 76 101 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 379 804 s tick-4;
 #X obj 510 804 s tick-8;
@@ -86,6 +86,8 @@
 #X obj 138 804 s tick;
 #X obj 1109 774 sel 2;
 #X obj 1109 804 s tick-48;
+#X obj 581 14 tgl 20 0 empty shift empty 21 10 0 20 -66577 -257985
+-1 0 1;
 #X connect 2 0 18 0;
 #X connect 4 0 15 0;
 #X connect 5 0 16 0;
