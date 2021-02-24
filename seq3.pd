@@ -1,4 +1,4 @@
-#N canvas 137 116 1431 871 10;
+#N canvas 166 175 1431 871 10;
 #X text 121 100 bmp;
 #X text 58 100 on;
 #X msg 637 92 11;
@@ -11,7 +11,7 @@
 #X msg 441 171 1;
 #X msg 442 229 2;
 #X msg 79 39 bang;
-#X obj 549 198 choons/a1;
+#X obj 549 194 choons/a1;
 #X obj 375 114 s reset;
 #X obj 314 196 s beat-len;
 #X obj 439 114 s ea-1-#;
