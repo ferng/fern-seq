@@ -1,4 +1,4 @@
-#N canvas 61 83 1638 930 10;
+#N canvas 124 110 1459 697 10;
 #X msg 28 191 play \$1;
 #X obj 28 15 inlet;
 #X obj 398 506 ../pattern;
@@ -56,6 +56,23 @@
 #X obj 672 15 r sub-1;
 #X obj 706 306 t f b;
 #X obj 1019 365 t b b;
+#X obj 1072 204 random 6;
+#X text 1064 151 random part selector;
+#X obj 1252 273 print;
+#X obj 1392 204 + 1;
+#X msg 1348 204 0;
+#X obj 1333 233 f;
+#X obj 1308 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1392 233 sel 6;
+#X obj 1348 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 1370 169 init;
+#X text 1269 169 next;
+#X obj 1072 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 1093 169 next;
+#X text 1276 151 part iterator;
 #X connect 0 0 3 0;
 #X connect 1 0 23 0;
 #X connect 4 0 12 0;
@@ -66,9 +83,9 @@
 #X connect 9 0 44 0;
 #X connect 9 0 41 0;
 #X connect 10 0 11 1;
-#X connect 10 0 47 0;
 #X connect 11 0 4 0;
 #X connect 11 0 5 0;
+#X connect 11 0 47 0;
 #X connect 12 0 6 0;
 #X connect 13 0 12 0;
 #X connect 14 0 13 1;
@@ -142,3 +159,13 @@
 #X connect 55 0 45 0;
 #X connect 56 0 50 0;
 #X connect 56 1 51 0;
+#X connect 57 0 59 0;
+#X connect 60 0 64 0;
+#X connect 61 0 62 1;
+#X connect 62 0 60 0;
+#X connect 62 0 59 0;
+#X connect 63 0 62 0;
+#X connect 64 0 61 0;
+#X connect 64 1 62 1;
+#X connect 65 0 61 0;
+#X connect 68 0 57 0;

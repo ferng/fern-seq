@@ -15,7 +15,7 @@
 #X obj 121 193 spigot 1;
 #X obj 51 325 f;
 #X obj 542 22 inlet;
-#X obj 51 261 drop;
+#X obj 51 261 rnd-note;
 #X connect 0 0 11 0;
 #X connect 2 0 1 0;
 #X connect 2 1 1 1;

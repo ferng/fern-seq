@@ -1,4 +1,4 @@
-#N canvas 187 212 680 672 10;
+#N canvas 524 226 680 672 10;
 #X msg 71 214 next;
 #X msg 225 131 reset;
 #X obj 137 486 pack 0 0 0;
@@ -38,9 +38,7 @@
 #X obj 117 451 f 1;
 #X obj 31 303 sequence \$0;
 #X obj 569 16 inlet;
-#X obj 137 587 drop;
-#X text 191 584 see if drop would actually drop the whole note or just
-a single value from the whole note combo;
+#X obj 137 587 rnd-note;
 #X connect 0 0 35 0;
 #X connect 1 0 35 0;
 #X connect 2 0 37 0;

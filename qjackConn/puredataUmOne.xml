@@ -1,41 +1,49 @@
 <!DOCTYPE patchbay>
-<patchbay version="0.5.0" name="puredataUmOne">
+<patchbay name="puredataUmOne" version="0.5.0">
  <output-sockets>
-  <socket exclusive="off" type="alsa-midi" client="UM-ONE" name="UM-ONE 1">
+  <socket client="Circuit Tracks" type="alsa-midi" name="Circuit Tracks 1" exclusive="off">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="UM-ONE" type="alsa-midi" name="UM-ONE 1" exclusive="off">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="APC Key 25" name="APC Key 1">
+  <socket client="APC Key 25" type="alsa-midi" name="APC Key 1" exclusive="off">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="Pure Data" name="Pure Data 1">
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 1" exclusive="off">
    <plug>Pure Data Midi-Out 1</plug>
   </socket>
  </output-sockets>
  <input-sockets>
-  <socket exclusive="off" type="alsa-midi" client="APC Key 25" name="APC Key 1">
+  <socket client="APC Key 25" type="alsa-midi" name="APC Key 1" exclusive="off">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="Pure Data" name="Pure Data 1">
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 1" exclusive="off">
    <plug>Pure Data Midi-In 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="KP3\+" name="KP3\+ 1">
+  <socket client="KP3\+" type="alsa-midi" name="KP3\+ 1" exclusive="off">
    <plug>KP3\+ MIDI 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="Pulse2" name="Pulse 1">
+  <socket client="Circuit Tracks" type="alsa-midi" name="Circuit Tracks 1" exclusive="off">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="Pulse2" type="alsa-midi" name="Pulse 1" exclusive="off">
    <plug>Pulse2 MIDI 1</plug>
   </socket>
-  <socket exclusive="off" type="alsa-midi" client="UM-ONE" name="UM-ONE 1">
+  <socket client="UM-ONE" type="alsa-midi" name="UM-ONE 1" exclusive="off">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
  </input-sockets>
  <slots/>
  <cables>
-  <cable input="Pure Data 1" type="alsa-midi" output="APC Key 1"/>
-  <cable input="UM-ONE 1" type="alsa-midi" output="Pure Data 1"/>
-  <cable input="Pulse 1" type="alsa-midi" output="Pure Data 1"/>
-  <cable input="APC Key 1" type="alsa-midi" output="Pure Data 1"/>
-  <cable input="Pure Data 1" type="alsa-midi" output="UM-ONE 1"/>
-  <cable input="KP3\+ 1" type="alsa-midi" output="UM-ONE 1"/>
+  <cable type="alsa-midi" input="Pure Data 1" output="UM-ONE 1"/>
+  <cable type="alsa-midi" input="KP3\+ 1" output="UM-ONE 1"/>
+  <cable type="alsa-midi" input="Pure Data 1" output="APC Key 1"/>
+  <cable type="alsa-midi" input="UM-ONE 1" output="Pure Data 1"/>
+  <cable type="alsa-midi" input="APC Key 1" output="Pure Data 1"/>
+  <cable type="alsa-midi" input="Circuit Tracks 1" output="Pure Data 1"/>
+  <cable type="alsa-midi" input="Pure Data 1" output="Circuit Tracks 1"/>
+  <cable type="alsa-midi" input="KP3\+ 1" output="Circuit Tracks 1"/>
  </cables>
 </patchbay>
 
