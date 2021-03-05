@@ -1,0 +1,17 @@
+#N canvas 742 601 694 277 12;
+#X obj 32 22 inlet;
+#X obj 32 99 ../tools/metro-mult;
+#X obj 210 22 r sample-#;
+#X obj 171 209 ctlout;
+#X obj 359 99 setting-calc;
+#X text 31 2 step sequence[duration_beats \, start \, end];
+#X obj 359 22 inlet;
+#X obj 359 55 unpack 0 0;
+#X text 410 21 parameter \, part;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 2 0 3 2;
+#X connect 4 0 3 1;
+#X connect 6 0 7 0;
+#X connect 7 0 4 0;
+#X connect 7 1 4 1;

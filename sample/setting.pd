@@ -1,10 +1,10 @@
-#N canvas 570 287 345 184 10;
+#N canvas 1109 264 345 184 10;
 #X obj 21 18 inlet;
 #X obj 21 46 unpack 0 0 0;
 #X obj 258 17 r sample-#;
 #X obj 21 135 ctlout;
 #X text 65 17 value \, parameter \, part;
-#X obj 37 94 expr (($f1 * 10) + $f2);
+#X obj 37 92 setting-calc;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 1 5 0;
