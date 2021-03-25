@@ -17,6 +17,7 @@
 #X obj 307 95 moses 40;
 #X obj 229 267 ../controller/clip-passthru;
 #X obj 229 348 ../sample/presets/twins-1;
+#X obj 250 380 ../sample/presets/hihat-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 11 0;
@@ -26,6 +27,7 @@
 #X connect 7 0 10 0;
 #X connect 8 0 4 0;
 #X connect 9 0 17 0;
+#X connect 9 1 18 0;
 #X connect 11 1 12 0;
 #X connect 12 1 13 0;
 #X connect 13 0 7 0;
