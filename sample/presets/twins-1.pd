@@ -34,6 +34,8 @@
 #X msg 803 596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
 #X obj 625 426 t f b b;
 #X obj 686 426 t f b b;
+#X obj 116 679 ../../kp3/program;
+#X msg 109 614 b 0 \, p 2;
 #X connect 0 0 5 1;
 #X connect 0 0 12 1;
 #X connect 1 0 11 0;
@@ -82,3 +84,4 @@
 #X connect 34 0 18 0;
 #X connect 34 1 26 0;
 #X connect 34 2 32 0;
+#X connect 36 0 35 0;

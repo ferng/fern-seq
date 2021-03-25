@@ -1,11 +1,11 @@
 <!DOCTYPE patchbay>
-<patchbay version="0.5.0" name="puredataUmOne">
+<patchbay version="0.5.0" name="puredataUmOneKp3Exp">
  <output-sockets>
-  <socket exclusive="off" type="alsa-midi" client="KP3\+" name="KP3\+ 1">
-   <plug>KP3\+ MIDI 1</plug>
-  </socket>
   <socket exclusive="off" type="alsa-midi" client="Circuit Tracks" name="Circuit Tracks 1">
    <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket exclusive="off" type="alsa-midi" client="KP3\+" name="KP3\+ 1">
+   <plug>KP3\+ MIDI 1</plug>
   </socket>
   <socket exclusive="off" type="alsa-midi" client="UM-ONE" name="UM-ONE 1">
    <plug>UM-ONE MIDI 1</plug>
@@ -30,6 +30,9 @@
   <socket exclusive="off" type="alsa-midi" client="Circuit Tracks" name="Circuit Tracks 1">
    <plug>Circuit Tracks MIDI 1</plug>
   </socket>
+  <socket exclusive="off" type="alsa-midi" client="Pulse2" name="Pulse 1">
+   <plug>Pulse2 MIDI 1</plug>
+  </socket>
   <socket exclusive="off" type="alsa-midi" client="UM-ONE" name="UM-ONE 1">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
@@ -38,7 +41,6 @@
  <cables>
   <cable output="Circuit Tracks 1" type="alsa-midi" input="Pure Data 1"/>
   <cable output="Circuit Tracks 1" type="alsa-midi" input="KP3\+ 1"/>
-  <cable output="Circuit Tracks 1" type="alsa-midi" input="UM-ONE 1"/>
   <cable output="UM-ONE 1" type="alsa-midi" input="Pure Data 1"/>
   <cable output="UM-ONE 1" type="alsa-midi" input="KP3\+ 1"/>
   <cable output="APC Key 1" type="alsa-midi" input="Pure Data 1"/>
@@ -47,8 +49,6 @@
   <cable output="Pure Data 1" type="alsa-midi" input="Circuit Tracks 1"/>
   <cable output="Pure Data 1" type="alsa-midi" input="KP3\+ 1"/>
   <cable output="KP3\+ 1" type="alsa-midi" input="Pure Data 1"/>
-  <cable output="KP3\+ 1" type="alsa-midi" input="UM-ONE 1"/>
-  <cable output="KP3\+ 1" type="alsa-midi" input="Circuit Tracks 1"/>
  </cables>
 </patchbay>
 

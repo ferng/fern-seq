@@ -3,12 +3,12 @@
 #X obj 215 210 ctlout 98;
 #X text 278 209 msb;
 #X text 193 209 lsb;
-#X obj 557 266 ctlout 6;
+#X obj 80 292 ctlout 6;
 #X msg 300 181 3;
 #X obj 216 147 * 32;
 #X obj 201 181 +;
 #X obj 32 22 inlet;
-#X text 511 265 setting;
+#X text 24 292 setting;
 #X obj 300 147 bang;
 #X obj 32 248 ../tools/metro-mult;
 #X obj 216 124 mod;
