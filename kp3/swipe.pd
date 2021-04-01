@@ -9,10 +9,13 @@
 #X obj 33 158 pos;
 #X obj 354 20 r kp3-#;
 #X obj 295 231 ctlout 13;
-#X obj 33 65 t b b;
+#X obj 33 89 t b b;
 #X obj 33 231 ctlout 12;
 #X obj 33 20 inlet;
 #X text 78 19 tick;
+#X obj 133 19 inlet;
+#X text 133 44 on/off;
+#X obj 33 54 spigot 0;
 #X connect 0 0 1 0;
 #X connect 1 0 9 0;
 #X connect 2 0 6 1;
@@ -23,4 +26,6 @@
 #X connect 8 0 11 2;
 #X connect 10 0 6 0;
 #X connect 10 1 0 0;
-#X connect 12 0 10 0;
+#X connect 12 0 16 0;
+#X connect 14 0 16 1;
+#X connect 16 0 10 0;

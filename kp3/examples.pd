@@ -1,4 +1,4 @@
-#N canvas 156 64 1569 925 12;
+#N canvas 147 140 1569 829 12;
 #X obj 322 24 r sample-#;
 #X obj 36 24 inlet;
 #X obj 10 491 ../setting;
@@ -63,15 +63,6 @@
 #X msg 1317 396 4 8 1;
 #X obj 1216 382 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X floatatom 1263 388 5 0 0 0 - - -;
-#X obj 1020 769 ../../kp3/move;
-#X obj 995 689 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 1021 840 print done;
-#X msg 1057 642 0;
-#X msg 1110 643 1;
-#X msg 1134 716 4 4 \, 5 5 \, 6 5 \, 7 6 \, 8 7 \, 8 8 \, 7 8 \, 6
-7 \, 5 6 \, 5 5 \, -1;
 #X connect 0 0 5 1;
 #X connect 0 0 12 1;
 #X connect 1 0 11 0;
@@ -140,13 +131,6 @@
 #X connect 53 0 33 0;
 #X connect 55 0 35 0;
 #X connect 56 0 43 0;
-#X connect 57 0 54 3;
 #X connect 57 0 54 2;
+#X connect 57 0 54 1;
 #X connect 58 0 54 0;
-#X connect 59 0 54 1;
-#X connect 60 0 62 0;
-#X connect 60 0 64 0;
-#X connect 61 0 60 0;
-#X connect 63 0 60 1;
-#X connect 64 0 60 1;
-#X connect 65 0 60 2;
