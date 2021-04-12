@@ -1,6 +1,6 @@
-#N canvas 392 189 846 613 12;
+#N canvas 392 189 1057 613 12;
 #X obj 63 28 inlet;
-#X obj 17 523 noteout;
+#X obj 17 545 noteout;
 #X msg 95 147 arm;
 #X obj 95 214 steps;
 #X obj 63 87 t f b;
@@ -26,6 +26,9 @@
 #X obj 728 28 r beat-len;
 #X obj 710 85 *;
 #X obj 95 477 makenote 127 250;
+#X obj 880 28 inlet;
+#X text 921 27 offset;
+#X obj 56 511 + 0;
 #X connect 0 0 8 0;
 #X connect 2 0 3 0;
 #X connect 3 0 6 0;
@@ -61,5 +64,7 @@
 #X connect 21 0 24 0;
 #X connect 23 0 24 1;
 #X connect 24 0 25 2;
-#X connect 25 0 1 0;
+#X connect 25 0 28 0;
 #X connect 25 1 1 1;
+#X connect 26 0 28 1;
+#X connect 28 0 1 0;
