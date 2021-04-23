@@ -8,13 +8,13 @@
 #X obj 40 69 tabread \$0-pos;
 #X obj 40 293 outlet;
 #X msg 215 163 0 9 28 51 64 72 94 115 127;
-#X text 90 23 0-9 pos;
 #X msg 247 102 resize 9;
 #X text 309 246 0 bottom/left 4 centre 8 top/right;
+#X text 90 23 0-8 pos;
 #X connect 0 0 7 0;
-#X connect 0 1 9 0;
+#X connect 0 1 8 0;
 #X connect 3 0 0 0;
 #X connect 4 0 5 0;
 #X connect 5 0 6 0;
 #X connect 7 0 1 0;
-#X connect 9 0 2 0;
+#X connect 8 0 2 0;
