@@ -1,4 +1,4 @@
-#N canvas 392 189 1057 613 12;
+#N canvas 840 292 1057 613 12;
 #X obj 63 28 inlet;
 #X obj 17 568 noteout;
 #X msg 95 147 arm;
@@ -25,13 +25,13 @@
 #X text 497 27 note duration (tick multipliers);
 #X obj 728 28 r beat-len;
 #X obj 710 85 *;
-#X obj 95 477 makenote 127 250;
+#X obj 121 513 makenote 127 250;
 #X obj 817 28 inlet;
 #X text 856 27 offset;
 #X obj 95 442 + 0;
 #X obj 921 28 inlet;
 #X text 960 27 pause;
-#X obj 95 507 spigot 1;
+#X obj 108 477 spigot 1;
 #X connect 0 0 8 0;
 #X connect 2 0 3 0;
 #X connect 3 0 6 0;
@@ -67,9 +67,9 @@
 #X connect 21 0 24 0;
 #X connect 23 0 24 1;
 #X connect 24 0 25 2;
-#X connect 25 0 31 0;
+#X connect 25 0 1 0;
 #X connect 25 1 1 1;
 #X connect 26 0 28 1;
-#X connect 28 0 25 0;
+#X connect 28 0 31 0;
 #X connect 29 0 31 1;
-#X connect 31 0 1 0;
+#X connect 31 0 25 0;
