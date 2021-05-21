@@ -23,7 +23,7 @@
 #X obj 825 113 s apc-key-#;
 #X obj 106 13 apc/apc-ctl;
 #X obj 813 11 nbx 4 35 -1e+37 1e+37 0 0 empty enc-val empty 0 -8 0
-30 -13381 -257985 -232576 5 256;
+30 -13381 -257985 -232576 0 256;
 #X msg 902 91 6;
 #X obj 902 113 s kp3-#;
 #X obj 211 13 midirealtimein;
