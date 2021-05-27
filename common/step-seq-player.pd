@@ -20,7 +20,7 @@
 #X obj 255 87 t b b b f;
 #X msg 312 147 1;
 #X obj 453 17 inlet;
-#X text 345 79 note duration (tick multipliers), f 19;
+#X text 313 16 note duration (tick multipliers), f 19;
 #X obj 509 17 r beat-len;
 #X obj 491 83 *;
 #X obj 95 498 makenote 127 250;
