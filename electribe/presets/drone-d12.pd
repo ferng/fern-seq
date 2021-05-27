@@ -1,4 +1,4 @@
-#N canvas 111 83 1281 714 10;
+#N canvas 52 71 1281 722 10;
 #X msg 28 191 play \$1;
 #X obj 28 15 inlet;
 #X obj 398 636 ../pattern;
@@ -59,7 +59,7 @@
 #X msg 272 331 set 0 75 7;
 #X obj 28 36 route listen;
 #X obj 28 66 ../../common/step-seq-sel-3 \$0;
-#X obj 685 636 ../encoder-set;
+#X obj 689 678 ../encoder-set;
 #X obj 766 577 f;
 #X msg 766 603 19 8 \$1;
 #X connect 0 0 3 0;
@@ -159,4 +159,4 @@
 #X connect 59 2 54 0;
 #X connect 59 2 32 0;
 #X connect 61 0 62 0;
-#X connect 62 0 60 1;
+#X connect 62 0 60 0;
