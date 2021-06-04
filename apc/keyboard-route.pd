@@ -1,4 +1,4 @@
-#N canvas 163 339 1006 633 12;
+#N canvas 523 363 1006 633 12;
 #X obj 240 13 inlet;
 #X obj 73 488 r ea-1-#;
 #X obj 118 13 r apc-key-#;
@@ -42,6 +42,9 @@
 #X obj 80 387 abs;
 #X obj 591 522 s shift;
 #X obj 27 420 spigot 1;
+#X obj 704 522 s kyb-offset;
+#X obj 830 522 outlet;
+#X text 881 521 keypress toggle;
 #X connect 0 0 24 0;
 #X connect 1 0 7 2;
 #X connect 2 0 4 1;
@@ -54,10 +57,12 @@
 #X connect 5 0 8 1;
 #X connect 5 0 10 1;
 #X connect 5 0 12 1;
+#X connect 5 0 39 0;
 #X connect 6 0 16 0;
-#X connect 6 0 17 0;
 #X connect 6 0 33 0;
 #X connect 6 0 37 0;
+#X connect 6 0 17 0;
+#X connect 6 0 38 0;
 #X connect 9 0 8 2;
 #X connect 11 0 10 2;
 #X connect 13 0 12 2;
