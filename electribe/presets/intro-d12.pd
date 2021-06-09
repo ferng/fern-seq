@@ -1,7 +1,7 @@
 #N canvas 468 235 1137 782 10;
 #X msg 28 74 play \$1;
 #X obj 28 15 inlet;
-#X obj 834 15 r ea-2-#;
+#X obj 906 15 r ea-2-#;
 #X obj 28 647 ../sequence-player;
 #X msg 145 166 ch \$1;
 #X obj 145 143 f;
