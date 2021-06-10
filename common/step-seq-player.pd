@@ -1,4 +1,4 @@
-#N canvas 491 219 1057 613 12;
+#N canvas 160 191 1057 613 12;
 #X obj 63 17 inlet;
 #X obj 17 568 noteout;
 #X msg 95 147 arm;
