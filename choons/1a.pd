@@ -1,4 +1,4 @@
-#N canvas 790 319 786 514 10;
+#N canvas 790 319 786 600 10;
 #X obj 32 10 r sel;
 #X obj 78 10 r tune;
 #X obj 32 60 spigot;
@@ -21,6 +21,7 @@
 #X obj 32 267 ../controller/clip-passthru;
 #X obj 139 10 r 1a-id;
 #X obj 293 439 ../sample/presets/drop-1;
+#X obj 313 471 ../sample/presets/tambour-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 9 0;
@@ -32,6 +33,7 @@
 #X connect 7 1 16 0;
 #X connect 7 2 18 0;
 #X connect 7 3 21 0;
+#X connect 7 4 22 0;
 #X connect 9 1 10 0;
 #X connect 10 1 11 0;
 #X connect 11 0 5 0;
