@@ -53,7 +53,7 @@
 #X msg 1103 337 100 10 0;
 #X obj 1181 235 t b b;
 #X obj 304 714 ../../common/step-seq-player \$0;
-#X msg 924 583 size 16 \, -1 -1 1 -1 -1 -1 1 -1 -1 -1 1 -1 1 1 -1 1
+#X msg 902 607 size 16 \, -1 -1 1 -1 -1 -1 1 -1 -1 -1 1 -1 1 1 -1 1
 ;
 #X msg 322 556 size 4 \, 0 0 0 1;
 #X msg 304 525 ch \$1;
@@ -62,12 +62,12 @@
 #X obj 463 307 t f b;
 #X obj 565 374 t b b b;
 #X obj 243 107 t f f;
-#X msg 947 612 size 8 \, 1 -1 -1 1 -1 -1 1 -1;
-#X obj 629 374 t b b b;
-#X obj 463 331 select 0 1 2 3 4 6 5;
+#X msg 943 569 size 8 \, 1 -1 -1 1 -1 -1 1 -1;
+#X obj 647 398 t b b b;
 #X msg 691 241 gran 1 \, min 0 \, max 6;
 #X msg 1181 261 95 3 1;
 #X msg 1213 286 40 10 1;
+#X obj 463 331 select 0 1 2 3 4 5 6;
 #X connect 0 0 4 1;
 #X connect 1 0 30 0;
 #X connect 3 0 5 0;
@@ -78,7 +78,7 @@
 #X connect 7 0 8 0;
 #X connect 8 0 53 0;
 #X connect 9 0 59 0;
-#X connect 10 0 65 0;
+#X connect 10 0 64 0;
 #X connect 11 0 9 0;
 #X connect 15 0 57 0;
 #X connect 15 1 36 0;
@@ -96,7 +96,7 @@
 #X connect 27 0 55 0;
 #X connect 27 1 4 0;
 #X connect 27 2 18 0;
-#X connect 27 3 65 0;
+#X connect 27 3 64 0;
 #X connect 27 4 17 0;
 #X connect 27 5 13 0;
 #X connect 27 6 47 0;
@@ -135,14 +135,14 @@
 #X connect 49 0 2 0;
 #X connect 50 0 2 0;
 #X connect 51 0 2 0;
-#X connect 52 0 66 0;
-#X connect 52 1 67 0;
+#X connect 52 0 65 0;
+#X connect 52 1 66 0;
 #X connect 54 0 53 0;
 #X connect 55 0 53 0;
 #X connect 56 0 53 0;
 #X connect 57 0 8 1;
 #X connect 58 0 8 1;
-#X connect 59 0 64 0;
+#X connect 59 0 67 0;
 #X connect 59 1 36 0;
 #X connect 60 0 58 0;
 #X connect 60 1 54 0;
@@ -151,15 +151,15 @@
 #X connect 61 1 9 1;
 #X connect 62 0 53 0;
 #X connect 63 1 62 0;
-#X connect 64 0 25 0;
-#X connect 64 0 55 0;
-#X connect 64 1 26 0;
-#X connect 64 2 25 0;
-#X connect 64 2 28 0;
-#X connect 64 3 29 0;
-#X connect 64 4 39 0;
-#X connect 64 5 60 0;
-#X connect 64 6 63 0;
-#X connect 65 0 9 2;
+#X connect 64 0 9 2;
+#X connect 65 0 2 0;
 #X connect 66 0 2 0;
-#X connect 67 0 2 0;
+#X connect 67 0 25 0;
+#X connect 67 0 55 0;
+#X connect 67 1 26 0;
+#X connect 67 2 25 0;
+#X connect 67 2 28 0;
+#X connect 67 3 29 0;
+#X connect 67 4 39 0;
+#X connect 67 5 60 0;
+#X connect 67 6 63 0;

@@ -1,0 +1,16 @@
+#N canvas 227 245 450 300 12;
+#X obj -1 64 ../encoder-set;
+#X obj -1 35 ../../common/stutter;
+#X msg 136 -53 high \, 0 6;
+#X msg 99 -53 1;
+#X obj -1 -2 spigot 0;
+#X msg 19 -28 0;
+#X msg 52 -28 1;
+#X obj -34 -53 r tick-32;
+#X connect 1 0 0 0;
+#X connect 2 0 1 2;
+#X connect 3 0 1 1;
+#X connect 4 0 1 0;
+#X connect 5 0 4 1;
+#X connect 6 0 4 1;
+#X connect 7 0 4 0;
