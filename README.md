@@ -39,5 +39,12 @@ qjackctl
 puredata -jack -alsa
 puredata -jack -alsamidi
 puredata -jack -alsamidi -rt
+
+#multiple devices (ports)
+puredata -midiindev "1,2" -midioutdev "1,2"
+
+#mine
+puredata -alsa -midiindev "1,2" -midioutdev "1,2"
+#turn DSP off
 ```
 

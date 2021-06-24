@@ -20,9 +20,9 @@
 #X obj 306 98 song-light;
 #X obj 347 39 moses 82;
 #X obj 418 130 keyboard-route;
-#X obj 205 6 encoders;
-#X obj 659 6 r reset;
-#X obj 659 31 lights-off;
+#X obj 205 11 encoders;
+#X obj 659 11 r reset;
+#X obj 659 41 lights-off;
 #X obj 471 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 502 326 s pause;

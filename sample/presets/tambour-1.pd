@@ -23,8 +23,10 @@
 #X obj 480 226 t f b;
 #X obj 169 599 ../../common/step-seq-player \$0;
 #X obj 169 24 r tick-16;
-#X msg 513 362 size 8 \, 8 -1 -1 8 8 -1 9 9;
-#X msg 480 338 size 10 \, 8 8 -1 -1 -1 8 8 8 -1 -1;
+#X msg 513 393 size 8 \, 8 -1 -1 8 8 -1 9 9;
+#X msg 547 430 size 10 \, 8 8 -1 -1 -1 8 8 8 -1 -1;
+#X msg 480 341 size 32 \, 9 8 9 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1;
 #X connect 0 0 4 1;
 #X connect 1 0 17 0;
 #X connect 2 0 5 0;
@@ -36,8 +38,9 @@
 #X connect 7 0 21 0;
 #X connect 8 0 9 0;
 #X connect 9 0 7 2;
-#X connect 10 0 25 0;
+#X connect 10 0 26 0;
 #X connect 10 1 24 0;
+#X connect 10 2 25 0;
 #X connect 11 0 22 0;
 #X connect 12 0 7 0;
 #X connect 14 0 13 0;
@@ -58,3 +61,4 @@
 #X connect 23 0 11 0;
 #X connect 24 0 22 0;
 #X connect 25 0 22 0;
+#X connect 26 0 22 0;
