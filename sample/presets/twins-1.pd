@@ -75,7 +75,8 @@
 #X obj 886 413 t b b;
 #X obj 1400 399 t b b;
 #X msg 1432 541 \$1 0 1;
-#X msg 1432 465 wave 100 \, range 127 \, pos 25 \, step 1, f 20;
+#X msg 1432 434 wave 100 \, range 200 \, pos 25 \, step 1 \, cut 130
+, f 20;
 #X connect 0 0 4 1;
 #X connect 1 0 30 0;
 #X connect 3 0 5 0;
