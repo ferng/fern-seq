@@ -1,4 +1,4 @@
-#N canvas 307 142 1019 739 12;
+#N canvas 496 227 1019 739 12;
 #X obj 206 39 moses 64;
 #X obj 274 39 moses 72;
 #X obj 274 124 - 63;
@@ -23,11 +23,15 @@
 #X obj 205 11 encoders;
 #X obj 659 11 r reset;
 #X obj 659 41 lights-off;
-#X obj 471 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 471 98 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 502 326 s pause;
 #X obj 471 69 route 98 91 93;
-#X obj 567 326 s listen-lock;
+#X obj 347 326 s listen-lock;
+#X obj 801 11 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 347 69 route 81;
+#X obj 534 350 s rec;
 #X connect 0 1 1 0;
 #X connect 1 0 7 0;
 #X connect 1 1 19 0;
@@ -50,6 +54,7 @@
 #X connect 16 1 14 0;
 #X connect 17 0 20 0;
 #X connect 17 1 26 0;
+#X connect 19 0 29 0;
 #X connect 19 1 17 0;
 #X connect 20 0 10 0;
 #X connect 21 0 10 0;
@@ -57,4 +62,6 @@
 #X connect 24 0 20 1;
 #X connect 26 0 24 0;
 #X connect 26 1 25 0;
-#X connect 26 2 27 0;
+#X connect 26 2 30 0;
+#X connect 28 0 23 0;
+#X connect 29 0 27 0;
