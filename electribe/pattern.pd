@@ -20,6 +20,7 @@
 #X text 17 352 lsb/bank;
 #X text 215 352 pattern;
 #X obj 311 29 r ea-1-#;
+#X obj 322 362 print;
 #X connect 1 0 3 0;
 #X connect 1 1 12 0;
 #X connect 2 0 9 0;
@@ -28,7 +29,9 @@
 #X connect 2 3 6 0;
 #X connect 3 0 2 0;
 #X connect 4 0 13 0;
+#X connect 4 0 21 0;
 #X connect 5 0 13 0;
+#X connect 5 0 21 0;
 #X connect 6 0 5 0;
 #X connect 6 1 11 0;
 #X connect 7 0 5 0;
@@ -40,8 +43,10 @@
 #X connect 10 0 12 1;
 #X connect 11 0 12 1;
 #X connect 12 0 14 0;
+#X connect 12 0 21 0;
 #X connect 15 0 1 0;
 #X connect 16 0 17 0;
 #X connect 17 0 13 1;
 #X connect 20 0 13 2;
 #X connect 20 0 14 1;
+#X connect 20 0 21 0;

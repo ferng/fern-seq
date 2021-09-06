@@ -22,6 +22,7 @@
 #X obj 139 10 r 1a-id;
 #X obj 293 439 ../sample/presets/drop-1;
 #X obj 314 471 ../sample/presets/tambour-1;
+#X obj 74 408 ../electribe/presets/rec-d14;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 9 0;
@@ -29,6 +30,7 @@
 #X connect 5 0 8 0;
 #X connect 6 0 4 0;
 #X connect 6 1 17 0;
+#X connect 6 2 23 0;
 #X connect 7 0 15 0;
 #X connect 7 1 16 0;
 #X connect 7 2 18 0;

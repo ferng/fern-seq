@@ -1,0 +1,62 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.5.0" name="pdDbi2">
+ <output-sockets>
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 1" exclusive="off">
+   <plug>Pure Data Midi-Out 1</plug>
+  </socket>
+  <socket client="APC Key 25" type="alsa-midi" name="APC Key 1" exclusive="off">
+   <plug>APC Key 25 MIDI 1</plug>
+  </socket>
+  <socket client="KP3\+" type="alsa-midi" name="KP3\+ 1" exclusive="off">
+   <plug>KP3\+ MIDI 1</plug>
+  </socket>
+  <socket client="Arturia DrumBrute Impact" type="alsa-midi" name="Arturia DrumBrute Impact 1" exclusive="off">
+   <plug>Arturia DrumBrute Impact MIDI 1</plug>
+  </socket>
+  <socket client="Circuit Tracks" type="alsa-midi" name="Circuit Tracks 1" exclusive="off">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 2" exclusive="off">
+   <plug>Pure Data Midi-Out 2</plug>
+  </socket>
+  <socket client="UM-ONE" type="alsa-midi" name="UM-ONE 1" exclusive="off">
+   <plug>UM-ONE MIDI 1</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 1" exclusive="off">
+   <plug>Pure Data Midi-In 1</plug>
+  </socket>
+  <socket client="APC Key 25" type="alsa-midi" name="APC Key 1" exclusive="off">
+   <plug>APC Key 25 MIDI 1</plug>
+  </socket>
+  <socket client="KP3\+" type="alsa-midi" name="KP3\+ 1" exclusive="off">
+   <plug>KP3\+ MIDI 1</plug>
+  </socket>
+  <socket client="Arturia DrumBrute Impact" type="alsa-midi" name="Arturia DrumBrute Impact 1" exclusive="off">
+   <plug>Arturia DrumBrute Impact MIDI 1</plug>
+  </socket>
+  <socket client="Circuit Tracks" type="alsa-midi" name="Circuit Tracks 1" exclusive="off">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" type="alsa-midi" name="Pure Data 2" exclusive="off">
+   <plug>Pure Data Midi-In 2</plug>
+  </socket>
+  <socket client="UM-ONE" type="alsa-midi" name="UM-ONE 1" exclusive="off">
+   <plug>UM-ONE MIDI 1</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable input="APC Key 1" output="Pure Data 1" type="alsa-midi"/>
+  <cable input="Circuit Tracks 1" output="Pure Data 1" type="alsa-midi"/>
+  <cable input="KP3\+ 1" output="Pure Data 1" type="alsa-midi"/>
+  <cable input="Arturia DrumBrute Impact 1" output="Pure Data 1" type="alsa-midi"/>
+  <cable input="Pure Data 1" output="APC Key 1" type="alsa-midi"/>
+  <cable input="Pure Data 1" output="KP3\+ 1" type="alsa-midi"/>
+  <cable input="Pure Data 1" output="Arturia DrumBrute Impact 1" type="alsa-midi"/>
+  <cable input="Pure Data 1" output="Circuit Tracks 1" type="alsa-midi"/>
+  <cable input="UM-ONE 1" output="Pure Data 2" type="alsa-midi"/>
+ </cables>
+</patchbay>
+
