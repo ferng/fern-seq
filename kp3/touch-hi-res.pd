@@ -1,0 +1,11 @@
+#N canvas 9 353 423 365 12;
+#X obj 182 13 r kp3-#;
+#X obj 45 15 inlet;
+#X obj 45 98 unpack 0 0;
+#X obj 45 194 ctlout 12;
+#X obj 122 194 ctlout 13;
+#X connect 0 0 3 2;
+#X connect 0 0 4 2;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;

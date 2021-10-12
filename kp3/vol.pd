@@ -1,0 +1,6 @@
+#N canvas 55 810 235 207 12;
+#X obj 97 14 r kp3-#;
+#X obj 37 14 inlet;
+#X obj 37 81 ctlout 94;
+#X connect 0 0 2 2;
+#X connect 1 0 2 0;

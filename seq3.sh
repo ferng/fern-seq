@@ -16,3 +16,4 @@ aconnect Pure:2 Circuit:0
 aconnect APC:0 Pure:0
 aconnect Arturia:0 Pure:0
 
+aconnect Arturia:0 KP3+:0

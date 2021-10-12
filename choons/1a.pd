@@ -1,4 +1,4 @@
-#N canvas 790 319 786 600 10;
+#N canvas 166 285 1243 600 10;
 #X obj 32 10 r sel;
 #X obj 78 10 r tune;
 #X obj 32 60 spigot;
@@ -23,6 +23,11 @@
 #X obj 293 439 ../sample/presets/drop-1;
 #X obj 314 471 ../sample/presets/tambour-1;
 #X obj 74 408 ../electribe/presets/rec-d14;
+#X obj 613 267 ../controller/clip-passthru;
+#X obj 794 267 ../controller/clip-passthru;
+#X obj 794 295 route 0 1 2 3 4 5 6 7;
+#X obj 613 295 route 8 9 10 11 12 13 14 15;
+#X obj 794 348 ../kp3/presets/syn-1;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 9 0;
@@ -36,7 +41,9 @@
 #X connect 7 2 18 0;
 #X connect 7 3 21 0;
 #X connect 7 4 22 0;
+#X connect 9 0 25 0;
 #X connect 9 1 10 0;
+#X connect 10 0 24 0;
 #X connect 10 1 11 0;
 #X connect 11 0 5 0;
 #X connect 11 1 12 0;
@@ -46,3 +53,6 @@
 #X connect 14 0 7 0;
 #X connect 19 0 6 0;
 #X connect 20 0 3 1;
+#X connect 24 0 27 0;
+#X connect 25 0 26 0;
+#X connect 26 0 28 0;
