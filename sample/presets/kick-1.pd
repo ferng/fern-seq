@@ -23,7 +23,7 @@
 #X msg 36 204 20 9 0;
 #X obj 169 173 ../../common/queued-open;
 #X msg 452 274 size 4 \, 1 1 1 1;
-#X obj 480 24 r part-1;
+#X obj 480 24 r enc-1;
 #X connect 0 0 5 1;
 #X connect 1 0 12 0;
 #X connect 3 0 7 0;

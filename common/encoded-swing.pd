@@ -1,0 +1,16 @@
+#N canvas 679 207 450 501 12;
+#X msg 217 82 gran 5 \, min 0 \, max 50, f 7;
+#X obj 194 7 loadbang;
+#X msg 113 108 1;
+#X obj 194 39 t b b b;
+#X obj 10 8 inlet;
+#X obj 217 166 outlet;
+#X obj 10 136 ../controller/subpart-selector;
+#X connect 0 0 6 2;
+#X connect 1 0 3 0;
+#X connect 2 0 6 1;
+#X connect 3 0 2 0;
+#X connect 3 1 0 0;
+#X connect 3 2 0 0;
+#X connect 4 0 6 0;
+#X connect 6 1 5 0;
