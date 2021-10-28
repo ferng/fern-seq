@@ -1,5 +1,5 @@
-#N canvas 236 363 980 546 12;
-#X obj 210 6 r apc-ctl-#;
+#N canvas 236 363 528 283 12;
+#X obj 170 6 r apc-ctl-#;
 #X obj 17 6 notein;
 #X obj 99 76 spigot 0;
 #X obj 17 216 outlet;
@@ -13,10 +13,19 @@
 #X msg 110 147 0;
 #X msg 229 147 0;
 #X obj 17 76 spigot;
+#X obj 401 6 r apc-key-#;
+#X obj 383 49 ==;
+#X obj 311 76 spigot;
+#X obj 364 76 spigot;
+#X obj 311 185 pack 0 0;
+#X obj 311 216 s notes;
 #X connect 0 0 5 1;
 #X connect 1 0 13 0;
+#X connect 1 0 16 0;
 #X connect 1 1 2 0;
+#X connect 1 1 17 0;
 #X connect 1 2 5 0;
+#X connect 1 2 15 0;
 #X connect 2 0 6 0;
 #X connect 5 0 2 1;
 #X connect 5 0 13 1;
@@ -32,3 +41,9 @@
 #X connect 12 0 10 1;
 #X connect 13 0 10 0;
 #X connect 13 0 9 0;
+#X connect 14 0 15 1;
+#X connect 15 0 17 1;
+#X connect 15 0 16 1;
+#X connect 16 0 18 0;
+#X connect 17 0 18 1;
+#X connect 18 0 19 0;

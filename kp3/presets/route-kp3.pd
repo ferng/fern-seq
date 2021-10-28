@@ -1,4 +1,4 @@
-#N canvas 297 117 746 459 12;
+#N canvas 488 166 1049 641 12;
 #X obj 25 16 inlet;
 #X obj 25 47 ../../common/step-seq-sel-3 \$0;
 #X obj 294 383 ../../kp3/program;
@@ -20,10 +20,20 @@
 #X obj 414 47 ==;
 #X obj 394 74 spigot 0;
 #X obj 375 16 notein;
+#X obj 580 421 print listen;
+#X obj 44 488 print arm;
+#X obj 125 424 print play;
+#X obj 274 425 print stop;
+#X obj 420 424 print pause;
 #X connect 0 0 1 0;
 #X connect 1 0 9 0;
+#X connect 1 0 22 0;
 #X connect 1 1 13 0;
+#X connect 1 1 23 0;
 #X connect 1 2 12 0;
+#X connect 1 2 24 0;
+#X connect 1 3 25 0;
+#X connect 1 4 21 0;
 #X connect 4 0 2 0;
 #X connect 8 0 7 0;
 #X connect 9 0 8 0;

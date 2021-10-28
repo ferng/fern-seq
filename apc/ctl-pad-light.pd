@@ -17,8 +17,10 @@
 #X text 27 285 light off;
 #X text 212 27 pad \, val[0(off) | 1(green) | 2(flash green) | 3(red)
 | 4(flash red) | 5(yellow) | 6(flash yellow)], f 33;
+#X obj 366 254 print pad;
 #X connect 0 0 13 2;
 #X connect 1 0 2 0;
+#X connect 1 0 17 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 0;
 #X connect 3 0 5 0;
