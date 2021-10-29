@@ -14,7 +14,7 @@
 #X obj 74 348 change;
 #X obj 438 331 print thing;
 #X obj 581 375 s enc-val;
-#X msg 190 81 0;
+#X msg 190 81 1;
 #X connect 0 0 7 0;
 #X connect 1 0 7 1;
 #X connect 3 0 11 0;
