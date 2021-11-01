@@ -1,4 +1,4 @@
-#N canvas 408 478 1137 782 10;
+#N canvas 215 164 1137 782 10;
 #X msg 28 74 play \$1;
 #X obj 28 15 inlet;
 #X obj 906 15 r ea-2-#;
@@ -23,7 +23,7 @@
 #X msg 677 573 play 1;
 #X obj 524 417 ../../common/queued-open;
 #X msg 633 384 1;
-#X obj 868 492 ../encoder-set;
+#X obj 913 647 ../encoder-set;
 #X msg 665 384 0;
 #X msg 702 384 size 16 \, -1 -1 33 -1 -1 -1 33 -1 -1 -1 33 -1 33 33
 -1 33, f 17;
@@ -38,18 +38,21 @@
 #X msg 272 418 0;
 #X msg 822 384 0.2;
 #X obj 102 74 t b b b b b b;
-#X obj 927 433 f;
-#X obj 868 431 f;
-#X msg 927 459 3 13 \$1;
-#X msg 868 459 3 12 \$1;
+#X obj 972 586 f;
+#X obj 913 586 f;
+#X msg 972 615 3 13 \$1;
+#X msg 913 615 3 12 \$1;
 #X obj 586 647 ../../common/step-seq-player \$0;
 #X obj 455 15 r enc-2;
 #X obj 455 104 spigot 0;
+#X obj 852 586 f;
+#X msg 852 615 7.5 7 \$1;
 #X connect 0 0 3 0;
 #X connect 1 0 10 0;
 #X connect 2 0 5 1;
 #X connect 2 0 38 1;
 #X connect 2 0 39 1;
+#X connect 2 0 45 1;
 #X connect 4 0 3 0;
 #X connect 4 0 42 0;
 #X connect 5 0 4 0;
@@ -106,6 +109,7 @@
 #X connect 37 1 9 0;
 #X connect 37 2 5 0;
 #X connect 37 3 30 0;
+#X connect 37 4 45 0;
 #X connect 37 5 6 0;
 #X connect 38 0 40 0;
 #X connect 39 0 41 0;
@@ -113,3 +117,5 @@
 #X connect 41 0 24 0;
 #X connect 43 0 44 0;
 #X connect 44 0 17 0;
+#X connect 45 0 46 0;
+#X connect 46 0 24 0;

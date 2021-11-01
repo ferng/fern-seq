@@ -1,0 +1,20 @@
+#N canvas 422 230 694 554 12;
+#X obj 296 317 ctlout;
+#X obj 315 23 inlet;
+#X text 360 22 parameter (cc);
+#X obj 475 23 inlet;
+#X text 522 22 channel;
+#X obj 24 193 ../common/lfo;
+#X obj 24 23 inlet;
+#X text 64 22 tick;
+#X obj 112 23 loadbang;
+#X msg 112 115 wave 0 \, start 0 \, range 100 \, pos 0 \, step 3 \,
+cut 40, f 20;
+#X obj 204 255 + 10;
+#X connect 1 0 0 1;
+#X connect 3 0 0 2;
+#X connect 5 1 10 0;
+#X connect 6 0 5 0;
+#X connect 8 0 9 0;
+#X connect 9 0 5 1;
+#X connect 10 0 0 0;

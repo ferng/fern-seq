@@ -14,9 +14,9 @@
 #X obj 281 91 mod;
 #X obj 386 21 r ea-1-#;
 #X obj 21 21 inlet;
-#X obj 66 21 inlet;
+#X obj 76 21 inlet;
 #X text 28 40 ticks;
-#X text 72 40 start;
+#X text 82 40 start;
 #X text 199 4 step sequence[start \, end] \, encoder \, channel;
 #X obj 200 91 pack 0 0;
 #X obj 200 55 unpack 0 0 0 0;

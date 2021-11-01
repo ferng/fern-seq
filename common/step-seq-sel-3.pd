@@ -1,13 +1,13 @@
-#N canvas 215 127 825 692 12;
+#N canvas 215 127 908 706 12;
 #X obj 30 602 outlet;
 #X obj 89 602 outlet;
 #X obj 155 602 outlet;
-#X obj 38 20 inlet;
+#X obj 30 20 inlet;
 #X obj 72 185 + 1;
 #X msg 48 156 0;
 #X obj 30 215 route 0 1 2;
 #X text 115 215 0-arm 1-play 2-stop;
-#X obj 551 17 loadbang;
+#X obj 575 20 loadbang;
 #X obj 240 602 ../apc/ctl-pad-light;
 #X msg 193 552 \$1 5;
 #X obj 193 513 f;
@@ -27,7 +27,7 @@
 #X text 434 408 0-pause | 1-resume;
 #X obj 370 440 route 0 1;
 #X msg 414 377 1;
-#X obj 607 409 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 607 409 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 370 513 f;
 #X obj 467 440 route 0 1;
@@ -37,19 +37,20 @@
 #X obj 30 185 f 0;
 #X msg 607 377 0;
 #X msg 370 552 \$1 6;
-#X obj 551 89 t b b;
+#X obj 575 59 t b b;
 #X obj 356 338 spigot 0;
 #X obj 545 338 spigot 0;
-#X msg 409 292 0;
-#X msg 444 291 1;
-#X obj 38 59 route listen pause sel;
-#X obj 38 122 t b f;
+#X msg 454 303 0;
+#X msg 489 303 1;
+#X obj 30 59 route listen pause sel;
+#X obj 30 109 t b f;
 #X obj 263 409 t f f f f f;
 #X obj 545 269 bang;
 #X obj 356 269 bang;
-#X obj 356 245 spigot 1;
-#X obj 545 245 spigot 1;
-#X obj 409 220 == 0;
+#X obj 356 238 spigot 1;
+#X obj 545 238 spigot 1;
+#X obj 409 209 == 0;
+#X msg 578 533 0;
 #X connect 3 0 41 0;
 #X connect 4 0 33 1;
 #X connect 5 0 33 1;
@@ -63,6 +64,7 @@
 #X connect 6 2 2 0;
 #X connect 6 2 13 0;
 #X connect 6 2 39 0;
+#X connect 6 2 49 0;
 #X connect 8 0 36 0;
 #X connect 10 0 9 0;
 #X connect 11 0 10 0;
@@ -111,3 +113,4 @@
 #X connect 46 0 45 0;
 #X connect 47 0 44 0;
 #X connect 48 0 46 1;
+#X connect 49 0 30 0;
