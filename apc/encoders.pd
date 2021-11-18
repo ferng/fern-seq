@@ -1,4 +1,4 @@
-#N canvas 97 183 1402 621 12;
+#N canvas 191 240 1324 568 12;
 #X obj 108 14 r apc-ctl-#;
 #X obj 37 123 spigot 0;
 #X obj 90 47 ==;
@@ -14,7 +14,7 @@
 #X obj 436 482 s enc-6;
 #X obj 498 482 s enc-7;
 #X obj 558 482 s enc-8;
-#X obj 236 145 spigot 0;
+#X obj 124 123 spigot 0;
 #X obj 90 72 t f f;
 #X obj 171 314 ../controller/10-part-selector;
 #X obj 118 453 change;
