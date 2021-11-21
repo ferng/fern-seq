@@ -1,4 +1,4 @@
-#N canvas 137 245 1421 722 10;
+#N canvas 110 127 1421 857 10;
 #X msg 27 231 play \$1;
 #X obj 28 15 inlet;
 #X obj 398 636 ../pattern;
@@ -38,13 +38,13 @@
 #X msg 1054 471 57 60 62;
 #X obj 961 15 r tick-4;
 #X msg 967 471 0;
-#X obj 706 295 t f b;
+#X obj 706 200 t f b;
 #X obj 1006 447 t b b;
 #X obj 1262 636 intro-d12;
 #X msg 1262 549 arm;
 #X obj 28 68 t b b b b b b b b b;
 #X msg 1262 571 listen \$1;
-#X obj 601 327 select 0 1 2 3 4 5 6;
+#X obj 600 320 select 0 1 2 3 4 5 6;
 #X msg 696 545 play 0;
 #X msg 1262 596 play 0;
 #X obj 136 15 r tick-8;
@@ -76,6 +76,9 @@
 #X obj 776 15 r enc-2;
 #X obj 205 68 t f f f f f f;
 #X obj 776 164 + 5;
+#X obj 706 263 ../../controller/skip;
+#X msg 829 237 2;
+#X obj 650 357 t b b;
 #X connect 0 0 3 0;
 #X connect 1 0 51 0;
 #X connect 4 0 12 0;
@@ -122,7 +125,7 @@
 #X connect 36 0 33 1;
 #X connect 37 0 34 0;
 #X connect 38 0 34 1;
-#X connect 39 0 45 0;
+#X connect 39 0 77 0;
 #X connect 39 1 63 0;
 #X connect 40 0 35 0;
 #X connect 40 1 36 0;
@@ -139,7 +142,7 @@
 #X connect 45 0 27 0;
 #X connect 45 1 22 0;
 #X connect 45 2 20 0;
-#X connect 45 3 21 0;
+#X connect 45 3 79 0;
 #X connect 45 4 40 0;
 #X connect 45 6 46 0;
 #X connect 45 6 38 0;
@@ -190,3 +193,7 @@
 #X connect 75 4 69 0;
 #X connect 75 5 73 1;
 #X connect 76 0 39 0;
+#X connect 77 0 45 0;
+#X connect 78 0 77 1;
+#X connect 79 0 21 0;
+#X connect 79 1 78 0;

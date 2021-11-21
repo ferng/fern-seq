@@ -82,6 +82,9 @@
 #X obj 524 12 r enc-2;
 #X obj 218 68 t f f f f f;
 #X obj 524 134 + 5;
+#X obj 524 76 ../../controller/skip;
+#X msg 647 50 2;
+#X obj 576 198 t b b;
 #X connect 0 0 39 0;
 #X connect 1 0 0 0;
 #X connect 2 0 39 0;
@@ -189,7 +192,7 @@
 #X connect 66 6 76 0;
 #X connect 66 7 56 0;
 #X connect 66 8 57 0;
-#X connect 66 9 7 0;
+#X connect 66 9 85 0;
 #X connect 67 0 66 0;
 #X connect 69 0 70 0;
 #X connect 70 0 68 0;
@@ -206,9 +209,13 @@
 #X connect 77 0 14 0;
 #X connect 78 0 17 0;
 #X connect 79 0 82 0;
-#X connect 80 0 79 0;
+#X connect 80 0 83 0;
 #X connect 81 1 67 1;
 #X connect 81 2 41 0;
 #X connect 81 3 44 1;
 #X connect 81 4 79 1;
 #X connect 82 0 66 0;
+#X connect 83 0 79 0;
+#X connect 84 0 83 1;
+#X connect 85 0 7 0;
+#X connect 85 1 84 0;
