@@ -5,13 +5,10 @@
 #X obj 24 139 change;
 #X obj 78 207 s enc-val;
 #X obj 107 17 loadbang;
-#X obj 107 42 t b b;
 #X msg 107 67 gran 1 \, min 0 \, max 4;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
 #X connect 3 0 4 0;
 #X connect 5 0 6 0;
-#X connect 6 0 7 0;
-#X connect 6 1 7 0;
-#X connect 7 0 2 0;
+#X connect 6 0 2 0;

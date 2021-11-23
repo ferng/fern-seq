@@ -42,8 +42,8 @@
 #X obj 315 296 ../../common/beat-skip;
 #X msg 466 270 5;
 #X obj 315 331 random 74;
-#X obj 480 18 r enc-2;
 #X obj 480 122 spigot 0;
+#X obj 480 18 r enc-3;
 #X connect 0 0 5 0;
 #X connect 1 0 2 1;
 #X connect 2 0 40 0;
@@ -52,7 +52,7 @@
 #X connect 4 0 34 0;
 #X connect 5 0 3 0;
 #X connect 5 2 1 0;
-#X connect 5 3 44 1;
+#X connect 5 3 43 1;
 #X connect 6 0 19 0;
 #X connect 6 1 7 0;
 #X connect 7 0 21 0;
@@ -113,5 +113,5 @@
 #X connect 40 0 42 0;
 #X connect 41 0 40 2;
 #X connect 42 0 6 0;
-#X connect 43 0 44 0;
-#X connect 44 0 2 1;
+#X connect 43 0 2 1;
+#X connect 44 0 43 0;
