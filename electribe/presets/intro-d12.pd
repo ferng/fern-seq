@@ -48,7 +48,7 @@
 #X obj 494 282 t b b b b b b;
 #X obj 998 423 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X msg 852 615 5 7 \$1;
+#X msg 852 615 7.5 7 \$1;
 #X connect 0 0 3 0;
 #X connect 1 0 10 0;
 #X connect 2 0 5 1;

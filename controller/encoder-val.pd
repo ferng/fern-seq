@@ -12,12 +12,11 @@
 #X obj 94 147 t f f;
 #X obj 112 459 int;
 #X obj 112 420 t f f;
-#X obj 129 99 t f f;
 #X connect 0 0 2 0;
 #X connect 2 0 5 1;
 #X connect 2 1 4 1;
 #X connect 2 2 8 0;
-#X connect 2 3 13 0;
+#X connect 2 3 7 0;
 #X connect 4 0 6 0;
 #X connect 5 0 9 0;
 #X connect 6 0 7 1;
@@ -29,5 +28,3 @@
 #X connect 11 0 1 0;
 #X connect 12 0 11 0;
 #X connect 12 1 3 0;
-#X connect 13 0 7 0;
-#X connect 13 1 7 0;
