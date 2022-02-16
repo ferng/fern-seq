@@ -45,10 +45,10 @@
 #X obj 998 423 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 852 615 7.5 7 \$1;
-#X obj 524 417 ../../../../common/queued-open;
-#X obj 913 647 ../../../../electribe/encoder-set;
-#X obj 586 647 ../../../../common/step-seq-player \$0;
-#X obj 28 647 ../../../../electribe/sequence-player;
+#X obj 524 417 ../../../common/queued-open;
+#X obj 913 647 ../../../electribe/encoder-set;
+#X obj 586 647 ../../../common/step-seq-player \$0;
+#X obj 28 647 ../../../electribe/sequence-player;
 #X connect 0 0 47 0;
 #X connect 1 0 9 0;
 #X connect 2 0 4 1;

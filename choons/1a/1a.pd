@@ -14,12 +14,12 @@
 #X msg 31 42 \$1 listen \$1;
 #X msg 91 67 \$1 sel \$1;
 #X msg 137 89 \$1 pause \$1;
-#X obj 31 268 electribe/presets/drone-d12;
-#X obj 52 298 electribe/presets/twink-d13;
-#X obj 73 325 electribe/presets/seagull-d13;
-#X obj 95 354 electribe/presets/rec-d14;
-#X obj 793 268 kp3/presets/route-kp3;
-#X obj 808 298 tracks/presets/route-tracks;
+#X obj 31 268 electribe/drone-d12;
+#X obj 52 298 electribe/twink-d13;
+#X obj 73 325 electribe/seagull-d13;
+#X obj 95 354 electribe/rec-d14;
+#X obj 793 268 kp3/route-kp3;
+#X obj 808 298 tracks/route-tracks;
 #X connect 0 0 13 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;
