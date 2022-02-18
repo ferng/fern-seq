@@ -1,0 +1,77 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.5.0" name="pdZoom">
+ <output-sockets>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 1">
+   <plug>Pure Data Midi-Out 1</plug>
+  </socket>
+  <socket client="APC Key 25" exclusive="off" type="alsa-midi" name="APC Key 1">
+   <plug>APC Key 25 MIDI 1</plug>
+  </socket>
+  <socket client="KP3\+" exclusive="off" type="alsa-midi" name="KP3\+ 1">
+   <plug>KP3\+ MIDI 1</plug>
+  </socket>
+  <socket client="Arturia DrumBrute Impact" exclusive="off" type="alsa-midi" name="Arturia DrumBrute Impact 1">
+   <plug>Arturia DrumBrute Impact MIDI 1</plug>
+  </socket>
+  <socket client="Circuit Tracks" exclusive="off" type="alsa-midi" name="Circuit Tracks 1">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 2">
+   <plug>Pure Data Midi-Out 2</plug>
+  </socket>
+  <socket client="UM-ONE" exclusive="off" type="alsa-midi" name="UM-ONE 1">
+   <plug>UM-ONE MIDI 1</plug>
+  </socket>
+  <socket client="ZOOM MS Series" exclusive="off" type="alsa-midi" name="ZOOM MS Series 1">
+   <plug>ZOOM MS Series MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 3">
+   <plug>Pure Data Midi-Out 3</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 1">
+   <plug>Pure Data Midi-In 1</plug>
+  </socket>
+  <socket client="APC Key 25" exclusive="off" type="alsa-midi" name="APC Key 1">
+   <plug>APC Key 25 MIDI 1</plug>
+  </socket>
+  <socket client="KP3\+" exclusive="off" type="alsa-midi" name="KP3\+ 1">
+   <plug>KP3\+ MIDI 1</plug>
+  </socket>
+  <socket client="Arturia DrumBrute Impact" exclusive="off" type="alsa-midi" name="Arturia DrumBrute Impact 1">
+   <plug>Arturia DrumBrute Impact MIDI 1</plug>
+  </socket>
+  <socket client="Circuit Tracks" exclusive="off" type="alsa-midi" name="Circuit Tracks 1">
+   <plug>Circuit Tracks MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 2">
+   <plug>Pure Data Midi-In 2</plug>
+  </socket>
+  <socket client="UM-ONE" exclusive="off" type="alsa-midi" name="UM-ONE 1">
+   <plug>UM-ONE MIDI 1</plug>
+  </socket>
+  <socket client="ZOOM MS Series" exclusive="off" type="alsa-midi" name="ZOOM MS Series 1">
+   <plug>ZOOM MS Series MIDI 1</plug>
+  </socket>
+  <socket client="Pure Data" exclusive="off" type="alsa-midi" name="Pure Data 3">
+   <plug>Pure Data Midi-In 3</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable type="alsa-midi" output="Pure Data 1" input="APC Key 1"/>
+  <cable type="alsa-midi" output="Pure Data 1" input="Circuit Tracks 1"/>
+  <cable type="alsa-midi" output="Pure Data 1" input="KP3\+ 1"/>
+  <cable type="alsa-midi" output="Pure Data 1" input="Arturia DrumBrute Impact 1"/>
+  <cable type="alsa-midi" output="APC Key 1" input="Pure Data 1"/>
+  <cable type="alsa-midi" output="KP3\+ 1" input="Pure Data 1"/>
+  <cable type="alsa-midi" output="Arturia DrumBrute Impact 1" input="Pure Data 1"/>
+  <cable type="alsa-midi" output="Arturia DrumBrute Impact 1" input="KP3\+ 1"/>
+  <cable type="alsa-midi" output="Circuit Tracks 1" input="Pure Data 1"/>
+  <cable type="alsa-midi" output="Pure Data 2" input="UM-ONE 1"/>
+  <cable type="alsa-midi" output="ZOOM MS Series 1" input="Pure Data 3"/>
+  <cable type="alsa-midi" output="Pure Data 3" input="ZOOM MS Series 1"/>
+ </cables>
+</patchbay>
+
