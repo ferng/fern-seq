@@ -24,14 +24,14 @@
 #X obj 606 400 t b b f;
 #X obj 688 400 t b b f;
 #X msg 342 720 set \$1;
-#X msg 342 760 44 7 0 \, -1;
-#X msg 447 760 play 1;
+#X msg 342 762 44 7 0 \, -1;
+#X msg 447 762 play 1;
 #X msg 787 439 58 0.25 0.5 \, -1;
 #X msg 869 683 add2 \$1 0;
 #X msg 851 656 addcomma;
 #X msg 834 629 add2 -1;
-#X msg 218 760 ch \$1;
-#X msg 506 760 reset;
+#X msg 218 762 ch \$1;
+#X msg 506 762 reset;
 #X obj 764 400 t b b b;
 #X obj 799 602 t b b b b f b;
 #X msg 764 472 play 18;
@@ -42,9 +42,12 @@
 #X obj 36 48 ../../../common/step-seq-sel-3 \$0;
 #X obj 315 227 ../../../common/queued-open;
 #X obj 315 296 ../../../common/beat-skip;
-#X obj 291 821 ../../../electribe/sequence-player;
+#X obj 291 820 ../../../electribe/sequence-player;
+#X msg 36 762 b d \, p 13;
+#X obj 36 820 ../../../electribe/pattern;
 #X connect 0 0 40 0;
 #X connect 1 0 41 1;
+#X connect 2 0 44 0;
 #X connect 2 2 37 0;
 #X connect 2 4 42 1;
 #X connect 3 0 31 0;
@@ -113,3 +116,4 @@
 #X connect 40 2 1 0;
 #X connect 41 0 42 0;
 #X connect 42 0 38 0;
+#X connect 44 0 45 0;
