@@ -1,0 +1,10 @@
+#N canvas 422 230 317 156 12;
+#X obj 26 111 ctlout;
+#X obj 89 13 inlet;
+#X text 97 36 parameter (cc);
+#X obj 26 13 inlet;
+#X text 35 36 value;
+#X obj 146 13 r pulse-#;
+#X connect 1 0 0 1;
+#X connect 3 0 0 0;
+#X connect 5 0 0 2;

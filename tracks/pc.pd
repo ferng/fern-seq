@@ -1,0 +1,9 @@
+#N canvas 985 559 221 112 10;
+#X obj 56 61 pgmout;
+#X obj 35 17 inlet;
+#X text 81 16 patch;
+#X obj 133 17 inlet;
+#X text 172 16 ch;
+#X text 110 61;
+#X connect 1 0 0 0;
+#X connect 3 0 0 1;
