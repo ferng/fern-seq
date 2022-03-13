@@ -3,12 +3,10 @@
 #X obj 24 207 outlet;
 #X obj 24 113 encoder-val;
 #X obj 24 139 change;
-#X obj 78 207 s enc-val;
 #X msg 107 67 gran 1 \, min 0 \, max 9;
 #X obj 107 17 loadbang;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
-#X connect 3 0 4 0;
-#X connect 5 0 2 0;
-#X connect 6 0 5 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;

@@ -30,10 +30,10 @@
 #X obj 158 437 ../controller/5-part-selector;
 #X obj 221 464 ../controller/5-part-selector;
 #X obj 285 492 ../controller/5-part-selector;
-#X obj 351 518 ../controller/10-part-selector;
-#X obj 413 543 ../controller/10-part-selector;
-#X obj 475 568 ../controller/10-part-selector;
-#X obj 535 593 ../controller/10-part-selector;
+#X obj 351 518 ../controller/5-part-selector;
+#X obj 413 543 ../controller/5-part-selector;
+#X obj 475 568 ../controller/5-part-selector;
+#X obj 535 593 ../controller/5-part-selector;
 #X connect 0 0 2 1;
 #X connect 1 0 4 0;
 #X connect 1 0 6 0;
