@@ -1,4 +1,4 @@
-#N canvas 663 376 354 234 12;
+#N canvas 1015 694 850 459 12;
 #X obj 181 12 inlet;
 #X obj 24 12 inlet;
 #X obj 135 12 inlet;
@@ -12,6 +12,11 @@
 #X obj 135 75 sel;
 #X obj 23 184 outlet;
 #X obj 135 184 outlet;
+#X text 21 208 keypress while shifted, f 14;
+#X text 140 216 anything else;
+#X text 226 11 shift key;
+#X text 29 35 down;
+#X text 142 35 up;
 #X connect 0 0 9 1;
 #X connect 0 0 10 1;
 #X connect 1 0 9 0;
