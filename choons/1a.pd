@@ -1,4 +1,4 @@
-#N canvas 661 411 1015 479 10;
+#N canvas 543 404 1015 479 10;
 #X obj 91 9 r sel;
 #X obj 193 9 r tune;
 #X obj 31 250 spigot;

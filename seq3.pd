@@ -23,7 +23,7 @@
 #X obj 382 740 + 1;
 #X obj 341 740 f;
 #X obj 341 770 sel 24;
-#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 341 797 s tick-4;
 #X obj 1084 797 s tick-96;
@@ -155,6 +155,9 @@ open counter, f 77;
 #X msg 944 188 22;
 #X msg 1011 188 23;
 #X msg 1072 188 24;
+#X obj 1264 256 r pause;
+#X obj 1254 288 print pause;
+#X text 1333 265 remove pause;
 #X connect 3 0 7 0;
 #X connect 4 0 9 0;
 #X connect 5 0 93 0;
@@ -329,3 +332,4 @@ open counter, f 77;
 #X connect 151 0 105 0;
 #X connect 152 0 10 0;
 #X connect 153 0 11 0;
+#X connect 154 0 155 0;

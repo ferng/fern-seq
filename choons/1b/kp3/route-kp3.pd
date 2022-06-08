@@ -29,7 +29,7 @@
 #X msg 670 121 0;
 #X msg 630 121 1;
 #X obj 618 152 spigot;
-#X obj 157 74 t b b b b;
+#X obj 139 77 t b b b b;
 #X obj 618 252 spigot 0;
 #X obj 551 252 spigot 0;
 #X obj 394 252 spigot 0;

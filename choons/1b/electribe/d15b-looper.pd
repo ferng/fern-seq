@@ -1,0 +1,8 @@
+#N canvas 533 147 1122 569 12;
+#X obj 36 18 inlet;
+#X obj 36 80 t b b b b b;
+#X obj 36 48 ../../../common/looper-sel \$0;
+#X obj 440 18 r ea-2-#;
+#X obj 602 27 r tick-32;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
