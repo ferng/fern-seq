@@ -23,7 +23,7 @@
 #X obj 382 740 + 1;
 #X obj 341 740 f;
 #X obj 341 770 sel 24;
-#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 341 797 s tick-4;
 #X obj 1084 797 s tick-96;
