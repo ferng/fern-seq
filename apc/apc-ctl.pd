@@ -15,9 +15,9 @@
 #X obj 198 23 r on-load;
 #X msg 62 226 98;
 #X obj 723 23 r fern;
-#X obj 724 474 fern-light;
+#X obj 723 474 fern-light;
 #X obj 812 23 r enc-val;
-#X obj 813 474 enc-val-light;
+#X obj 812 474 enc-val-light;
 #X obj 575 408 t f f;
 #X obj 174 93 moses 40;
 #X obj 197 253 latch;
