@@ -1,4 +1,4 @@
-#N canvas 48 242 1594 744 12;
+#N canvas -10 122 1594 744 12;
 #X obj 36 18 inlet;
 #X obj 36 48 ../../../common/step-seq-sel-3 \$0;
 #X obj 36 524 ../../../electribe/pattern;

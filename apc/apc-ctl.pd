@@ -39,6 +39,7 @@
 #X obj 197 283 t f b;
 #X obj 265 283 t f b;
 #X obj 191 185 sel 91 93 100;
+#X text 0 498 sel stage;
 #X connect 0 1 1 0;
 #X connect 1 0 19 0;
 #X connect 2 0 3 0;

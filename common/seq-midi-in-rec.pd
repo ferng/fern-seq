@@ -1,0 +1,8 @@
+#N canvas 0 50 450 300 12;
+#X obj 139 137 seq-midi-in;
+#X obj 273 12 inlet;
+#X text 338 17 channel;
+#X obj 118 13 inlet;
+#X text 163 14 rec-len;
+#X connect 1 0 0 1;
+#X connect 3 0 0 0;
