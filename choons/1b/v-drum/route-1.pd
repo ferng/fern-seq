@@ -1,11 +1,11 @@
 #N canvas 116 253 531 595 12;
 #X obj 31 18 inlet;
-#X obj 32 132 ../../../dbi/hit;
+#X obj 31 122 ../../../dbi/hit;
 #X obj 31 67 ../../../common/step-seq-sel-3 \$0;
 #X msg 67 275 1;
-#X obj 354 15 r vd-5-#;
-#X msg 32 98 1;
-#X obj 68 310 noteout 127;
+#X obj 308 19 r vd-5-#;
+#X msg 31 93 1;
+#X obj 67 301 noteout 127;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 5 0;
