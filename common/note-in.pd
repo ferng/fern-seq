@@ -1,5 +1,4 @@
-#N canvas 812 656 285 277 12;
-#X obj 120 27 r beat-#;
+#N canvas 812 686 285 277 12;
 #X obj 46 94 spigot 0;
 #X obj 65 120 spigot 0;
 #X obj 102 54 ==;
@@ -9,11 +8,12 @@
 #X text 46 208 note;
 #X text 102 208 velocity;
 #X text 188 26 channel;
-#X connect 0 0 3 1;
+#X obj 120 27 inlet;
+#X connect 0 0 3 0;
 #X connect 1 0 4 0;
-#X connect 2 0 5 0;
-#X connect 3 0 1 1;
-#X connect 3 0 2 1;
-#X connect 6 0 1 0;
-#X connect 6 1 2 0;
-#X connect 6 2 3 0;
+#X connect 2 0 0 1;
+#X connect 2 0 1 1;
+#X connect 5 0 0 0;
+#X connect 5 1 1 0;
+#X connect 5 2 2 0;
+#X connect 9 0 2 1;
