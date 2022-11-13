@@ -4,6 +4,8 @@
 #X obj 45 98 unpack 0 0;
 #X obj 45 194 ctlout 12;
 #X obj 122 194 ctlout 13;
+#X text 46 219 x;
+#X text 123 219 y;
 #X connect 0 0 3 2;
 #X connect 0 0 4 2;
 #X connect 1 0 2 0;

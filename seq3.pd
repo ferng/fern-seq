@@ -189,7 +189,7 @@ open counter, f 70;
 #X obj 651 324 s beat-#;
 #X msg 1424 473 1;
 #X obj 1464 501 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1464 551 timer;
 #X obj 1535 679 +;
 #X obj 1535 710 / 2;

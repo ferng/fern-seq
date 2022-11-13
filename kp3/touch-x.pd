@@ -1,0 +1,7 @@
+#N canvas 606 424 423 365 12;
+#X obj 105 15 r kp3-#;
+#X obj 45 15 inlet;
+#X obj 45 65 ctlout 12;
+#X text 46 90 x;
+#X connect 0 0 2 2;
+#X connect 1 0 2 0;
