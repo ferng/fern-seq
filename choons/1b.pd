@@ -1,4 +1,4 @@
-#N canvas 260 229 1015 579 10;
+#N canvas 97 285 1015 579 10;
 #X obj 91 9 r sel;
 #X obj 31 297 spigot;
 #X obj 31 334 route 32 33 34 35 36 37 38 39;
@@ -34,12 +34,13 @@
 #X msg 845 211 \$1 clear \$1;
 #X obj 193 156 t b b;
 #X obj 193 205 delay 200;
-#X obj 73 440 1b/kp3/setting;
+#X obj 73 437 1b/kp3/setting;
 #X obj 228 380 1b/v-drum/route-1;
 #X obj 421 381 1b/tracks/control-1;
 #X obj 442 409 1b/kp3/control-2;
-#X msg 220 182 32 \, 33 \, 34 \, 24 \, 16 \, 17;
-#X msg 193 232 32 \, 33 \, 34 \, 16 \, 17;
+#X obj 463 437 1b/tracks/base-line;
+#X msg 220 182 32 \, 33 \, 34 \, 24 \, 16 \, 17 \, 18;
+#X msg 193 232 32 \, 33 \, 34 \, 16 \, 17 \, 18;
 #X connect 0 0 10 0;
 #X connect 1 0 2 0;
 #X connect 2 0 12 0;
@@ -50,6 +51,7 @@
 #X connect 3 8 4 0;
 #X connect 4 0 37 0;
 #X connect 4 1 38 0;
+#X connect 4 2 39 0;
 #X connect 4 8 6 0;
 #X connect 6 8 5 0;
 #X connect 7 0 9 0;
@@ -77,7 +79,7 @@
 #X connect 31 0 5 0;
 #X connect 32 0 5 0;
 #X connect 33 0 34 0;
-#X connect 33 1 39 0;
-#X connect 34 0 40 0;
-#X connect 39 0 16 0;
+#X connect 33 1 40 0;
+#X connect 34 0 41 0;
 #X connect 40 0 16 0;
+#X connect 41 0 16 0;
