@@ -19,7 +19,7 @@
 #X obj 382 740 + 1;
 #X obj 341 740 f;
 #X obj 341 770 sel 24;
-#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 669 574 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 341 797 s tick-4;
 #X obj 1084 797 s tick-96;
@@ -189,7 +189,7 @@ open counter, f 70;
 #X obj 651 324 s beat-#;
 #X msg 1424 473 1;
 #X obj 1464 501 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1464 551 timer;
 #X obj 1535 689 +;
 #X obj 1535 715 / 2;
@@ -201,6 +201,7 @@ open counter, f 70;
 #X obj 1479 595 expr 90000 / (6 * $f1);
 #X obj 1464 522 sel 0 1;
 #X obj 1535 797 s bpm;
+#X obj 1524 437 common/arp-chord;
 #X connect 1 0 4 0;
 #X connect 2 0 88 0;
 #X connect 3 0 111 0;

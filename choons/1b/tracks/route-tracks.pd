@@ -1,4 +1,4 @@
-#N canvas 106 279 1504 647 12;
+#N canvas 250 144 1504 825 12;
 #X obj 25 16 inlet;
 #X obj 635 490 noteout;
 #X obj 635 39 unpack 0 0;
@@ -112,6 +112,11 @@
 #X obj 426 295 mod 64;
 #X obj 1216 16 r 1b-base-1;
 #X obj 1105 16 r tr-s2-#;
+#X obj 835 709 noteout;
+#X msg 882 679 11;
+#X msg 846 661 127;
+#X msg 898 652 0;
+#X msg 804 669 57;
 #X connect 0 0 6 0;
 #X connect 2 0 4 0;
 #X connect 2 1 1 1;
@@ -262,3 +267,7 @@
 #X connect 112 0 73 1;
 #X connect 112 0 79 2;
 #X connect 112 0 62 2;
+#X connect 114 0 113 2;
+#X connect 115 0 113 1;
+#X connect 116 0 113 1;
+#X connect 117 0 113 0;
