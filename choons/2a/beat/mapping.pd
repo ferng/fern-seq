@@ -1,0 +1,7 @@
+#N canvas 704 521 450 300 12;
+#X obj 19 19 inlet;
+#X obj 163 20 r beat-#;
+#X obj 163 70 ../../../common/cc-in;
+#X msg 312 20 21;
+#X connect 1 0 2 0;
+#X connect 3 0 2 1;
