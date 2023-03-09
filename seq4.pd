@@ -1,4 +1,4 @@
-#N canvas 511 509 688 347 12;
+#N canvas 610 399 618 354 12;
 #X obj 31 13 loadbang;
 #X msg 31 38 bang;
 #X obj 31 264 s reset;
@@ -7,12 +7,12 @@
 #X obj 275 14 apc/apc-ctl;
 #X obj 364 14 kp3/kp3-ctl;
 #X msg 192 99 bang;
-#X msg 192 143 2;
 #X obj 192 167 s 2a-id;
 #X obj 191 192 choons/2a;
+#X msg 192 143 1;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 7 0;
 #X connect 3 0 2 0;
-#X connect 7 0 8 0;
-#X connect 8 0 9 0;
+#X connect 7 0 10 0;
+#X connect 10 0 8 0;

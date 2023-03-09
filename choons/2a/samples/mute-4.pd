@@ -1,0 +1,11 @@
+#N canvas 977 144 364 416 12;
+#X obj 41 12 inlet;
+#X obj 41 47 ../../../common/step-seq-sel-3 \$0;
+#X obj 58 149 ctlout;
+#X msg 77 85 94;
+#X obj 97 121 r model-4-#;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 4 2 0;
+#X connect 3 0 2 1;
+#X connect 4 0 2 2;
