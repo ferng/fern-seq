@@ -25,6 +25,8 @@
 #X obj 367 86 t f f f;
 #X text 90 28 ctl;
 #X obj 27 73 cc-filter;
+#X obj 507 12 inlet;
+#X text 509 31 higher;
 #X connect 0 0 25 1;
 #X connect 1 0 12 0;
 #X connect 1 0 18 0;
@@ -57,3 +59,4 @@
 #X connect 23 1 18 1;
 #X connect 23 2 22 1;
 #X connect 25 0 16 0;
+#X connect 26 0 21 0;

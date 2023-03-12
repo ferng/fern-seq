@@ -1,93 +1,89 @@
 <!DOCTYPE patchbay>
-<patchbay name="pdSamples" version="0.5.0">
+<patchbay version="0.5.0" name="pdSamples">
  <output-sockets>
-  <socket type="alsa-midi" name="Elektron Model:Samples 1" exclusive="off" client="Elektron Model:Samples">
-   <plug>Elektron Model:Samples MIDI 1</plug>
-  </socket>
-  <socket type="alsa-midi" name="Arturia BeatStep 1" exclusive="off" client="Arturia BeatStep">
+  <socket type="alsa-midi" client="Arturia BeatStep" exclusive="off" name="Arturia BeatStep 1">
    <plug>Arturia BeatStep MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 1" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 1">
    <plug>Pure Data Midi-Out 1</plug>
   </socket>
-  <socket type="alsa-midi" name="APC Key 1" exclusive="off" client="APC Key 25">
+  <socket type="alsa-midi" client="APC Key 25" exclusive="off" name="APC Key 1">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="KP3\+ 1" exclusive="off" client="KP3\+">
+  <socket type="alsa-midi" client="KP3\+" exclusive="off" name="KP3\+ 1">
    <plug>KP3\+ MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Arturia DrumBrute Impact 1" exclusive="off" client="Arturia DrumBrute Impact">
+  <socket type="alsa-midi" client="Arturia DrumBrute Impact" exclusive="off" name="Arturia DrumBrute Impact 1">
    <plug>Arturia DrumBrute Impact MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Circuit Tracks 1" exclusive="off" client="Circuit Tracks">
+  <socket type="alsa-midi" client="Circuit Tracks" exclusive="off" name="Circuit Tracks 1">
    <plug>Circuit Tracks MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 2" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 2">
    <plug>Pure Data Midi-Out 2</plug>
   </socket>
-  <socket type="alsa-midi" name="UM-ONE 1" exclusive="off" client="UM-ONE">
+  <socket type="alsa-midi" client="UM-ONE" exclusive="off" name="UM-ONE 1">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 3" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 3">
    <plug>Pure Data Midi-Out 3</plug>
   </socket>
  </output-sockets>
  <input-sockets>
-  <socket type="alsa-midi" name="Arturia BeatStep 1" exclusive="off" client="Arturia BeatStep">
+  <socket type="alsa-midi" client="Arturia BeatStep" exclusive="off" name="Arturia BeatStep 1">
    <plug>Arturia BeatStep MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pulse 1" exclusive="off" client="Pulse2">
+  <socket type="alsa-midi" client="Pulse2" exclusive="off" name="Pulse 1">
    <plug>Pulse2 MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 1" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 1">
    <plug>Pure Data Midi-In 1</plug>
   </socket>
-  <socket type="alsa-midi" name="APC Key 1" exclusive="off" client="APC Key 25">
+  <socket type="alsa-midi" client="APC Key 25" exclusive="off" name="APC Key 1">
    <plug>APC Key 25 MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="KP3\+ 1" exclusive="off" client="KP3\+">
+  <socket type="alsa-midi" client="KP3\+" exclusive="off" name="KP3\+ 1">
    <plug>KP3\+ MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Arturia DrumBrute Impact 1" exclusive="off" client="Arturia DrumBrute Impact">
+  <socket type="alsa-midi" client="Arturia DrumBrute Impact" exclusive="off" name="Arturia DrumBrute Impact 1">
    <plug>Arturia DrumBrute Impact MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Circuit Tracks 1" exclusive="off" client="Circuit Tracks">
+  <socket type="alsa-midi" client="Circuit Tracks" exclusive="off" name="Circuit Tracks 1">
    <plug>Circuit Tracks MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 2" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 2">
    <plug>Pure Data Midi-In 2</plug>
   </socket>
-  <socket type="alsa-midi" name="UM-ONE 1" exclusive="off" client="UM-ONE">
+  <socket type="alsa-midi" client="UM-ONE" exclusive="off" name="UM-ONE 1">
    <plug>UM-ONE MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="ZOOM MS Series 1" exclusive="off" client="ZOOM MS Series">
+  <socket type="alsa-midi" client="ZOOM MS Series" exclusive="off" name="ZOOM MS Series 1">
    <plug>ZOOM MS Series MIDI 1</plug>
   </socket>
-  <socket type="alsa-midi" name="Pure Data 3" exclusive="off" client="Pure Data">
+  <socket type="alsa-midi" client="Pure Data" exclusive="off" name="Pure Data 3">
    <plug>Pure Data Midi-In 3</plug>
   </socket>
-  <socket type="alsa-midi" name="Elektron Model:Samples 1" exclusive="off" client="Elektron Model:Samples">
+  <socket type="alsa-midi" client="Elektron Model:Samples" exclusive="off" name="Elektron Model:Samples 1">
    <plug>Elektron Model:Samples MIDI 1</plug>
   </socket>
  </input-sockets>
  <slots/>
  <cables>
-  <cable type="alsa-midi" output="Arturia BeatStep 1" input="Pure Data 3"/>
-  <cable type="alsa-midi" output="Pure Data 1" input="APC Key 1"/>
-  <cable type="alsa-midi" output="Pure Data 1" input="Circuit Tracks 1"/>
-  <cable type="alsa-midi" output="Pure Data 1" input="KP3\+ 1"/>
-  <cable type="alsa-midi" output="Pure Data 1" input="Arturia DrumBrute Impact 1"/>
-  <cable type="alsa-midi" output="APC Key 1" input="Pure Data 1"/>
-  <cable type="alsa-midi" output="KP3\+ 1" input="Pure Data 1"/>
-  <cable type="alsa-midi" output="Arturia DrumBrute Impact 1" input="Pure Data 1"/>
-  <cable type="alsa-midi" output="Arturia DrumBrute Impact 1" input="KP3\+ 1"/>
-  <cable type="alsa-midi" output="Circuit Tracks 1" input="Pure Data 1"/>
-  <cable type="alsa-midi" output="Pure Data 2" input="UM-ONE 1"/>
-  <cable type="alsa-midi" output="Pure Data 3" input="ZOOM MS Series 1"/>
-  <cable type="alsa-midi" output="Pure Data 3" input="Arturia BeatStep 1"/>
-  <cable type="alsa-midi" output="Pure Data 3" input="Pulse 1"/>
-  <cable type="alsa-midi" output="Pure Data 3" input="Elektron Model:Samples 1"/>
-  <cable type="alsa-midi" output="Elektron Model:Samples 1" input="Pure Data 1"/>
+  <cable output="Arturia BeatStep 1" type="alsa-midi" input="Pure Data 3"/>
+  <cable output="Pure Data 1" type="alsa-midi" input="APC Key 1"/>
+  <cable output="Pure Data 1" type="alsa-midi" input="Circuit Tracks 1"/>
+  <cable output="Pure Data 1" type="alsa-midi" input="KP3\+ 1"/>
+  <cable output="Pure Data 1" type="alsa-midi" input="Arturia DrumBrute Impact 1"/>
+  <cable output="APC Key 1" type="alsa-midi" input="Pure Data 1"/>
+  <cable output="KP3\+ 1" type="alsa-midi" input="Pure Data 1"/>
+  <cable output="Arturia DrumBrute Impact 1" type="alsa-midi" input="Pure Data 1"/>
+  <cable output="Arturia DrumBrute Impact 1" type="alsa-midi" input="KP3\+ 1"/>
+  <cable output="Circuit Tracks 1" type="alsa-midi" input="Pure Data 1"/>
+  <cable output="Pure Data 2" type="alsa-midi" input="UM-ONE 1"/>
+  <cable output="Pure Data 3" type="alsa-midi" input="ZOOM MS Series 1"/>
+  <cable output="Pure Data 3" type="alsa-midi" input="Arturia BeatStep 1"/>
+  <cable output="Pure Data 3" type="alsa-midi" input="Pulse 1"/>
+  <cable output="Pure Data 3" type="alsa-midi" input="Elektron Model:Samples 1"/>
  </cables>
 </patchbay>
 
