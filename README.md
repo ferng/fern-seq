@@ -22,7 +22,8 @@ sudo apt-get install qjackctl
 #sudo apt-get install alsa-patchbay
 ```
 
-# configure the environment
+## development
+### dependencies
 ```bash
 # check whether audio group is setup
 cat /etc/security/limits.d/audio.conf
@@ -42,7 +43,7 @@ sudo addgroup fern audio
 sudo adduser fern audio
 ```
 
-# qjack
+### qjack
 * Settings | parameters | midi driver seq
 * Settings | parameters | input device hw:PCH
 
@@ -50,17 +51,47 @@ sudo adduser fern audio
 * preferences | midi | <CHANGE NOTHING!!> | save all settings | apply | ok
 
 # start it all up
+
 ```bash
 qjackctl
 puredata -jack -alsa
 puredata -jack -alsamidi
 puredata -jack -alsamidi -rt
 
-#multiple devices (ports)
+###multiple devices (ports)
 puredata -midiindev "1,2" -midioutdev "1,2"
 
-#mine
+###mine
 puredata -alsa -midiindev "1,2" -midioutdev "1,2"
 #turn DSP off
 ```
 
+## live
+### amidi minder
+
+#### build it and deploy it
+clone:
+https://github.com/ferng/amidiminder
+
+you will have to edit debian/control to target your achitecture
+
+#### configuration
+```bash
+#copy config
+sudo cp amidiminder.rules /etc
+sudo chmod 744 etc/amidiminder.rules
+
+#check for errors
+sudo journalctl -u amidiminder -f
+sudo systemctl restart amidiminder
+```
+
+#### environment - allow restart of amidi minder
+```bash
+sudo cp fern /etc/sudoers.d
+```
+
+#### use it
+```bash
+./seq4.sh
+```

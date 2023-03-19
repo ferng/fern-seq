@@ -1,13 +1,13 @@
-#N canvas 671 472 626 355 12;
+#N canvas 591 345 626 355 12;
 #X msg 60 85 1;
 #X obj 41 12 inlet;
 #X obj 41 47 ../../../common/step-seq-sel-3 \$0;
 #X msg 101 85 0;
 #X msg 60 116 \$1;
 #X obj 124 209 ../../../common/note-in;
-#X obj 282 12 r tr-m1-#;
-#X obj 356 12 r amb-1-#;
 #X obj 259 251 noteout;
+#X obj 282 12 r tr-m2-#;
+#X obj 356 12 r amb-2-#;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
@@ -15,7 +15,7 @@
 #X connect 2 2 3 0;
 #X connect 3 0 4 0;
 #X connect 4 0 5 0;
-#X connect 5 0 8 0;
-#X connect 5 1 8 1;
-#X connect 6 0 5 1;
-#X connect 7 0 8 2;
+#X connect 5 0 6 0;
+#X connect 5 1 6 1;
+#X connect 7 0 5 1;
+#X connect 8 0 6 2;

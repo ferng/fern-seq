@@ -1,0 +1,48 @@
+### amidiminder Rules file
+
+# amidiminder watches ALSA MIDI system. When a port is added, the rules in this
+# file are scanned to automatically connect it up if possible.
+
+# amidiminder also watches for connections made by other tools like aconnect
+# or aconnectgui.  If those ports are disconnected (accidentially unplug a
+# USB MIDI device, say) then amidiminder will remember that it had been
+# manually connected before. When the port returns (plug it back in), then
+# the previously made connection will be restored.
+
+###
+### Standard Rules
+###
+#.hw <---> .app
+  # Interconnect all hardware and application ports.
+  # For simple set ups, this is often all you need.
+  # Comment this out if you need to be more explicit about what is connected
+  # to what.
+
+RtMidiIn Client <-x- *
+RtMidiOut Client -x-> *
+  # Don't auto connect anything to these ports. They are generic client
+  # names used by various applications, and could mean anything.
+
+### Fern Rules
+
+"Pure Data":"Pure Data Midi-Out 1" -> "Arturia DrumBrute Impact":"Arturia DrumBrute Impact MIDI 1"
+
+"Pure Data":"Pure Data Midi-Out 2" -> "UM-ONE":"UM-ONE MIDI 1"
+
+"Pure Data":"Pure Data Midi-Out 3" -> "Arturia BeatStep":"Arturia BeatStep MIDI 1"
+"Pure Data":"Pure Data Midi-Out 3" -> "Pulse2":"Pulse2 MIDI 1   "
+"Pure Data":"Pure Data Midi-Out 3" -> "ZOOM MS Series":"ZOOM MS Series MIDI 1"
+"Pure Data":"Pure Data Midi-Out 3" -> Elektron Model
+
+"Pure Data":"Pure Data Midi-Out 1" -> "APC Key 25":"APC Key 25 MIDI 1"
+"Pure Data":"Pure Data Midi-Out 1" -> "KP3+":"KP3+ MIDI 1"
+"Pure Data":"Pure Data Midi-Out 1" -> "Circuit Tracks":"Circuit Tracks MIDI 1"
+
+
+"Arturia DrumBrute Impact":"Arturia DrumBrute Impact MIDI 1" --> "Pure Data":"Pure Data Midi-In 1"
+"Circuit Tracks":"Circuit Tracks MIDI 1"                     --> "Pure Data":"Pure Data Midi-In 1"
+"KP3+":"KP3+ MIDI 1"                                         --> "Pure Data":"Pure Data Midi-In 1"
+"APC Key 25":"APC Key 25 MIDI 1"                             --> "Pure Data":"Pure Data Midi-In 1"
+
+"Arturia BeatStep":"Arturia BeatStep MIDI 1"                 --> "Pure Data":"Pure Data Midi-In 3"                            
+
