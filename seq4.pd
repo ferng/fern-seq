@@ -11,6 +11,8 @@
 #X obj 191 213 choons/2a;
 #X msg 192 164 1;
 #X obj 192 131 t b b;
+#X obj 452 14 tracks/tracks-ctl;
+#X obj 581 14 beat/beat-boot;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 7 0;
