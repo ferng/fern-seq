@@ -1,4 +1,4 @@
-#N canvas 0 50 578 379 12;
+#N canvas 843 410 578 379 12;
 #X obj 97 174 expr if (($f1 == $f3) && ($f2 == $f4) \, 1 \, 0);
 #X obj 300 22 inlet;
 #X obj 402 22 inlet;
@@ -13,6 +13,7 @@
 #X obj 2 210 spigot;
 #X text 58 249 cc-out;
 #X text 201 46 spigot;
+#X obj 276 294 print;
 #X connect 0 0 11 1;
 #X connect 1 0 0 2;
 #X connect 2 0 0 3;
