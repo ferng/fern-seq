@@ -7,7 +7,7 @@
 #X text 425 15 channel 16 from circuit tracks \, pgmin changes with
 song \, that can be used to change this mapping;
 #X obj 41 80 t b b b b;
-#X obj 298 47 r reset-song;
+#X obj 89 12 r reset-song;
 #X obj 185 81 t b b b;
 #X obj 117 80 t b b b;
 #X obj 41 239 enc-row-1;
