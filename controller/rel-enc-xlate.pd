@@ -1,9 +1,9 @@
-#N canvas 844 602 762 341 12;
+#N canvas 558 488 891 404 12;
 #X obj 193 8 inlet;
 #X text 193 27 ch-in;
 #X obj 245 8 inlet;
 #X text 245 27 ch-out;
-#X obj 25 294 ctlout;
+#X obj 25 319 ctlout;
 #X obj 25 206 rel-enc;
 #X obj 321 8 inlet;
 #X text 324 27 initial \, lower \, higher;
@@ -19,9 +19,13 @@
 #X obj 491 58 unpack 0 0;
 #X obj 25 250 clip 0 127;
 #X obj 321 58 unpack 0 0 0;
-#X obj 175 237 f;
-#X text 214 237 initial set / reset;
-#X obj 147 106 t b f;
+#X obj 147 252 f;
+#X text 182 253 initial set / reset;
+#X obj 147 110 t b f;
+#X obj 658 8 inlet;
+#X text 668 27 don't set synth;
+#X msg 658 58 0;
+#X obj 147 211 spigot 1;
 #X connect 0 0 5 2;
 #X connect 2 0 4 2;
 #X connect 5 0 18 0;
@@ -38,5 +42,8 @@
 #X connect 18 0 4 0;
 #X connect 19 0 20 1;
 #X connect 20 0 4 0;
-#X connect 22 0 20 0;
+#X connect 22 0 26 0;
 #X connect 22 1 4 1;
+#X connect 23 0 25 0;
+#X connect 25 0 26 1;
+#X connect 26 0 20 0;
