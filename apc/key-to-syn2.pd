@@ -1,0 +1,13 @@
+#N canvas 78 614 450 300 12;
+#X obj 41 12 inlet;
+#X obj 259 251 noteout;
+#X obj 282 12 r apc-key-#;
+#X obj 368 11 r tr-s2-#;
+#X obj 41 47 ../common/step-seq-sel-3 \$0;
+#X obj 166 181 ../common/note-in;
+#X connect 0 0 4 0;
+#X connect 2 0 5 1;
+#X connect 3 0 1 2;
+#X connect 4 4 5 0;
+#X connect 5 0 1 0;
+#X connect 5 1 1 1;
