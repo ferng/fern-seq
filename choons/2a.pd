@@ -1,4 +1,4 @@
-#N canvas 475 204 1015 709 10;
+#N canvas 496 297 1015 709 10;
 #X obj 91 9 r sel;
 #X obj 31 297 spigot;
 #X obj 31 429 route 32 33 34 35 36 37 38 39;
@@ -38,30 +38,32 @@
 #X obj 793 475 ../apc/key-to-ea1;
 #X obj 808 500 ../apc/key-to-ea2;
 #X obj 824 525 ../apc/key-to-pulse;
-#X obj 839 552 ../apc/key-to-amb1;
+#X obj 839 550 ../apc/key-to-amb1;
 #X obj 854 577 ../apc/key-to-amb2;
 #X obj 869 602 ../apc/key-to-syn1;
 #X obj 885 627 ../apc/key-to-syn2;
 #X obj 612 475 ../beat/pad-to-ea1;
 #X obj 631 500 ../beat/pad-to-ea2;
 #X obj 651 525 ../beat/pad-to-pulse;
-#X obj 671 552 ../beat/pad-to-amb1;
+#X obj 671 550 ../beat/pad-to-amb1;
 #X obj 691 577 ../beat/pad-to-amb2;
 #X obj 711 602 ../beat/pad-to-syn1;
 #X obj 731 627 ../beat/pad-to-syn2;
 #X obj 421 475 ../tracks/s2-to-ea1;
 #X obj 442 500 ../tracks/s2-to-ea2;
 #X obj 463 525 ../tracks/s2-to-pulse;
-#X msg 402 235 32 \, 33 \, 34 \, 16 \, 17 \, 18 \, 0 \, 1 \, 2 \, 3
-\, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11 \, 12 \, 13 \, 14;
-#X msg 343 324 32 \, 33 \, 34 \, 16 \, 17 \, 18 \, 0 \, 1 \, 2 \, 3
-\, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11 \, 12 \, 13 \, 14;
 #X msg 193 348;
+#X obj 95 550 2a/resets;
+#X msg 402 235 32 \, 33 \, 34 \, 35 \, 16 \, 17 \, 18 \, 0 \, 1 \,
+2 \, 3 \, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11 \, 12 \, 13 \, 14;
+#X msg 343 324 32 \, 33 \, 34 \, 35 \, 16 \, 17 \, 18 \, 0 \, 1 \,
+2 \, 3 \, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11 \, 12 \, 13 \, 14;
 #X connect 0 0 10 0;
 #X connect 1 0 2 0;
 #X connect 2 0 29 0;
 #X connect 2 1 33 0;
 #X connect 2 2 34 0;
+#X connect 2 3 54 0;
 #X connect 2 8 3 0;
 #X connect 3 8 4 0;
 #X connect 4 0 50 0;
@@ -99,12 +101,12 @@
 #X connect 21 0 26 0;
 #X connect 22 0 23 0;
 #X connect 24 0 25 0;
-#X connect 27 0 54 0;
+#X connect 27 0 56 0;
 #X connect 28 0 13 1;
 #X connect 31 0 32 0;
 #X connect 31 1 27 0;
-#X connect 31 2 53 0;
-#X connect 32 0 55 0;
-#X connect 53 0 15 0;
-#X connect 54 0 15 0;
-#X connect 55 0 30 0;
+#X connect 31 2 55 0;
+#X connect 32 0 53 0;
+#X connect 53 0 30 0;
+#X connect 55 0 15 0;
+#X connect 56 0 15 0;
