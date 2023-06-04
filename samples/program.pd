@@ -1,0 +1,18 @@
+#N canvas 795 388 447 195 10;
+#X obj 93 145 ctlout;
+#X obj 182 145 pgmout;
+#X obj 53 29 inlet;
+#X obj 232 29 loadbang;
+#X text 223 144 program;
+#X msg 232 62 32;
+#X text 25 144 lsb/bank;
+#X text 99 28 bank \, program;
+#X obj 53 62 route b p;
+#X obj 311 29 r model-1-#;
+#X connect 2 0 8 0;
+#X connect 3 0 5 0;
+#X connect 5 0 0 1;
+#X connect 8 0 0 0;
+#X connect 8 1 1 0;
+#X connect 9 0 0 2;
+#X connect 9 0 1 1;
