@@ -17,8 +17,8 @@
 #X obj 141 383 ../../ambika/program;
 #X msg 141 357 b 26 \, p 1;
 #X obj 161 442 ../../samples/program;
-#X msg 161 414 b 0 \, p 1;
 #X obj 101 210 t b b b b;
+#X msg 161 414 1;
 #X connect 0 0 3 0;
 #X connect 1 0 8 0;
 #X connect 2 0 3 0;
@@ -31,12 +31,12 @@
 #X connect 8 1 7 0;
 #X connect 8 2 6 0;
 #X connect 9 0 11 2;
-#X connect 10 0 19 0;
+#X connect 10 0 18 0;
 #X connect 12 0 11 0;
 #X connect 14 0 13 0;
 #X connect 16 0 15 0;
-#X connect 18 0 17 0;
-#X connect 19 0 12 0;
-#X connect 19 1 14 0;
-#X connect 19 2 16 0;
-#X connect 19 3 18 0;
+#X connect 18 0 12 0;
+#X connect 18 1 14 0;
+#X connect 18 2 16 0;
+#X connect 18 3 19 0;
+#X connect 19 0 17 0;

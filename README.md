@@ -14,6 +14,18 @@ Or you can watch it in action here:
 
 
 Anyway now to the code
+# disable updates
+```bash
+sudo vi /etc/apt/apt.conf.d/20auto-upgrades
+
+APT::Periodic::Enable "0";
+APT::Periodic::Update-Package-Lists "0";
+APT::Periodic::Download-Upgradeable-Packages "0";
+APT::Periodic::Unattended-Upgrade "0";
+APT::Periodic::AutocleanInterval "0";
+
+```
+
 # install puredata and some other bits
 ```bash
 sudo apt-get install puredata

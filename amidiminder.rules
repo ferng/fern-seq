@@ -36,12 +36,15 @@ RtMidiOut Client -x-> *
 
 "Pure Data":"Pure Data Midi-Out 1" -> "APC Key 25":"APC Key 25 MIDI 1"
 "Pure Data":"Pure Data Midi-Out 1" -> "KP3+":"KP3+ MIDI 1"
+"Pure Data":"Pure Data Midi-Out 1" -> "KP3+":"KP3+ KP3+ _ SOUND"
 "Pure Data":"Pure Data Midi-Out 1" -> "Circuit Tracks":"Circuit Tracks MIDI 1"
+"Pure Data":"Pure Data Midi-Out 1" -> "Circuit Tracks":"Circuit Tracks MIDI"
 
 
 "Arturia DrumBrute Impact":"Arturia DrumBrute Impact MIDI 1" --> "Pure Data":"Pure Data Midi-In 1"
 "Circuit Tracks":"Circuit Tracks MIDI 1"                     --> "Pure Data":"Pure Data Midi-In 1"
-"KP3+":"KP3+ MIDI 1"                                         --> "Pure Data":"Pure Data Midi-In 1"
+"Circuit Tracks":"Circuit Tracks MIDI"                     --> "Pure Data":"Pure Data Midi-In 1"
+"KP3+":"KP3+ KP3+ _ SOUND"                                         --> "Pure Data":"Pure Data Midi-In 1"
 "APC Key 25":"APC Key 25 MIDI 1"                             --> "Pure Data":"Pure Data Midi-In 1"
 
 "Arturia BeatStep":"Arturia BeatStep MIDI 1"                 --> "Pure Data":"Pure Data Midi-In 3"                            
