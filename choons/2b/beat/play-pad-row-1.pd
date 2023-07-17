@@ -1,0 +1,24 @@
+#N canvas 112 84 1305 657 12;
+#X obj 41 12 inlet;
+#X text 94 8 arm/reset;
+#X obj 296 14 inlet;
+#X text 351 10 spigot;
+#X obj 41 329 t b b b b;
+#X obj 297 329 t f f f f;
+#X obj 41 61 t b b b b b;
+#X obj 448 446 r beat-#;
+#X obj 234 490 ../../../controller/note-filter;
+#X obj 234 556 sel 0;
+#X msg 341 458 36;
+#X obj 70 568 r model-5-#;
+#X text 79 590 decay to 5 or something low;
+#X text 458 569 decay to max start to 0 +12 for every other note i
+need;
+#X connect 0 0 6 0;
+#X connect 2 0 5 0;
+#X connect 4 0 8 0;
+#X connect 5 0 10 0;
+#X connect 6 0 4 0;
+#X connect 7 0 8 2;
+#X connect 8 0 9 0;
+#X connect 10 0 8 1;
