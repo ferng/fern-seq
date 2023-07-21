@@ -24,7 +24,6 @@
 #X msg 993 410 0 1;
 #X obj 801 408 r model-3-#;
 #X obj 1099 410 r model-4-#;
-#X connect 0 0 9 0;
 #X connect 2 0 8 0;
 #X connect 4 0 6 0;
 #X connect 5 0 4 2;

@@ -17,7 +17,7 @@
 #X msg 581 42 2;
 #X msg 224 242 2;
 #X obj 224 266 s 2b-id;
-#X obj 223 291 choons/2b;
+#X obj 222 291 choons/2b;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 7 0;

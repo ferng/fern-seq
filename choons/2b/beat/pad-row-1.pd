@@ -30,7 +30,6 @@
 #X obj 41 329 t b b b b;
 #X obj 297 329 t f f f f;
 #X obj 41 61 t b b b b b;
-#X connect 0 0 30 0;
 #X connect 1 0 19 2;
 #X connect 2 0 19 3;
 #X connect 3 0 19 1;
