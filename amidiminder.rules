@@ -26,18 +26,17 @@ RtMidiOut Client -x-> *
 ### Fern Rules
 
 "Pure Data":"Pure Data Midi-Out 1" -> "Arturia DrumBrute Impact"
+"Pure Data":"Pure Data Midi-Out 1" -> "APC Key 25"
+"Pure Data":"Pure Data Midi-Out 1" -> KP3+
+"Pure Data":"Pure Data Midi-Out 1" -> Circuit Tracks
 
 "Pure Data":"Pure Data Midi-Out 2" -> "UM-ONE"
 
 "Pure Data":"Pure Data Midi-Out 3" -> "Arturia BeatStep"
 "Pure Data":"Pure Data Midi-Out 3" -> "Pulse2"
-"Pure Data":"Pure Data Midi-Out 3" -> "ZOOM MS Series"
 "Pure Data":"Pure Data Midi-Out 3" -> Elektron Model
 
-"Pure Data":"Pure Data Midi-Out 1" -> "APC Key 25"
-"Pure Data":"Pure Data Midi-Out 1" -> KP3+
-"Pure Data":"Pure Data Midi-Out 1" -> Circuit Tracks
-
+"Pure Data":"Pure Data Midi-Out 4" -> "ZOOM MS Series"
 
 "Arturia DrumBrute Impact"          --> "Pure Data":"Pure Data Midi-In 1"
 Circuit Tracks                      --> "Pure Data":"Pure Data Midi-In 1"
