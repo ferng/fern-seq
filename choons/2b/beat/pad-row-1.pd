@@ -1,4 +1,4 @@
-#N canvas 105 175 1305 657 12;
+#N canvas 72 147 1305 657 12;
 #X obj 41 12 inlet;
 #X obj 114 243 r beat-#;
 #X obj 182 243 r model-1-#;
@@ -9,9 +9,9 @@
 #X obj 556 243 r beat-#;
 #X obj 624 243 r model-3-#;
 #X msg 501 243 54 94;
-#X obj 847 243 r beat-#;
-#X obj 915 243 r model-4-#;
-#X msg 792 243 55 94;
+#X obj 788 243 r beat-#;
+#X obj 856 243 r model-4-#;
+#X msg 733 243 55 94;
 #X obj 96 427 r beat-#;
 #X obj 164 427 r model-5-#;
 #X msg 41 427 56 94;
@@ -21,7 +21,7 @@
 #X obj 57 269 ../../../controller/cc-xlate;
 #X obj 283 269 ../../../controller/cc-xlate;
 #X obj 503 269 ../../../controller/cc-xlate;
-#X obj 796 269 ../../../controller/cc-xlate;
+#X obj 737 269 ../../../controller/cc-xlate;
 #X obj 267 454 ../../../controller/cc-xlate;
 #X obj 41 454 ../../../controller/cc-xlate;
 #X text 94 8 arm/reset;
@@ -30,6 +30,7 @@
 #X obj 41 329 t b b b b;
 #X obj 297 329 t f f f f;
 #X obj 41 61 t b b b b b;
+#X connect 0 0 30 0;
 #X connect 1 0 19 2;
 #X connect 2 0 19 3;
 #X connect 3 0 19 1;
@@ -49,10 +50,10 @@
 #X connect 17 0 23 3;
 #X connect 18 0 23 1;
 #X connect 26 0 19 0;
+#X connect 26 0 29 0;
 #X connect 26 0 20 0;
 #X connect 26 0 21 0;
 #X connect 26 0 22 0;
-#X connect 26 0 29 0;
 #X connect 28 0 15 0;
 #X connect 28 1 18 0;
 #X connect 29 0 24 0;

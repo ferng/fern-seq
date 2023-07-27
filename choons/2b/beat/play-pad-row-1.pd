@@ -4,7 +4,7 @@
 #X obj 345 19 inlet;
 #X text 400 15 spigot;
 #X obj 90 334 t b b b b;
-#X obj 346 334 t f f f f;
+#X obj 345 334 t f f f f;
 #X obj 90 66 t b b b b b;
 #X obj 1084 491 r beat-#;
 #X obj 1002 522 ../../../samples/loop-as-note;
