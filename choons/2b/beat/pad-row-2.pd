@@ -24,13 +24,13 @@
 #X obj 1099 408 r model-4-#;
 #X msg 612 408 0;
 #X msg 910 408 1;
-#X msg 63 203 2;
-#X obj 63 231 ../../../samples/program;
+#X msg 60 201 2;
+#X obj 60 229 ../../../samples/program;
 #X obj 60 130 ../../../controller/cc-filter;
 #X obj 260 103 r beat-#;
 #X msg 160 103 60;
-#X msg 97 203 3;
-#X obj 60 162 select 0 1;
+#X msg 93 201 3;
+#X obj 60 162 select 1 0;
 #X connect 0 0 9 0;
 #X connect 2 0 8 0;
 #X connect 2 0 27 0;
