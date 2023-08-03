@@ -1,0 +1,11 @@
+#N canvas 402 235 317 619 12;
+#X obj 15 38 select 0 1;
+#X obj 15 13 inlet;
+#X obj 48 130 ../../../ambika/program;
+#X msg 15 67 0 5;
+#X msg 48 93 0 3;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;

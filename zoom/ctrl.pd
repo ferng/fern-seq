@@ -1,5 +1,5 @@
 #N canvas 255 274 1155 513 12;
-#X obj 389 471 midiout;
+#X obj 389 482 midiout;
 #X obj 569 22 r reset;
 #X msg 389 372 240 82 0 97 80 247;
 #X obj 31 482 pgmout;
