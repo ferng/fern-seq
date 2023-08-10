@@ -1,10 +1,10 @@
-#N canvas 54 255 450 300 12;
+#N canvas 69 595 500 322 12;
 #X obj 41 12 inlet;
 #X obj 259 251 noteout;
-#X obj 368 12 r ea-2-#;
+#X obj 368 12 r tr-s1-#;
 #X obj 41 47 ../common/step-seq-sel-3 \$0;
-#X obj 166 205 ../common/note-in;
-#X obj 282 12 r beat-#;
+#X obj 166 179 ../common/note-in;
+#X obj 282 12 r m2s-#;
 #X connect 0 0 3 0;
 #X connect 2 0 1 2;
 #X connect 3 4 4 0;

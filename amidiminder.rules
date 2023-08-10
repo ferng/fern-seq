@@ -43,4 +43,5 @@ Circuit Tracks                      --> "Pure Data":"Pure Data Midi-In 1"
 KP3+                                --> "Pure Data":"Pure Data Midi-In 1"
 "APC Key 25"                        --> "Pure Data":"Pure Data Midi-In 1"
 "Arturia BeatStep"                  --> "Pure Data":"Pure Data Midi-In 3"                            
+"Arturia MiniBrute 2S"              --> "Pure Data":"Pure Data Midi-In 4"                            
 
