@@ -34,10 +34,10 @@
 #X obj 728 454 ../../../controller/note-filter;
 #X obj 942 427 r beat-#;
 #X msg 835 427 2;
-#X obj 970 454 r tr-d-#;
-#X obj 841 537 noteout;
+#X obj 869 483 r tr-d-#;
+#X obj 823 541 noteout;
 #X obj 823 484 t b f;
-#X msg 819 510 62;
+#X msg 823 510 62;
 #X connect 0 0 30 0;
 #X connect 1 0 19 2;
 #X connect 2 0 19 3;

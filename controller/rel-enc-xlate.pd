@@ -23,9 +23,9 @@
 #X text 182 253 initial set / reset;
 #X obj 147 110 t b f;
 #X obj 658 8 inlet;
-#X text 668 27 don't set synth;
 #X msg 658 58 0;
-#X obj 147 211 spigot 1;
+#X obj 147 215 spigot 1;
+#X text 668 27 don't init;
 #X connect 0 0 5 2;
 #X connect 2 0 4 2;
 #X connect 5 0 18 0;
@@ -42,8 +42,8 @@
 #X connect 18 0 4 0;
 #X connect 19 0 20 1;
 #X connect 20 0 4 0;
-#X connect 22 0 26 0;
+#X connect 22 0 25 0;
 #X connect 22 1 4 1;
-#X connect 23 0 25 0;
-#X connect 25 0 26 1;
-#X connect 26 0 20 0;
+#X connect 23 0 24 0;
+#X connect 24 0 25 1;
+#X connect 25 0 20 0;
