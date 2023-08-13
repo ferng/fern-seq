@@ -41,7 +41,7 @@
 #X obj 59 85 t b b;
 #X obj 42 58 t b b b b b b b;
 #X obj 296 58 t f f f f f f f;
-#X msg 299 124 50 50 127;
+#X msg 299 124 50 20 127;
 #X connect 0 0 2 2;
 #X connect 1 0 2 3;
 #X connect 3 0 4 2;
