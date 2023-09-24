@@ -20,12 +20,12 @@
 #X obj 1072 550 r model-4-#;
 #X msg 585 550 0;
 #X msg 883 550 1;
-#X msg 60 201 2;
-#X obj 60 229 ../../../samples/program;
+#X msg 60 209 2;
+#X obj 60 237 ../../../samples/program;
 #X obj 60 130 ../../../controller/cc-filter;
 #X obj 260 103 r beat-#;
 #X msg 160 103 60;
-#X msg 93 201 3;
+#X msg 105 209 3;
 #X obj 60 162 select 1 0;
 #X obj 333 135 ../../../controller/cc-filter;
 #X obj 533 108 r beat-#;
@@ -37,6 +37,8 @@
 #X obj 183 485 ../../../zoom/ctrl;
 #X msg 183 457 49;
 #X obj 692 222 ../ambika/part-1-prog-3-4;
+#X obj 92 268 ../../../samples/reset-decay;
+#X obj 60 186 t b b;
 #X connect 0 0 6 0;
 #X connect 2 0 31 0;
 #X connect 6 0 4 0;
@@ -63,7 +65,7 @@
 #X connect 24 0 23 2;
 #X connect 25 0 23 1;
 #X connect 26 0 22 0;
-#X connect 27 0 21 0;
+#X connect 27 0 39 0;
 #X connect 27 1 26 0;
 #X connect 28 0 33 0;
 #X connect 29 0 28 2;
@@ -74,3 +76,5 @@
 #X connect 33 1 34 0;
 #X connect 33 2 32 0;
 #X connect 36 0 35 0;
+#X connect 39 0 21 0;
+#X connect 39 1 38 0;
