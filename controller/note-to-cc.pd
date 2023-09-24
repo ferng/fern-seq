@@ -18,7 +18,7 @@
 #X obj 23 138 sel 0;
 #X obj 55 173 bang;
 #X obj 23 280 ctlout;
-#X connect 0 0 16 0;
+#X connect 0 1 16 0;
 #X connect 1 0 0 1;
 #X connect 2 0 0 2;
 #X connect 3 0 0 0;

@@ -35,11 +35,12 @@
 #X obj 318 241 sel 0 1;
 #X msg 318 338 51;
 #X obj 318 182 metro 1 128 permin;
+#X obj 119 415 print;
 #X connect 0 0 1 2;
 #X connect 0 0 5 2;
 #X connect 0 0 13 2;
 #X connect 0 0 25 2;
-#X connect 1 0 20 0;
+#X connect 1 1 20 0;
 #X connect 2 0 22 0;
 #X connect 3 0 11 0;
 #X connect 3 0 1 0;
@@ -62,6 +63,7 @@
 #X connect 16 1 14 0;
 #X connect 17 0 18 0;
 #X connect 20 0 19 0;
+#X connect 20 0 34 0;
 #X connect 20 1 9 0;
 #X connect 20 2 4 0;
 #X connect 22 0 24 0;

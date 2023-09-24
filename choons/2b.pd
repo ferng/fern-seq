@@ -57,6 +57,7 @@
 #X obj 671 552 ../m2s/to-amb2;
 #X obj 691 577 ../m2s/to-syn1;
 #X obj 711 602 ../m2s/to-syn2;
+#X obj 484 552 ../dbi/cowbell-to-xv;
 #X connect 0 0 10 0;
 #X connect 1 0 2 0;
 #X connect 2 0 44 0;
