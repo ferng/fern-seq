@@ -34,7 +34,7 @@
 #X obj 728 454 ../../../controller/note-filter;
 #X obj 942 427 r beat-#;
 #X msg 835 427 2;
-#X obj 869 483 r tr-d-#;
+#X obj 869 427 r tr-d-#;
 #X obj 823 541 noteout;
 #X obj 823 484 t b f;
 #X msg 823 510 62;
