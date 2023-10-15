@@ -1,4 +1,4 @@
-#N canvas 195 294 1459 843 12;
+#N canvas 122 202 1459 843 12;
 #X obj 815 538 r beat-#;
 #X obj 877 538 r amb-1-#;
 #X obj 761 571 ../../../controller/rel-enc-xlate;
@@ -88,5 +88,4 @@
 #X connect 40 0 24 0;
 #X connect 40 1 39 0;
 #X connect 41 0 25 0;
-#X connect 41 1 38 0;
 #X connect 42 0 38 2;

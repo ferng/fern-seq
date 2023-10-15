@@ -2,9 +2,9 @@
 #X obj 815 538 r beat-#;
 #X obj 877 538 r amb-1-#;
 #X obj 761 571 ../../../controller/rel-enc-xlate;
-#X obj 96 509 r beat-#;
+#X obj 86 509 r beat-#;
 #X obj 68 573 ../../../controller/rel-enc-xlate;
-#X obj 158 509 r model-5-#;
+#X obj 148 509 r model-5-#;
 #X msg 42 509 25 7;
 #X obj 42 13 inlet;
 #X text 94 8 arm/reset;
@@ -26,7 +26,7 @@
 #X obj 42 58 t b b b b b b b;
 #X obj 296 58 t f f f f f f f;
 #X obj 42 479 t b b;
-#X msg 243 509 60 50 70;
+#X msg 238 509 60 50 70;
 #X connect 0 0 2 2;
 #X connect 1 0 2 3;
 #X connect 3 0 4 2;
