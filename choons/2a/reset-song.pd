@@ -1,0 +1,6 @@
+#N canvas 0 0 329 146 12;
+#X obj 9 5 r 2a-id;
+#X obj 9 38 ../../common/reset-song;
+#X obj 9 68 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;

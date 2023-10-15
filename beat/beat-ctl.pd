@@ -17,7 +17,7 @@
 #X msg 615 256 87;
 #X msg 536 256 1;
 #X obj 536 218 t b b;
-#X obj 536 338 sel 0;
+#X obj 536 317 sel 0;
 #X obj 536 389 s reset-song;
 #X obj 19 389 outlet;
 #X obj 19 231 t b b b;
@@ -35,6 +35,8 @@
 #X obj 318 241 sel 0 1;
 #X msg 318 338 51;
 #X obj 318 182 metro 1 128 permin;
+#X obj 536 353 f;
+#X obj 607 317 r tune;
 #X connect 0 0 1 2;
 #X connect 0 0 5 2;
 #X connect 0 0 13 2;
@@ -60,7 +62,7 @@
 #X connect 15 0 13 0;
 #X connect 16 0 15 0;
 #X connect 16 1 14 0;
-#X connect 17 0 18 0;
+#X connect 17 0 34 0;
 #X connect 20 0 19 0;
 #X connect 20 1 9 0;
 #X connect 20 2 4 0;
@@ -81,3 +83,5 @@
 #X connect 31 1 29 0;
 #X connect 32 0 25 0;
 #X connect 33 0 30 0;
+#X connect 34 0 18 0;
+#X connect 35 0 34 1;
