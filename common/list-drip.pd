@@ -9,6 +9,7 @@
 #X obj 84 205 outlet;
 #X obj 17 7 inlet;
 #X obj 17 35 t b b f;
+#X obj 165 63 print;
 #X connect 0 0 2 0;
 #X connect 1 0 2 1;
 #X connect 2 0 3 0;
@@ -19,6 +20,7 @@
 #X connect 5 1 0 1;
 #X connect 5 1 7 0;
 #X connect 8 0 9 0;
+#X connect 8 0 10 0;
 #X connect 9 0 0 0;
 #X connect 9 1 1 0;
 #X connect 9 2 5 1;
