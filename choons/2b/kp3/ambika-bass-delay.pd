@@ -1,4 +1,4 @@
-#N canvas 0 0 593 299 12;
+#N canvas 844 185 593 299 12;
 #X obj 58 154 ../../../kp3/pad-on;
 #X obj 231 254 ../../../kp3/pad-off;
 #X obj 38 203 ../../../kp3/touch;
@@ -11,7 +11,7 @@
 #X obj 18 70 t b b b b;
 #X msg 18 228 0;
 #X obj 208 75 t b b b;
-#X obj 417 254 s 2b-kp3-delay-reset;
+#X obj 417 254 s 2b-pad-2;
 #X connect 3 0 2 0;
 #X connect 4 0 9 0;
 #X connect 4 1 11 0;

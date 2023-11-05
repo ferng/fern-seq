@@ -5,11 +5,8 @@
 #X msg 15 67 0 5;
 #X msg 48 93 0 3;
 #X text 96 9 change raga;
-#X obj 256 127 print;
 #X connect 0 0 3 0;
 #X connect 0 1 4 0;
 #X connect 1 0 0 0;
 #X connect 3 0 2 0;
-#X connect 3 0 6 0;
 #X connect 4 0 2 0;
-#X connect 4 0 6 0;
