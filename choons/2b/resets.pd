@@ -16,12 +16,12 @@
 #X msg 175 492 49;
 #X msg 101 240 0 5;
 #X obj 101 272 ../../dbi/pc;
-#X obj 118 326 ../../kp3/pc;
+#X obj 208 337 ../../kp3/pc;
 #X obj 171 467 t b b b b;
 #X msg 204 496 2;
 #X msg 238 496 1;
 #X msg 273 496 0;
-#X msg 118 298 0 28;
+#X msg 208 309 0 28;
 #X obj 188 562 ../../samples/reset-decay;
 #X obj 101 210 t b b b b b b;
 #X obj 89 12 reset-song;
@@ -50,7 +50,6 @@
 #X connect 21 0 11 2;
 #X connect 22 0 17 0;
 #X connect 24 0 15 0;
-#X connect 24 1 22 0;
 #X connect 24 2 12 0;
 #X connect 24 3 10 0;
 #X connect 24 4 18 0;
