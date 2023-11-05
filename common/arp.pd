@@ -95,6 +95,8 @@
 #X obj 159 683 t b b b;
 #X obj 136 586 clip 0 127;
 #X obj 723 706 print random;
+#X msg 886 144 0;
+#X msg 1128 144 0;
 #X connect 0 0 38 0;
 #X connect 2 0 77 0;
 #X connect 4 0 5 1;
@@ -112,6 +114,8 @@
 #X connect 10 0 23 0;
 #X connect 10 0 75 0;
 #X connect 10 0 89 0;
+#X connect 10 0 95 0;
+#X connect 10 0 94 0;
 #X connect 13 0 31 0;
 #X connect 13 0 88 1;
 #X connect 14 0 92 0;
@@ -196,3 +200,5 @@
 #X connect 91 1 79 0;
 #X connect 91 2 78 0;
 #X connect 92 0 90 0;
+#X connect 94 0 1 1;
+#X connect 95 0 38 1;
