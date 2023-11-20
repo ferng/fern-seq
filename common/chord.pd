@@ -19,11 +19,13 @@
 #X text 87 330 note(2);
 #X text 295 328 chord-end;
 #X obj 244 261 bang;
+#X obj 244 295 spigot 0;
+#X obj 157 204 t f f;
 #X connect 0 0 13 0;
 #X connect 1 0 4 0;
 #X connect 2 0 6 1;
 #X connect 4 0 8 0;
-#X connect 4 1 14 1;
+#X connect 4 1 21 0;
 #X connect 6 0 0 0;
 #X connect 7 0 10 0;
 #X connect 8 0 6 0;
@@ -34,4 +36,7 @@
 #X connect 14 0 11 0;
 #X connect 15 0 9 0;
 #X connect 15 1 14 0;
-#X connect 19 0 12 0;
+#X connect 19 0 20 0;
+#X connect 20 0 12 0;
+#X connect 21 0 14 1;
+#X connect 21 1 20 1;

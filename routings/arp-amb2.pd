@@ -1,4 +1,4 @@
-#N canvas 257 4 1119 486 12;
+#N canvas 257 4 1119 532 12;
 #X obj 20 17 inlet;
 #X obj 253 396 ../common/arp-chord;
 #X obj 20 49 ../common/step-seq-sel-3 \$0;
