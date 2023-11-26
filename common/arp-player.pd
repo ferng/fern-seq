@@ -1,4 +1,4 @@
-#N canvas 109 147 1508 879 12;
+#N canvas 266 190 1508 879 12;
 #X obj 324 367 array set \$0-arp;
 #X obj 28 9 inlet;
 #X text 988 550 vel;

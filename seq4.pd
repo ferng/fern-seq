@@ -18,7 +18,7 @@
 #X obj 224 266 s 2b-id;
 #X obj 222 291 choons/2b;
 #X obj 191 213 choons/2a;
-#X obj 683 14 common/clock-16;
+#X obj 683 14 common/clocks;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 7 0;
