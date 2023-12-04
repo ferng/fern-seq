@@ -1,4 +1,4 @@
-#N canvas 308 492 1032 459 12;
+#N canvas 341 327 1032 625 12;
 #X obj 356 92 chord;
 #X obj 624 23 inlet;
 #X text 665 22 chord type;
@@ -36,8 +36,6 @@
 #X obj 30 69 t f f f f;
 #X obj 95 205 spigot;
 #X obj 372 118 t f f f;
-#X obj 341 402 pack 0 0;
-#X obj 424 436 print out;
 #X connect 0 0 32 0;
 #X connect 0 1 36 0;
 #X connect 0 2 31 7;
@@ -54,11 +52,9 @@
 #X connect 25 0 27 0;
 #X connect 27 0 35 0;
 #X connect 28 0 7 0;
-#X connect 28 0 37 0;
 #X connect 29 0 31 3;
 #X connect 31 0 28 0;
 #X connect 31 1 8 0;
-#X connect 31 1 37 1;
 #X connect 32 0 31 5;
 #X connect 33 1 31 6;
 #X connect 34 0 11 0;
