@@ -1,9 +1,9 @@
-#N canvas 647 152 477 191 12;
+#N canvas 335 505 477 191 12;
 #X obj 41 12 inlet;
 #X obj 41 47 ../common/step-seq-sel-3 \$0;
 #X obj 312 15 r tr-d-#;
 #X obj 385 13 r vd-2-#;
-#X msg 230 88 64;
+#X msg 230 97 64;
 #X obj 189 128 ../controller/note-xlate;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;

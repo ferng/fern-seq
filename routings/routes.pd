@@ -10,8 +10,8 @@
 #X obj 777 439 ../apc/key-to-pulse;
 #X obj 705 334 ../apc/key-to-amb1;
 #X obj 723 360 ../apc/key-to-amb2;
-#X obj 741 387 ../apc/key-to-syn1;
-#X obj 759 413 ../apc/key-to-syn2;
+#X obj 741 386 ../apc/key-to-syn1;
+#X obj 759 412 ../apc/key-to-syn2;
 #X obj 242 281 ../tracks/s2-to-ea1;
 #X obj 267 307 ../tracks/s2-to-ea2;
 #X obj 392 439 ../tracks/s2-to-pulse;
@@ -19,11 +19,11 @@
 #X obj 486 307 ../m2s/to-tr-m2;
 #X obj 603 439 ../m2s/to-pulse;
 #X obj 509 334 ../m2s/to-amb1;
-#X obj 532 361 ../m2s/to-amb2;
-#X obj 556 387 ../m2s/to-syn1;
-#X obj 579 413 ../m2s/to-syn2;
+#X obj 532 360 ../m2s/to-amb2;
+#X obj 556 386 ../m2s/to-syn1;
+#X obj 579 412 ../m2s/to-syn2;
 #X obj 417 466 ../dbi/cowbell-to-xv;
-#X obj 317 361 arp-amb2;
+#X obj 317 360 arp-amb2;
 #X obj 239 12 inlet;
 #X text 286 12 init;
 #X obj 319 182 s on-load;
@@ -31,14 +31,21 @@
 #X obj 239 70 delay 150;
 #X obj 319 70 delay 100;
 #X obj 21 281 ../tracks/d2-to-vd1;
-#X obj 46 307 ../tracks/d2-to-vd2;
-#X obj 71 334 ../tracks/d2-to-vd3;
+#X obj 46 307 ../tracks/d3-to-vd2;
+#X obj 71 334 ../tracks/d4-to-vd3;
+#X obj 96 360 ../tracks/d2-to-vd4;
+#X obj 121 386 ../tracks/d3-to-vd5;
+#X obj 146 412 ../tracks/d4-to-vd6;
 #X msg 319 130 0 \, 1 \, 2 \, 3 \, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11
-\, 12 \, 13 \, 14 \, 16 \, 17 \, 18 \, 19 \, 24 \, 25 \, 26;
+\, 12 \, 13 \, 14 \, 16 \, 17 \, 18 \, 19 \, 24 \, 25 \, 26 \, 27 \,
+28 \, 29;
 #X connect 0 0 2 0;
 #X connect 2 0 31 0;
 #X connect 2 1 32 0;
 #X connect 2 2 33 0;
+#X connect 2 3 34 0;
+#X connect 2 4 35 0;
+#X connect 2 5 36 0;
 #X connect 2 8 3 0;
 #X connect 3 0 13 0;
 #X connect 3 1 14 0;
@@ -64,6 +71,6 @@
 #X connect 25 0 28 0;
 #X connect 28 0 29 0;
 #X connect 28 1 30 0;
-#X connect 29 0 34 0;
-#X connect 30 0 34 0;
-#X connect 34 0 27 0;
+#X connect 29 0 37 0;
+#X connect 30 0 37 0;
+#X connect 37 0 27 0;

@@ -28,7 +28,7 @@
 #X obj 296 14 inlet;
 #X text 351 10 spigot;
 #X obj 41 329 t b b b b;
-#X obj 297 329 t f f f f;
+#X obj 296 329 t f f f f;
 #X obj 41 61 t b b b b b;
 #X obj 296 61 t f f f f f;
 #X obj 812 454 ../../../controller/note-filter;
