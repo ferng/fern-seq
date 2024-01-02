@@ -1,0 +1,11 @@
+#N canvas 927 163 326 260 12;
+#X obj 150 10 r tr-d-#;
+#X obj 24 13 inlet;
+#X obj 24 44 ../common/step-seq-sel-3 \$0;
+#X msg 92 123 62;
+#X obj 34 160 ../routings/to-xv;
+#X connect 0 0 4 2;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 4 4 0;
+#X connect 3 0 4 1;
