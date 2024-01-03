@@ -23,11 +23,9 @@
 #X msg 280 326 0;
 #X obj 203 17 r reset;
 #X obj 337 548 s enc-val;
-#X obj 580 319 print;
 #X obj 544 70 47 42 45;
 #X obj 125 54 moses 58;
 #X connect 0 0 18 0;
-#X connect 0 0 24 0;
 #X connect 1 0 4 0;
 #X connect 1 0 2 0;
 #X connect 2 0 1 1;
@@ -55,11 +53,11 @@
 #X connect 17 2 3 0;
 #X connect 17 3 12 0;
 #X connect 18 0 19 0;
-#X connect 18 1 26 0;
+#X connect 18 1 25 0;
 #X connect 19 0 17 0;
 #X connect 21 0 5 1;
 #X connect 22 0 3 0;
 #X connect 22 0 21 0;
 #X connect 22 0 7 0;
 #X connect 22 0 12 0;
-#X connect 26 0 9 0;
+#X connect 25 0 9 0;

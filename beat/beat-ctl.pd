@@ -2,7 +2,7 @@
 #X obj 330 9 r beat-#;
 #X obj 19 99 ../controller/note-filter;
 #X obj 19 9 loadbang;
-#X msg 157 136 1;
+#X msg 157 139 1;
 #X msg 113 139 0;
 #X obj 175 389 noteout;
 #X obj 157 288 t b b;

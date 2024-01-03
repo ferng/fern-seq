@@ -27,13 +27,6 @@
 #X obj 296 58 t f f f f f f f;
 #X obj 42 507 t b b;
 #X msg 238 537 60 50 70;
-#X obj 372 573 ../../../controller/rel-enc-xlate;
-#X obj 447 537 r beat-#;
-#X obj 514 537 r amb-1-#;
-#X msg 590 537 72 40 72;
-#X obj 404 507 t b b;
-#X text 659 536 volume;
-#X msg 404 537 26 7;
 #X connect 0 0 2 2;
 #X connect 1 0 2 3;
 #X connect 3 0 4 2;
@@ -42,11 +35,9 @@
 #X connect 7 0 24 0;
 #X connect 9 0 25 0;
 #X connect 11 0 26 0;
-#X connect 11 1 32 0;
 #X connect 11 2 21 0;
 #X connect 11 3 22 0;
 #X connect 12 0 4 0;
-#X connect 12 1 28 0;
 #X connect 12 2 2 0;
 #X connect 12 3 15 0;
 #X connect 13 0 15 2;
@@ -64,9 +55,3 @@
 #X connect 26 0 6 0;
 #X connect 26 1 27 0;
 #X connect 27 0 4 4;
-#X connect 29 0 28 2;
-#X connect 30 0 28 3;
-#X connect 31 0 28 4;
-#X connect 32 0 34 0;
-#X connect 32 1 31 0;
-#X connect 34 0 28 1;

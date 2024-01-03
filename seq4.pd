@@ -12,13 +12,12 @@
 #X obj 192 131 t b b;
 #X obj 452 14 tracks/tracks-ctl;
 #X obj 581 14 beat/beat-ctl;
-#X obj 581 67 s tune;
-#X msg 581 42 2;
 #X msg 224 242 2;
 #X obj 224 266 s 2b-id;
 #X obj 222 291 choons/2b;
 #X obj 191 213 choons/2a;
 #X obj 683 14 common/clocks;
+#X obj 581 47 s set-start;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 0 7 0;
@@ -26,7 +25,6 @@
 #X connect 7 0 10 0;
 #X connect 9 0 8 0;
 #X connect 10 0 9 0;
-#X connect 10 1 15 0;
-#X connect 12 0 14 0;
-#X connect 14 0 13 0;
-#X connect 15 0 16 0;
+#X connect 10 1 13 0;
+#X connect 12 0 18 0;
+#X connect 13 0 14 0;
