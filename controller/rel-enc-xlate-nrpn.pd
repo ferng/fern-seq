@@ -1,4 +1,4 @@
-#N canvas 393 488 1056 404 12;
+#N canvas 825 458 1056 404 12;
 #X obj 275 8 inlet;
 #X text 275 27 ch-in;
 #X obj 327 8 inlet;
@@ -19,10 +19,12 @@
 #X text 116 27 ctl in;
 #X obj 173 8 inlet;
 #X text 173 27 nrpn-out;
+#X obj 411 51 unpack 0 0 0;
 #X connect 0 0 4 2;
 #X connect 2 0 16 2;
 #X connect 4 0 15 0;
 #X connect 5 0 4 3;
+#X connect 5 0 20 0;
 #X connect 7 0 4 1;
 #X connect 8 0 4 0;
 #X connect 10 0 4 4;
@@ -31,3 +33,4 @@
 #X connect 14 1 15 2;
 #X connect 15 0 16 0;
 #X connect 18 0 16 1;
+#X connect 20 0 15 0;

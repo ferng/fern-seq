@@ -36,9 +36,10 @@
 #X obj 121 386 ../tracks/d3-to-vd5;
 #X obj 146 412 ../tracks/d4-to-vd6;
 #X obj 170 439 ../xv/d2-xv;
+#X obj 417 468 ../tracks/m2-to-s1;
 #X msg 319 130 0 \, 1 \, 2 \, 3 \, 4 \, 5 \, 6 \, 8 \, 9 \, 10 \, 11
-\, 12 \, 13 \, 14 \, 16 \, 17 \, 18 \, 19 \, 22 \, 24 \, 25 \, 26 \,
-27 \, 28 \, 29 \, 30;
+\, 12 \, 13 \, 14 \, 16 \, 17 \, 18 \, 19 \, 22 \, 23 \, 24 \, 25 \,
+26 \, 27 \, 28 \, 29 \, 30;
 #X connect 0 0 2 0;
 #X connect 2 0 30 0;
 #X connect 2 1 31 0;
@@ -52,6 +53,7 @@
 #X connect 3 1 14 0;
 #X connect 3 3 23 0;
 #X connect 3 6 15 0;
+#X connect 3 7 37 0;
 #X connect 3 8 5 0;
 #X connect 4 0 6 0;
 #X connect 4 1 7 0;
@@ -71,6 +73,6 @@
 #X connect 24 0 27 0;
 #X connect 27 0 28 0;
 #X connect 27 1 29 0;
-#X connect 28 0 37 0;
-#X connect 29 0 37 0;
-#X connect 37 0 26 0;
+#X connect 28 0 38 0;
+#X connect 29 0 38 0;
+#X connect 38 0 26 0;
