@@ -1,4 +1,4 @@
-#N canvas 299 188 1210 714 12;
+#N canvas 178 114 1210 714 12;
 #X obj 41 12 inlet;
 #X text 88 11 arm/reset;
 #X obj 41 310 t b b b b;
@@ -63,6 +63,10 @@
 #X msg 147 110 60;
 #X obj 315 255 r tr-pr-#;
 #X obj 413 72 t b b b b b;
+#X obj 621 469 ../../../controller/cc-filter;
+#X obj 821 442 r beat-#;
+#X msg 721 442 61;
+#X obj 619 509 ../ambika/part-1-envs-2-3-tgl;
 #X connect 0 0 4 0;
 #X connect 2 0 7 0;
 #X connect 2 3 26 0;
@@ -70,6 +74,7 @@
 #X connect 3 3 25 0;
 #X connect 4 0 2 0;
 #X connect 4 1 61 0;
+#X connect 4 2 66 0;
 #X connect 5 1 12 0;
 #X connect 5 2 13 0;
 #X connect 6 0 5 2;
@@ -99,6 +104,7 @@
 #X connect 34 0 39 1;
 #X connect 37 0 3 0;
 #X connect 37 1 40 0;
+#X connect 37 2 64 0;
 #X connect 39 0 37 0;
 #X connect 39 1 63 0;
 #X connect 40 1 54 0;
@@ -130,3 +136,7 @@
 #X connect 61 0 40 1;
 #X connect 62 0 56 2;
 #X connect 63 0 38 0;
+#X connect 64 1 67 0;
+#X connect 64 2 67 1;
+#X connect 65 0 64 2;
+#X connect 66 0 64 1;

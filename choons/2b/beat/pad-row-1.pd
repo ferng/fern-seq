@@ -53,11 +53,11 @@
 #X obj 413 329 t b b b b;
 #X obj 296 38 ../../../routings/play-stop-spigot;
 #X obj 413 74 t b b b b b;
-#X obj 916 275 r beat-#;
-#X obj 993 275 r model-4-#;
-#X msg 822 275 55 17;
-#X obj 765 301 ../../../controller/cc-xlate-vals;
-#X msg 879 275 0 1;
+#X obj 1058 343 r beat-#;
+#X obj 1135 343 r model-4-#;
+#X msg 964 343 55 17;
+#X obj 907 369 ../../../controller/cc-xlate-vals;
+#X msg 1021 343 0 1;
 #X obj 733 193 t b b b;
 #X obj 793 193 t f f;
 #X connect 0 0 28 0;
@@ -123,7 +123,4 @@
 #X connect 56 0 57 1;
 #X connect 58 0 57 2;
 #X connect 59 0 12 0;
-#X connect 59 1 56 0;
-#X connect 59 2 58 0;
 #X connect 60 0 22 0;
-#X connect 60 1 57 0;
