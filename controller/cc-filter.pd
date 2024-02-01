@@ -1,4 +1,4 @@
-#N canvas 923 422 594 384 12;
+#N canvas 621 422 576 384 12;
 #X obj 97 174 expr if (($f1 == $f3) && ($f2 == $f4) \, 1 \, 0);
 #X obj 300 22 inlet;
 #X obj 402 22 inlet;

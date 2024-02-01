@@ -1,4 +1,4 @@
-#N canvas 373 143 1459 843 12;
+#N canvas 105 75 1179 678 12;
 #X obj 86 537 r beat-#;
 #X obj 68 573 ../../../controller/rel-enc-xlate;
 #X obj 148 537 r model-5-#;
