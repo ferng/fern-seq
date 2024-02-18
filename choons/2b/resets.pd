@@ -24,7 +24,6 @@
 #X msg 208 309 0 28;
 #X obj 188 562 ../../samples/reset-decay;
 #X obj 101 210 t b b b b b b;
-#X obj 89 12 reset-song;
 #X connect 0 0 3 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -54,4 +53,3 @@
 #X connect 24 3 10 0;
 #X connect 24 4 18 0;
 #X connect 24 5 23 0;
-#X connect 25 0 4 0;

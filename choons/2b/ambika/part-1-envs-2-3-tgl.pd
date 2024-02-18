@@ -4,11 +4,11 @@
 #X obj 12 130 ../../../ambika/envelopes;
 #X obj 184 106 r amb-1-#;
 #X msg 98 106 2;
-#X obj 47 225 ../../../ambika/envelopes;
-#X obj 219 201 r amb-1-#;
-#X msg 47 174 2 60 60 64;
-#X msg 132 174 0 53 21 52;
-#X msg 133 201 3;
+#X obj 44 221 ../../../ambika/envelopes;
+#X obj 216 197 r amb-1-#;
+#X msg 44 170 2 60 60 64;
+#X msg 129 170 0 53 21 52;
+#X msg 130 197 3;
 #X obj 12 14 inlet;
 #X obj 119 14 inlet;
 #X text 56 13 off;
