@@ -1,0 +1,15 @@
+#N canvas 255 274 381 216 12;
+#X obj 31 138 pgmout;
+#X obj 70 22 r zoom-#;
+#X obj 31 22 inlet;
+#X text 36 43 patch 1-50;
+#X obj 148 138 midiout;
+#X obj 148 23 r reset;
+#X msg 148 95 240 82 0 97 80 247;
+#X text 171 118 start listening;
+#X obj 220 25 r port-4-#;
+#X connect 1 0 0 1;
+#X connect 2 0 0 0;
+#X connect 5 0 6 0;
+#X connect 6 0 4 0;
+#X connect 8 0 4 1;
