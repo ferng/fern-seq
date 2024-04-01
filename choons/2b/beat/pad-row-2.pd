@@ -29,7 +29,7 @@
 #X obj 1171 220 r amb-2-#;
 #X obj 1061 248 ../../../tools/echo-note;
 #X msg 1226 197 50;
-#X obj 1023 143 t b b;
+#X obj 1023 135 t b b;
 #X obj 1021 644 r beat-#;
 #X obj 1098 644 r model-4-#;
 #X msg 927 644 55 17;
