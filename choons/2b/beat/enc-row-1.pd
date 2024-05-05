@@ -43,10 +43,10 @@
 #X obj 854 167 r beat-#;
 #X obj 800 202 ../../../controller/rel-enc-xlate;
 #X obj 800 137 t b b;
-#X text 799 225 syn2-send reverb;
 #X obj 916 167 r tr-pr-#;
 #X msg 800 167 24 32;
 #X msg 988 167 0 0 76;
+#X text 799 225 midi2-send reverb;
 #X connect 0 0 9 0;
 #X connect 2 0 11 0;
 #X connect 3 0 38 0;
@@ -102,8 +102,8 @@
 #X connect 39 2 35 0;
 #X connect 40 0 30 3;
 #X connect 41 0 42 2;
-#X connect 43 0 46 0;
-#X connect 43 1 47 0;
-#X connect 45 0 42 3;
-#X connect 46 0 42 1;
-#X connect 47 0 42 4;
+#X connect 43 0 45 0;
+#X connect 43 1 46 0;
+#X connect 44 0 42 3;
+#X connect 45 0 42 1;
+#X connect 46 0 42 4;
