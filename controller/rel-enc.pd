@@ -1,4 +1,4 @@
-#N canvas 309 248 802 569 12;
+#N canvas 747 22 802 569 12;
 #X obj 89 9 inlet;
 #X obj 27 242 f;
 #X obj 232 241 sel 1;
@@ -25,7 +25,7 @@
 #X obj 27 73 cc-filter;
 #X obj 507 9 inlet;
 #X obj 27 321 change;
-#X text 76 347 value;
+#X text 76 346 value;
 #X obj 259 347 outlet;
 #X text 310 346 cc;
 #X obj 27 140 t b f b;
@@ -39,6 +39,7 @@
 #X msg 670 118 set -1;
 #X text 509 32 end;
 #X text 338 32 initial/lower/higher;
+#X obj 324 86 t f f;
 #X connect 0 0 23 1;
 #X connect 0 0 30 1;
 #X connect 1 0 11 0;
@@ -50,7 +51,7 @@
 #X connect 4 0 10 0;
 #X connect 5 0 23 0;
 #X connect 6 0 23 2;
-#X connect 10 0 1 1;
+#X connect 10 0 40 0;
 #X connect 10 1 21 0;
 #X connect 10 2 19 0;
 #X connect 11 0 1 1;
@@ -85,3 +86,5 @@
 #X connect 35 0 14 0;
 #X connect 36 0 13 0;
 #X connect 37 0 14 0;
+#X connect 40 0 1 1;
+#X connect 40 1 16 0;
