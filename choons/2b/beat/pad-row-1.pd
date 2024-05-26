@@ -5,10 +5,10 @@
 #X msg 59 224 52 94;
 #X obj 335 224 r beat-#;
 #X obj 403 224 r model-2-#;
-#X msg 280 224 53 94;
+#X msg 284 224 53 94;
 #X obj 556 224 r beat-#;
 #X obj 624 224 r model-3-#;
-#X msg 501 224 54 94;
+#X msg 503 224 54 94;
 #X obj 788 224 r beat-#;
 #X obj 856 224 r model-4-#;
 #X msg 733 224 55 94;

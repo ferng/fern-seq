@@ -46,6 +46,8 @@
 #X msg 540 492 12 6 33;
 #X msg 42 492 33 7;
 #X msg 341 492 34 20;
+#X text 337 547 length;
+#X text 40 547 vol+dist;
 #X connect 0 0 4 0;
 #X connect 2 0 29 0;
 #X connect 2 1 42 0;
