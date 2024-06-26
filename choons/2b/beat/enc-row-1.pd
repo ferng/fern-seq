@@ -55,6 +55,10 @@
 #X text 335 221 syn2 vol;
 #X msg 336 168 22 14;
 #X msg 524 168 45 14 45;
+#X obj 609 138 r pad-16;
+#X obj 609 168 sel 0;
+#X obj 620 395 r pad-16;
+#X obj 620 425 sel 0;
 #X connect 0 0 9 0;
 #X connect 2 0 11 0;
 #X connect 3 0 28 0;
@@ -124,3 +128,7 @@
 #X connect 52 0 50 3;
 #X connect 54 0 50 1;
 #X connect 55 0 50 4;
+#X connect 56 0 57 0;
+#X connect 57 0 20 0;
+#X connect 58 0 59 0;
+#X connect 59 0 48 0;

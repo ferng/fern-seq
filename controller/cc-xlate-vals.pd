@@ -15,6 +15,8 @@
 #X obj 53 135 f, f 2;
 #X obj 73 135 f, f 2;
 #X text 233 34 val off/on;
+#X obj 186 187 outlet;
+#X text 243 186 1-on 0-off;
 #X connect 0 0 9 0;
 #X connect 1 0 10 0;
 #X connect 2 0 10 2;
@@ -23,6 +25,7 @@
 #X connect 9 1 7 1;
 #X connect 10 1 13 0;
 #X connect 10 2 14 0;
+#X connect 10 3 16 0;
 #X connect 11 0 12 0;
 #X connect 12 0 13 1;
 #X connect 12 1 14 1;

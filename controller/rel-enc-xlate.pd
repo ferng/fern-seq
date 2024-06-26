@@ -1,10 +1,10 @@
-#N canvas 571 356 974 404 12;
+#N canvas 571 356 1036 404 12;
 #X obj 193 8 inlet;
 #X text 193 27 ch-in;
 #X obj 245 8 inlet;
 #X text 245 27 ch-out;
 #X obj 25 319 ctlout;
-#X obj 25 137 rel-enc;
+#X obj 25 154 rel-enc, f 28;
 #X obj 321 8 inlet;
 #X obj 80 8 inlet;
 #X obj 25 8 inlet;
@@ -17,11 +17,13 @@
 #X obj 491 58 unpack 0 0;
 #X obj 25 250 clip 0 127;
 #X text 497 27 end;
-#X obj 658 10 inlet;
-#X text 673 29 direction: 0-up 1-dn;
+#X obj 658 8 inlet;
+#X text 673 27 direction: 0-up 1-dn;
 #X text 323 27 initial/lower/higher;
-#X obj 829 10 inlet;
-#X text 832 29 step size;
+#X obj 829 8 inlet;
+#X text 832 27 step size;
+#X obj 907 8 inlet;
+#X text 923 27 set value;
 #X connect 0 0 5 2;
 #X connect 2 0 4 2;
 #X connect 5 0 16 0;
@@ -37,3 +39,4 @@
 #X connect 16 0 4 0;
 #X connect 18 0 5 5;
 #X connect 21 0 5 6;
+#X connect 23 0 5 7;

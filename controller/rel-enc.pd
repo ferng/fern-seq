@@ -1,4 +1,4 @@
-#N canvas 88 44 1101 591 12;
+#N canvas 88 44 1213 591 12;
 #X obj 89 9 inlet;
 #X obj 27 431 f;
 #X obj 232 430 sel 1;
@@ -52,14 +52,18 @@
 #X obj 640 81 t b b;
 #X msg 50 384 -1;
 #X msg 103 384 1;
-#X obj 971 7 loadbang;
-#X msg 971 32 1;
+#X obj 971 9 loadbang;
+#X msg 971 33 1;
+#X obj 126 473 print;
+#X obj 1071 9 inlet;
+#X text 1087 32 set value;
 #X connect 0 0 21 1;
 #X connect 0 0 28 1;
 #X connect 1 0 11 0;
 #X connect 1 0 14 0;
 #X connect 1 0 15 0;
 #X connect 1 0 16 0;
+#X connect 1 0 55 0;
 #X connect 2 0 18 0;
 #X connect 3 0 13 0;
 #X connect 4 0 10 0;
@@ -120,3 +124,4 @@
 #X connect 52 0 11 1;
 #X connect 53 0 54 0;
 #X connect 54 0 44 0;
+#X connect 56 0 1 0;
