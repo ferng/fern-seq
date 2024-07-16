@@ -72,9 +72,9 @@
 #X obj 958 609 r model-4-#;
 #X obj 1049 580 t f b f b;
 #X obj 1225 609 r model-4-#;
-#X obj 990 487 send pad-16;
-#X obj 842 170 r pad-16;
 #X msg 1225 197 47;
+#X obj 990 487 send pad-2b-16;
+#X obj 842 170 r pad-2b-16;
 #X connect 0 0 4 0;
 #X connect 2 0 32 0;
 #X connect 2 1 46 0;
@@ -112,7 +112,7 @@
 #X connect 26 0 28 1;
 #X connect 27 0 28 2;
 #X connect 29 0 30 0;
-#X connect 29 1 75 0;
+#X connect 29 1 73 0;
 #X connect 30 0 24 1;
 #X connect 31 0 22 1;
 #X connect 32 0 5 1;
@@ -122,7 +122,7 @@
 #X connect 36 0 34 1;
 #X connect 38 1 56 0;
 #X connect 38 2 57 0;
-#X connect 38 3 73 0;
+#X connect 38 3 74 0;
 #X connect 39 0 38 2;
 #X connect 41 0 38 1;
 #X connect 42 0 43 3;
@@ -157,5 +157,5 @@
 #X connect 71 2 65 0;
 #X connect 71 3 68 0;
 #X connect 72 0 65 2;
-#X connect 74 0 22 3;
-#X connect 75 0 28 3;
+#X connect 73 0 28 3;
+#X connect 75 0 22 3;
