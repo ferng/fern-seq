@@ -1,4 +1,4 @@
-#N canvas 474 629 735 280 12;
+#N canvas 444 617 735 280 12;
 #X obj 12 14 inlet;
 #X obj 119 14 inlet;
 #X obj 217 14 loadbang;
@@ -23,6 +23,8 @@
 #X text 162 13 on;
 #X msg 296 117 44;
 #X msg 329 117 22;
+#X obj 420 10 inlet;
+#X text 463 9 back on 6;
 #X connect 0 0 3 0;
 #X connect 1 0 4 0;
 #X connect 2 0 17 0;
@@ -45,3 +47,4 @@
 #X connect 18 0 15 1;
 #X connect 22 0 15 0;
 #X connect 23 0 15 0;
+#X connect 24 0 22 0;
