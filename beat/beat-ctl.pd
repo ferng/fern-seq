@@ -36,7 +36,7 @@
 #X obj 558 254 sel 0 1;
 #X obj 19 37 t b b b b b;
 #X msg 558 356 126;
-#X obj 558 182 metro 1 160 permin;
+#X obj 558 182 metro 1 312 permin;
 #X connect 0 0 1 2;
 #X connect 0 0 5 2;
 #X connect 0 0 13 2;
