@@ -12,9 +12,9 @@
 #X obj 101 210 t b b b b b b;
 #X obj 153 444 ../../zoom/program;
 #X msg 153 419 47;
-#X msg 118 301 0 3;
 #X obj 101 269 ../../pulse/pc;
 #X msg 101 237 416;
+#X msg 118 301 0 4;
 #X connect 0 0 3 0;
 #X connect 1 0 7 0;
 #X connect 2 0 3 0;
@@ -27,9 +27,9 @@
 #X connect 7 1 6 0;
 #X connect 7 2 5 0;
 #X connect 8 0 10 0;
-#X connect 10 0 15 0;
-#X connect 10 1 13 0;
+#X connect 10 0 14 0;
+#X connect 10 1 15 0;
 #X connect 10 3 12 0;
 #X connect 12 0 11 0;
-#X connect 13 0 9 0;
-#X connect 15 0 14 0;
+#X connect 14 0 13 0;
+#X connect 15 0 9 0;

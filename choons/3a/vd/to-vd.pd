@@ -1,11 +1,11 @@
-#N canvas 728 187 532 385 12;
+#N canvas 728 187 722 385 12;
 #X obj 276 12 notein;
 #X obj 336 197 spigot;
 #X obj 315 65 t f f;
 #X obj 276 197 spigot;
 #X obj 315 38 ==;
 #X obj 433 12 r vd-#;
-#X obj 276 264 noteout;
+#X obj 276 238 noteout;
 #X obj 276 171 spigot;
 #X text 68 11 comment;
 #X msg 23 65 1;
