@@ -1,4 +1,4 @@
-#N canvas 231 51 1245 880 12;
+#N canvas 231 51 774 723 12;
 #X obj 194 107 r vd-#;
 #X obj 154 79 r smpl-10-#;
 #X obj 36 135 ../../../common/note-cc;
