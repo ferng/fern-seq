@@ -44,7 +44,6 @@
 #X connect 20 0 4 1;
 #X connect 21 0 7 1;
 #X connect 21 1 23 1;
-#X connect 21 2 24 1;
 #X connect 22 0 9 0;
 #X connect 22 1 23 0;
 #X connect 22 2 24 0;

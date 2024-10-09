@@ -15,7 +15,7 @@
 #X text 193 39 in-note;
 #X text 360 39 cc-out;
 #X obj 118 19 inlet;
-#X text 121 53 inital 0 - off 1 - on;
+#X text 121 54 inital 0 - off 1 - on;
 #X obj 118 133 sel 1 0;
 #X connect 0 0 6 2;
 #X connect 1 0 8 1;
