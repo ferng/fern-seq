@@ -40,6 +40,8 @@ RtMidiOut Client -x-> *
 
 "Pure Data":"Pure Data Midi-Out 5" -> "SmplTrek"
 
+"Pure Data":"Pure Data Midi-Out 6" -> "U6MIDI Pro":"U6MIDI Pro MIDI 1"
+
 "Arturia DrumBrute Impact"          --> "Pure Data":"Pure Data Midi-In 1"
 Circuit Tracks                      --> "Pure Data":"Pure Data Midi-In 1"
 KP3+                                --> "Pure Data":"Pure Data Midi-In 1"
@@ -47,3 +49,5 @@ KP3+                                --> "Pure Data":"Pure Data Midi-In 1"
 "Arturia BeatStep"                  --> "Pure Data":"Pure Data Midi-In 3"                            
 "Arturia MiniBrute 2S"              --> "Pure Data":"Pure Data Midi-In 4"                            
 "SmplTrek"                          --> "Pure Data":"Pure Data Midi-In 5"
+
+"U6MIDI Pro":"U6MIDI Pro MIDI 1"      --> "Pure Data":"Pure Data Midi-In 6"

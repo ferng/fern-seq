@@ -1,6 +1,6 @@
 #!/bin/bash
 pkill puredata
-puredata -noaudio -audiobuf 1 -r 192000 -sleepgrain 0.1 -rt -alsamidi -midiindev "1,2,3,4,5" -midioutdev "1,2,3,4,5" -open ~/Documents/Pd/fern-seq/seq4.pd  &
+puredata -noaudio -audiobuf 1 -r 192000 -sleepgrain 0.1 -rt -alsamidi -midiindev "1,2,3,4,5,6" -midioutdev "1,2,3,4,5,6" -open ~/Documents/Pd/fern-seq/seq4.pd  &
 
 sleep 3
 
